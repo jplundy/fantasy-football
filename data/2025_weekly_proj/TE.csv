@@ -1,0 +1,901 @@
+Player,Opp,PassYds,PassTD,Int,RushYds,RushTD,Rec,RecYds,RecTD,RetTD,FumTD,TwoPt,Lost,Points,Week,Name,_position,_team
+Trey McBrideTE - ARI,@NO,0,0,0,0.19,0,5.99,61.25,0.37,0,0,0,0.06,14.23,1,Trey McBride,TE,ARI
+Brock BowersTE - LVView News,@NE,0,0,0,0.97,0,5.79,61.04,0.36,0,0,0,0.07,14.01,1,Brock Bowers,TE,LV
+George KittleTE - SF,@SEA,0,0,0,0.0,0,4.59,63.73,0.46,0,0,0,0.07,13.58,1,George Kittle,TE,SF
+Mark AndrewsTE - BAL,@BUF,0,0,0,0.29,0,4.01,47.86,0.42,0,0,0,0.07,11.21,1,Mark Andrews,TE,BAL
+Sam LaPortaTE - DETQ,@GB,0,0,0,0.0,0,4.26,46.4,0.37,0,0,0,0.06,11.0,1,Sam LaPorta,TE,DETQ
+David NjokuTE - CLE,CIN,0,0,0,0.0,0,4.45,44.58,0.27,0,0,0,0.07,10.39,1,David Njoku,TE,CLE
+Travis KelceTE - KC,@LAC,0,0,0,0.06,0,4.21,41.61,0.3,0,0,0,0.06,10.06,1,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@CHI,0,0,0,0.0,0,4.06,43.36,0.29,0,0,0,0.06,10.02,1,T.J. Hockenson,TE,MIN
+Evan EngramTE - DENView News,TEN,0,0,0,0.0,0,4.21,39.31,0.26,0,0,0,0.06,9.58,1,Evan Engram,TE,DEN
+Dallas GoedertTE - PHI,DAL,0,0,0,0.0,0,3.79,41.34,0.25,0,0,0,0.06,9.3,1,Dallas Goedert,TE,PHI
+Zach ErtzTE - WAS,NYG,0,0,0,0.0,0,3.53,33.52,0.25,0,0,0,0.0,8.38,1,Zach Ertz,TE,WAS
+Dalton KincaidTE - BUF,BAL,0,0,0,0.0,0,3.66,36.93,0.19,0,0,0,0.06,8.37,1,Dalton Kincaid,TE,BUF
+Tucker KraftTE - GB,DET,0,0,0,0.0,0,3.32,35.24,0.25,0,0,0,0.06,8.22,1,Tucker Kraft,TE,GB
+Hunter HenryTE - NE,LV,0,0,0,0.0,0,3.29,34.37,0.24,0,0,0,0.06,8.05,1,Hunter Henry,TE,NE
+Jake FergusonTE - DALQ,@PHI,0,0,0,0.0,0,3.43,33.82,0.22,0,0,0,0.06,8.01,1,Jake Ferguson,TE,DALQ
+Tyler WarrenTE - INDView News,MIA,0,0,0,0.59,0,3.23,33.04,0.22,0,0,0,0.05,7.81,1,Tyler Warren,TE,IND
+Kyle PittsTE - ATL,TB,0,0,0,0.0,0,2.76,34.63,0.22,0,0,0,0.0,7.54,1,Kyle Pitts,TE,ATL
+Mike GesickiTE - CINQ,@CLE,0,0,0,0.0,0,3.0,32.79,0.2,0,0,0,0.0,7.48,1,Mike Gesicki,TE,CINQ
+Brenton StrangeTE - JAX,CAR,0,0,0,0.0,0,2.97,28.62,0.18,0,0,0,0.0,6.91,1,Brenton Strange,TE,JAX
+Colston LovelandTE - CHI,MIN,0,0,0,0.0,0,2.9,29.42,0.18,0,0,0,0.05,6.82,1,Colston Loveland,TE,CHI
+Mason TaylorTE - NYJ,PIT,0,0,0,0.0,0,2.84,28.73,0.18,0,0,0,0.0,6.79,1,Mason Taylor,TE,NYJ
+Dalton SchultzTE - HOU,@LAR,0,0,0,0.0,0,2.88,29.92,0.17,0,0,0,0.06,6.77,1,Dalton Schultz,TE,HOU
+Cade OttonTE - TBView News,@ATL,0,0,0,0.0,0,2.8,28.07,0.18,0,0,0,0.0,6.69,1,Cade Otton,TE,TB
+Tyler HigbeeTE - LAR,HOU,0,0,0,0.0,0,2.8,27.15,0.18,0,0,0,0.0,6.6,1,Tyler Higbee,TE,LAR
+Pat FreiermuthTE - PIT,@NYJ,0,0,0,0.0,0,2.66,26.81,0.23,0,0,0,0.07,6.58,1,Pat Freiermuth,TE,PIT
+Pat FreiermuthTE - PIT,@NYJ,0,0,0,0.0,0,2.66,26.81,0.23,0,0,0,0.07,6.58,1,Pat Freiermuth,TE,PIT
+Jonnu SmithTE - PITQ,@NYJ,0,0,0,0.15,0,2.7,26.97,0.15,0,0,0,0.04,6.23,1,Jonnu Smith,TE,PITQ
+Theo JohnsonTE - NYG,@WAS,0,0,0,0.0,0,2.57,26.29,0.17,0,0,0,0.0,6.22,1,Theo Johnson,TE,NYG
+Darren WallerTE - MIAPUP,@IND,0,0,0,0.0,0,2.49,26.75,0.17,0,0,0,0.0,6.19,1,Darren WallerTE - MI,,APUP
+Ja'Tavion SandersTE - CAR,@JAX,0,0,0,0.0,0,2.55,25.44,0.17,0,0,0,0.0,6.11,1,Ja'Tavion Sanders,TE,CAR
+Chig OkonkwoTE - TEN,@DEN,0,0,0,0.27,0,2.47,23.87,0.16,0,0,0,0.05,5.74,1,Chig Okonkwo,TE,TEN
+Tyler ConklinTE - LAC,KC,0,0,0,0.0,0,2.25,20.88,0.17,0,0,0,0.0,5.36,1,Tyler Conklin,TE,LAC
+Cole KmetTE - CHI,MIN,0,0,0,0.0,0,2.17,21.72,0.18,0,0,0,0.09,5.24,1,Cole Kmet,TE,CHI
+Noah GrayTE - KC,@LAC,0,0,0,0.0,0,2.06,20.77,0.18,0,0,0,0.0,5.22,1,Noah Gray,TE,KC
+Elijah ArroyoTE - SEA,SF,0,0,0,0.0,0,2.05,22.39,0.14,0,0,0,0.0,5.13,1,Elijah Arroyo,TE,SEA
+AJ BarnerTE - SEA,SF,0,0,0,0.0,0,2.13,20.75,0.13,0,0,0,0.0,4.99,1,AJ Barner,TE,SEA
+Juwan JohnsonTE - NO,ARI,0,0,0,0.0,0,1.95,20.77,0.11,0,0,0,0.0,4.69,1,Juwan Johnson,TE,NO
+Will DisslyTE - LAC,KC,0,0,0,0.0,0,1.9,18.21,0.11,0,0,0,0.0,4.38,1,Will Dissly,TE,LAC
+Noah FantTE - CIN,@CLE,0,0,0,0.0,0,1.71,17.6,0.13,0,0,0,0.0,4.25,1,Noah Fant,TE,CIN
+Isaiah LikelyTE - BALQ,@BUF,0,0,0,0.0,0,1.49,16.85,0.15,0,0,0,0.04,4.0,1,Isaiah Likely,TE,BALQ
+Michael MayerTE - LV,@NE,0,0,0,0.0,0,1.65,16.22,0.11,0,0,0,0.0,3.93,1,Michael Mayer,TE,LV
+Dawson KnoxTE - BUF,BAL,0,0,0,0.0,0,1.37,14.73,0.12,0,0,0,0.0,3.56,1,Dawson Knox,TE,BUF
+Harold Fannin Jr.TE - CLE,CIN,0,0,0,0.0,0,1.42,13.91,0.1,0,0,0,0.0,3.41,1,Harold Fannin Jr.,TE,CLE
+Charlie KolarTE - BAL,@BUF,0,0,0,0.11,0,1.19,11.93,0.11,0,0,0,0.0,3.05,1,Charlie Kolar,TE,BAL
+Austin HooperTE - NE,LV,0,0,0,0.0,0,1.33,13.01,0.06,0,0,0,0.0,2.99,1,Austin Hooper,TE,NE
+Ben SinnottTE - WAS,NYG,0,0,0,0.0,0,1.02,10.2,0.09,0,0,0,0.0,2.58,1,Ben Sinnott,TE,WAS
+Elijah HigginsTE - ARI,@NO,0,0,0,0.0,0,1.09,11.0,0.06,0,0,0,0.0,2.55,1,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,DET,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,1,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@DEN,0,0,0,0.0,0,0.88,9.02,0.05,0,0,0,0.0,2.08,1,Gunnar Helm,TE,TEN
+Tommy TrembleTE - CARPUP,@JAX,0,0,0,0.0,0,0.83,8.29,0.06,0,0,0,0.0,2.02,1,Tommy TrembleTE - CA,,RPUP
+Brock BowersTE - LVView News,LAC,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,2,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,CAR,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,2,Trey McBride,TE,ARI
+George KittleTE - SF,@NO,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,2,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,CHI,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,2,Sam LaPorta,TE,DETQ
+David NjokuTE - CLE,@BAL,0,0,0,0.0,0,4.45,44.54,0.28,0,0,0,0.07,10.44,2,David Njoku,TE,CLE
+Travis KelceTE - KC,PHI,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,2,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,ATL,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,2,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,CLE,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,2,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,@IND,0,0,0,0.0,0,4.02,37.45,0.24,0,0,0,0.06,9.09,2,Evan Engram,TE,DEN
+Dallas GoedertTE - PHI,@KC,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,2,Dallas Goedert,TE,PHI
+Tyler WarrenTE - INDView News,DEN,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,2,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,NYG,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,2,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@MIA,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,2,Hunter Henry,TE,NE
+Zach ErtzTE - WAS,@GB,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,2,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,WAS,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,2,Tucker Kraft,TE,GB
+Colston LovelandTE - CHI,@DET,0,0,0,0.0,0,3.29,33.25,0.22,0,0,0,0.05,7.84,2,Colston Loveland,TE,CHI
+Dalton KincaidTE - BUF,@NYJ,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,2,Dalton Kincaid,TE,BUF
+Mason TaylorTE - NYJ,BUF,0,0,0,0.0,0,3.24,32.9,0.21,0,0,0,0.0,7.79,2,Mason Taylor,TE,NYJ
+Mike GesickiTE - CINQ,JAX,0,0,0,0.0,0,2.88,31.55,0.2,0,0,0,0.0,7.24,2,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@MIN,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,2,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,TB,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,2,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,SEA,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,2,Jonnu Smith,TE,PITQ
+Darren WallerTE - MIAPUP,NE,0,0,0,0.0,0,2.74,29.47,0.19,0,0,0,0.0,6.83,2,Darren WallerTE - MI,,APUP
+Pat FreiermuthTE - PIT,SEA,0,0,0,0.0,0,2.76,27.79,0.23,0,0,0,0.08,6.76,2,Pat Freiermuth,TE,PIT
+Brenton StrangeTE - JAX,@CIN,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,2,Brenton Strange,TE,JAX
+Brenton StrangeTE - JAX,@CIN,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,2,Brenton Strange,TE,JAX
+Juwan JohnsonTE - NO,SF,0,0,0,0.0,0,2.67,28.43,0.18,0,0,0,0.0,6.59,2,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@DET,0,0,0,0.0,0,2.79,28.69,0.17,0,0,0,0.09,6.5,2,Cole Kmet,TE,CHI
+Isaiah LikelyTE - BALQ,CLE,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,2,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@HOU,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,2,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,LAR,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,2,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@ARI,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,2,Ja'Tavion Sanders,TE,CAR
+Theo JohnsonTE - NYG,@DAL,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,2,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@LV,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,2,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,PHI,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,2,Noah Gray,TE,KC
+Will DisslyTE - LAC,@LV,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,2,Will Dissly,TE,LAC
+Noah FantTE - CIN,JAX,0,0,0,0.0,0,1.73,17.69,0.13,0,0,0,0.0,4.28,2,Noah Fant,TE,CIN
+Elijah ArroyoTE - SEA,@PIT,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,2,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@TEN,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,2,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,LAC,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,2,Michael Mayer,TE,LV
+Harold Fannin Jr.TE - CLE,@BAL,0,0,0,0.0,0,1.71,16.86,0.11,0,0,0,0.0,4.06,2,Harold Fannin Jr.,TE,CLE
+Ben SinnottTE - WAS,@GB,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,2,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@NYJ,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,2,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@TEN,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,2,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@MIA,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,2,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,SEA,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,2,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,CAR,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,2,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,WAS,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,2,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,LAR,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,2,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,SF,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,2,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,@WAS,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,3,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@SF,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,3,Trey McBride,TE,ARI
+George KittleTE - SF,ARI,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,3,George Kittle,TE,SF
+David NjokuTE - CLE,GB,0,0,0,0.0,0,4.58,45.91,0.29,0,0,0,0.07,10.77,3,David Njoku,TE,CLE
+Sam LaPortaTE - DETQ,@BAL,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,3,Sam LaPorta,TE,DETQ
+Mark AndrewsTE - BAL,DET,0,0,0,0.26,0,3.57,44.22,0.4,0,0,0,0.07,10.28,3,Mark Andrews,TE,BAL
+Travis KelceTE - KC,@NYG,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,3,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,CIN,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,3,T.J. Hockenson,TE,MIN
+Evan EngramTE - DENView News,@LAC,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,3,Evan Engram,TE,DEN
+Dallas GoedertTE - PHI,LAR,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,3,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,DAL,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,3,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@TEN,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,3,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,@CHI,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,3,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,PIT,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,3,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@TB,0,0,0,0.0,0,3.31,33.6,0.22,0,0,0,0.0,7.99,3,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,LV,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,3,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@CLE,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,3,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,MIA,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,3,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@MIN,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,3,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@CAR,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,3,Kyle Pitts,TE,ATL
+Darren WallerTE - MIAPUP,@BUF,0,0,0,0.0,0,2.85,30.58,0.2,0,0,0,0.0,7.11,3,Darren WallerTE - MI,,APUP
+Dalton SchultzTE - HOU,@JAX,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,3,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,@NE,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,3,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,HOU,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,3,Brenton Strange,TE,JAX
+Juwan JohnsonTE - NO,@SEA,0,0,0,0.0,0,2.67,28.43,0.18,0,0,0,0.0,6.59,3,Juwan Johnson,TE,NO
+Juwan JohnsonTE - NO,@SEA,0,0,0,0.0,0,2.67,28.43,0.18,0,0,0,0.0,6.59,3,Juwan Johnson,TE,NO
+Cade OttonTE - TBView News,NYJ,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,3,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,IND,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,3,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,ATL,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,3,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,@NE,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,3,Pat Freiermuth,TE,PIT
+Theo JohnsonTE - NYG,KC,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,3,Theo Johnson,TE,NYG
+Isaiah LikelyTE - BALQ,DET,0,0,0,0.0,0,2.14,24.21,0.21,0,0,0,0.05,5.72,3,Isaiah Likely,TE,BALQ
+Tyler ConklinTE - LAC,DEN,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,3,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@NYG,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,3,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,GB,0,0,0,0.0,0,2.14,21.08,0.14,0,0,0,0.0,5.09,3,Harold Fannin Jr.,TE,CLE
+Will DisslyTE - LAC,DEN,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,3,Will Dissly,TE,LAC
+Cole KmetTE - CHI,DAL,0,0,0,0.0,0,1.88,19.37,0.12,0,0,0,0.06,4.42,3,Cole Kmet,TE,CHI
+Elijah ArroyoTE - SEA,NO,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,3,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@PHI,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,3,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@WAS,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,3,Michael Mayer,TE,LV
+Noah FantTE - CIN,@MIN,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,3,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,LV,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,3,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,MIA,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,3,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@PHI,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,3,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,PIT,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,3,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,@NE,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,3,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@SF,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,3,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@CLE,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,3,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,IND,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,3,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@SEA,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,3,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,CHI,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,4,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,SEA,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,4,Trey McBride,TE,ARI
+George KittleTE - SF,JAX,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,4,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,CLE,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,4,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,BAL,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,4,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@PIT,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,4,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@KC,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,4,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,CIN,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,4,Evan Engram,TE,DEN
+David NjokuTE - CLE,@DET,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,4,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@TB,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,4,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,@LV,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,4,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@LAR,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,4,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,GB,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,4,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,CAR,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,4,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@MIA,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,4,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@ATL,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,4,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@DAL,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,4,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,NO,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,4,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@DEN,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,4,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,WAS,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,4,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,TEN,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,4,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,MIN,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,4,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@SF,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,4,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@KC,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,4,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,PHI,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,4,Cade Otton,TE,TB
+Cade OttonTE - TBView News,PHI,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,4,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@HOU,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,4,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@NE,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,4,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,MIN,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,4,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,NYJ,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,4,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,LAC,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,4,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@NYG,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,4,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,BAL,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,4,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,@DET,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,4,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@BUF,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,4,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@LV,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,4,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@NYG,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,4,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@ARI,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,4,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,IND,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,4,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,CHI,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,4,Michael Mayer,TE,LV
+Noah FantTE - CIN,@DEN,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,4,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@ATL,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,4,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,NO,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,4,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,IND,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,4,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,CAR,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,4,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,MIN,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,4,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,SEA,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,4,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@DAL,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,4,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@HOU,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,4,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@BUF,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,4,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,@IND,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,5,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,TEN,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,5,Trey McBride,TE,ARI
+George KittleTE - SF,@LAR,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,5,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@CIN,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,5,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,@JAX,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,5,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@CLE,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,5,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,HOU,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,5,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,@PHI,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,5,Evan Engram,TE,DEN
+David NjokuTE - CLE,MIN,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,5,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,DEN,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,5,Dallas Goedert,TE,PHI
+Tyler WarrenTE - INDView News,LV,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,5,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,@NYJ,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,5,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@BUF,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,5,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,DAL,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,5,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@LAC,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,5,Zach Ertz,TE,WAS
+Dalton KincaidTE - BUF,NE,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,5,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,DET,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,5,Mike Gesicki,TE,CINQ
+Dalton SchultzTE - HOU,@BAL,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,5,Dalton Schultz,TE,HOU
+Darren WallerTE - MIAPUP,@CAR,0,0,0,0.0,0,2.7,31.2,0.2,0,0,0,0.03,6.96,5,Darren WallerTE - MI,,APUP
+Brenton StrangeTE - JAX,KC,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,5,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,HOU,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,5,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@SEA,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,5,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@ARI,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,5,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,MIA,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,5,Ja'Tavion Sanders,TE,CAR
+Theo JohnsonTE - NYG,@NO,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,5,Theo Johnson,TE,NYG
+Theo JohnsonTE - NYG,@NO,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,5,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,WAS,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,5,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@JAX,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,5,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,MIN,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,5,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,NYG,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,5,Juwan Johnson,TE,NO
+Will DisslyTE - LAC,WAS,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,5,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,TB,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,5,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,SF,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,5,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@IND,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,5,Michael Mayer,TE,LV
+Noah FantTE - CIN,DET,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,5,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@LAC,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,5,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,NE,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,5,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,SF,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,5,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@BUF,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,5,Austin Hooper,TE,NE
+Elijah HigginsTE - ARI,TEN,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,5,Elijah Higgins,TE,ARI
+Gunnar HelmTE - TEN,@ARI,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,5,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,NYG,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,5,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,DAL,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,5,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,@NO,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,5,Daniel Bellinger,TE,NYGQ
+Luke SchoonmakerTE - DAL,@NYJ,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,5,Luke Schoonmaker,TE,DAL
+Cade StoverTE - HOU,@BAL,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,5,Cade Stover,TE,HOU
+Tommy TrembleTE - CARPUP,MIA,0,0,0,0.0,0,0.84,8.4,0.06,0,0,0,0.0,2.04,5,Tommy TrembleTE - CA,,RPUP
+AJ BarnerTE - SEA,TB,0,0,0,0.0,0,0.84,8.04,0.06,0,0,0,0.0,2.0,5,AJ Barner,TE,SEA
+Devin CulpTE - TB,@SEA,0,0,0,0.0,0,0.79,7.82,0.06,0,0,0,0.0,1.93,5,Devin Culp,TE,TB
+Oronde Gadsden IITE - LACView News,WAS,0,0,0,0.0,0,0.73,7.39,0.06,0,0,0,0.0,1.83,5,Oronde Gadsden II,TE,LAC
+Brock BowersTE - LVView News,TEN,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,6,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@IND,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,6,Trey McBride,TE,ARI
+George KittleTE - SF,@TB,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,6,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@KC,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,6,Sam LaPorta,TE,DETQ
+Mark AndrewsTE - BAL,LAR,0,0,0,0.24,0,3.35,41.57,0.43,0,0,0,0.06,9.99,6,Mark Andrews,TE,BAL
+Travis KelceTE - KC,DET,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,6,Travis Kelce,TE,KC
+David NjokuTE - CLE,@PIT,0,0,0,0.0,0,4.1,41.11,0.26,0,0,0,0.06,9.65,6,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@NYG,0,0,0,0.0,0,3.76,41.11,0.26,0,0,0,0.07,9.29,6,Dallas Goedert,TE,PHI
+Evan EngramTE - DENView News,@NYJ,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,6,Evan Engram,TE,DEN
+Tyler WarrenTE - INDView News,ARI,0,0,0,0.69,0,3.81,38.91,0.25,0,0,0,0.06,9.15,6,Tyler Warren,TE,IND
+Colston LovelandTE - CHI,@WAS,0,0,0,0.0,0,3.8,38.42,0.25,0,0,0,0.06,9.02,6,Colston Loveland,TE,CHI
+Jake FergusonTE - DALQ,@CAR,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,6,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@NO,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,6,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,DEN,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,6,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,CHI,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,6,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,CIN,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,6,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@ATL,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,6,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@GB,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,6,Mike Gesicki,TE,CINQ
+Darren WallerTE - MIAPUP,LAC,0,0,0,0.0,0,2.71,33.1,0.2,0,0,0,0.0,7.22,6,Darren WallerTE - MI,,APUP
+Kyle PittsTE - ATL,BUF,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,6,Kyle Pitts,TE,ATL
+Jonnu SmithTE - PITQ,CLE,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,6,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,SEA,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,6,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,LAR,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,6,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,SF,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,6,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@LV,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,6,Chig Okonkwo,TE,TEN
+Chig OkonkwoTE - TEN,@LV,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,6,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,DAL,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,6,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,CLE,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,6,Pat Freiermuth,TE,PIT
+Theo JohnsonTE - NYG,PHI,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,6,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@MIA,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,6,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,DET,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,6,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,@PIT,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,6,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,NE,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,6,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@WAS,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,6,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@MIA,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,6,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@JAX,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,6,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@BAL,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,6,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,TEN,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,6,Michael Mayer,TE,LV
+Noah FantTE - CIN,@GB,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,6,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,CHI,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,6,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@ATL,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,6,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@BAL,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,6,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@NO,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,6,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,CLE,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,6,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@IND,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,6,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,CIN,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,6,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@LV,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,6,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,NE,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,6,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,DEN,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,6,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,PHI,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,6,Daniel Bellinger,TE,NYGQ
+Brock BowersTE - LVView News,@KC,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,7,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,GB,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,7,Trey McBride,TE,ARI
+George KittleTE - SF,ATL,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,7,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,TB,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,7,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,LV,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,7,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,PHI,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,7,T.J. Hockenson,TE,MIN
+David NjokuTE - CLE,MIA,0,0,0,0.0,0,4.04,40.43,0.25,0,0,0,0.06,9.46,7,David Njoku,TE,CLE
+Evan EngramTE - DENView News,NYG,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,7,Evan Engram,TE,DEN
+Dallas GoedertTE - PHI,@MIN,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,7,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,NO,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,7,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@LAC,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,7,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,WAS,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,7,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@TEN,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,7,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,CAR,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,7,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@DAL,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,7,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@ARI,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,7,Tucker Kraft,TE,GB
+Mike GesickiTE - CINQ,PIT,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,7,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@SF,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,7,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,@SEA,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,7,Dalton Schultz,TE,HOU
+Darren WallerTE - MIAPUP,@CLE,0,0,0,0.0,0,2.68,31.5,0.19,0,0,0,0.0,6.97,7,Darren WallerTE - MI,,APUP
+Jonnu SmithTE - PITQ,@CIN,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,7,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,LAR,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,7,Brenton Strange,TE,JAX
+Cade OttonTE - TBView News,@DET,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,7,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,NE,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,7,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@NYJ,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,7,Ja'Tavion Sanders,TE,CAR
+Ja'Tavion SandersTE - CAR,@NYJ,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,7,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,@CIN,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,7,Pat Freiermuth,TE,PIT
+Theo JohnsonTE - NYG,@DEN,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,7,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,IND,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,7,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,LV,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,7,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,MIA,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,7,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@CHI,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,7,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,NO,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,7,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,IND,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,7,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,HOU,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,7,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@JAX,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,7,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@KC,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,7,Michael Mayer,TE,LV
+Noah FantTE - CIN,PIT,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,7,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@DAL,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,7,Ben Sinnott,TE,WAS
+Terrance FergusonTE - LARQ,@JAX,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,7,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@TEN,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,7,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,@CIN,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,7,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,GB,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,7,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@ARI,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,7,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,NE,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,7,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@CHI,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,7,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,CAR,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,7,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,@DEN,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,7,Daniel Bellinger,TE,NYGQ
+Luke SchoonmakerTE - DAL,WAS,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,7,Luke Schoonmaker,TE,DAL
+Cade StoverTE - HOU,@SEA,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,7,Cade Stover,TE,HOU
+George KittleTE - SF,@HOU,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,8,George Kittle,TE,SF
+Travis KelceTE - KC,WAS,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,8,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@LAC,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,8,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,CHI,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,8,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,DAL,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,8,Evan Engram,TE,DEN
+David NjokuTE - CLE,@NE,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,8,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,NYG,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,8,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,@BAL,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,8,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,TEN,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,8,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,@DEN,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,8,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,CLE,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,8,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@CIN,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,8,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@KC,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,8,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@PIT,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,8,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@CAR,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,8,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,NYJ,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,8,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,MIA,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,8,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,SF,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,8,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,GB,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,8,Jonnu Smith,TE,PITQ
+Isaiah LikelyTE - BALQ,CHI,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,8,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@NO,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,8,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@IND,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,8,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,BUF,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,8,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,GB,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,8,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,@ATL,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,8,Darren WallerTE - MI,,APUP
+Darren WallerTE - MIAPUP,@ATL,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,8,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,@PHI,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,8,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,MIN,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,8,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,WAS,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,8,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,@NE,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,8,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,TB,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,8,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@BAL,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,8,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,MIN,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,8,Will Dissly,TE,LAC
+Noah FantTE - CIN,NYJ,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,8,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@KC,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,8,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@CAR,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,8,Dawson Knox,TE,BUF
+Austin HooperTE - NE,CLE,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,8,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,GB,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,8,Darnell Washington,TE,PIT
+Luke MusgraveTE - GB,@PIT,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,8,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@IND,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,8,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,TB,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,8,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,@CIN,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,8,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,@PHI,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,8,Daniel Bellinger,TE,NYGQ
+Luke SchoonmakerTE - DAL,@DEN,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,8,Luke Schoonmaker,TE,DAL
+Cade StoverTE - HOU,SF,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,8,Cade Stover,TE,HOU
+Tommy TrembleTE - CARPUP,BUF,0,0,0,0.0,0,0.84,8.4,0.06,0,0,0,0.0,2.04,8,Tommy TrembleTE - CA,,RPUP
+Devin CulpTE - TB,@NO,0,0,0,0.0,0,0.79,7.82,0.06,0,0,0,0.0,1.93,8,Devin Culp,TE,TB
+Oronde Gadsden IITE - LACView News,MIN,0,0,0,0.0,0,0.73,7.39,0.06,0,0,0,0.0,1.83,8,Oronde Gadsden II,TE,LAC
+Jaheim BellTE - NE,CLE,0,0,0,0.0,0,0.71,7.12,0.06,0,0,0,0.0,1.78,8,Jaheim Bell,TE,NE
+Adam TrautmanTE - DEN,DAL,0,0,0,0.0,0,0.71,6.76,0.06,0,0,0,0.0,1.75,8,Adam Trautman,TE,DEN
+Brock BowersTE - LVView News,JAX,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,9,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@DAL,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,9,Trey McBride,TE,ARI
+George KittleTE - SF,@NYG,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,9,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,MIN,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,9,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,@BUF,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,9,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@DET,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,9,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@MIA,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,9,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,@HOU,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,9,Evan Engram,TE,DEN
+Colston LovelandTE - CHI,@CIN,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,9,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@PIT,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,9,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,ARI,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,9,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,ATL,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,9,Hunter Henry,TE,NE
+Zach ErtzTE - WAS,SEA,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,9,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,CAR,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,9,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,KC,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,9,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,CHI,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,9,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@NE,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,9,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,DEN,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,9,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,IND,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,9,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@LV,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,9,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@MIA,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,9,Isaiah Likely,TE,BALQ
+Chig OkonkwoTE - TEN,LAC,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,9,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@GB,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,9,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,IND,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,9,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,BAL,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,9,Darren WallerTE - MI,,APUP
+Darren WallerTE - MIAPUP,BAL,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,9,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,SF,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,9,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@TEN,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,9,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@BUF,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,9,Noah Gray,TE,KC
+Juwan JohnsonTE - NO,@LAR,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,9,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@CIN,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,9,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@TEN,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,9,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@WAS,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,9,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,NO,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,9,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,JAX,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,9,Michael Mayer,TE,LV
+Noah FantTE - CIN,CHI,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,9,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,SEA,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,9,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,KC,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,9,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,NO,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,9,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,ATL,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,9,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,IND,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,9,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@DAL,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,9,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,CAR,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,9,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,LAC,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,9,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@LAR,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,9,Foster MoreauTE - N,,OPUP
+Daniel BellingerTE - NYGQView News,SF,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,9,Daniel Bellinger,TE,NYGQ
+Luke SchoonmakerTE - DAL,ARI,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,9,Luke Schoonmaker,TE,DAL
+Cade StoverTE - HOU,DEN,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,9,Cade Stover,TE,HOU
+Tommy TrembleTE - CARPUP,@GB,0,0,0,0.0,0,0.84,8.4,0.06,0,0,0,0.0,2.04,9,Tommy TrembleTE - CA,,RPUP
+AJ BarnerTE - SEA,@WAS,0,0,0,0.0,0,0.84,8.04,0.06,0,0,0,0.0,2.0,9,AJ Barner,TE,SEA
+Brock BowersTE - LVView News,@DEN,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,10,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@SEA,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,10,Trey McBride,TE,ARI
+George KittleTE - SF,LAR,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,10,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@WAS,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,10,Sam LaPorta,TE,DETQ
+T.J. HockensonTE - MIN,BAL,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,10,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@MIN,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,10,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,LV,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,10,Evan Engram,TE,DEN
+David NjokuTE - CLE,@NYJ,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,10,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@GB,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,10,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,NYG,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,10,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,ATL,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,10,Tyler Warren,TE,IND
+Hunter HenryTE - NE,@TB,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,10,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,CLE,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,10,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,DET,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,10,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,PHI,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,10,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@MIA,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,10,Dalton Kincaid,TE,BUF
+Kyle PittsTE - ATL,@IND,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,10,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,JAX,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,10,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,@LAC,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,10,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@HOU,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,10,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@MIN,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,10,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,NE,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,10,Cade Otton,TE,TB
+Ja'Tavion SandersTE - CAR,NO,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,10,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,@LAC,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,10,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,BUF,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,10,Darren WallerTE - MI,,APUP
+Darren WallerTE - MIAPUP,BUF,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,10,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,@CHI,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,10,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,PIT,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,10,Tyler Conklin,TE,LAC
+Harold Fannin Jr.TE - CLE,@NYJ,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,10,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@CAR,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,10,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,NYG,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,10,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,PIT,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,10,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,ARI,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,10,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@SF,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,10,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@DEN,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,10,Michael Mayer,TE,LV
+Ben SinnottTE - WAS,DET,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,10,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@MIA,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,10,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@SF,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,10,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@TB,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,10,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,@LAC,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,10,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@SEA,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,10,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,PHI,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,10,Luke Musgrave,TE,GB
+Foster MoreauTE - NOPUP,@CAR,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,10,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,CLE,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,10,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,@CHI,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,10,Daniel Bellinger,TE,NYGQ
+Cade StoverTE - HOU,JAX,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,10,Cade Stover,TE,HOU
+Tommy TrembleTE - CARPUP,NO,0,0,0,0.0,0,0.84,8.4,0.06,0,0,0,0.0,2.04,10,Tommy TrembleTE - CA,,RPUP
+AJ BarnerTE - SEA,ARI,0,0,0,0.0,0,0.84,8.04,0.06,0,0,0,0.0,2.0,10,AJ Barner,TE,SEA
+Devin CulpTE - TB,NE,0,0,0,0.0,0,0.79,7.82,0.06,0,0,0,0.0,1.93,10,Devin Culp,TE,TB
+Oronde Gadsden IITE - LACView News,PIT,0,0,0,0.0,0,0.73,7.39,0.06,0,0,0,0.0,1.83,10,Oronde Gadsden II,TE,LAC
+Brock BowersTE - LVView News,DAL,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,11,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,SF,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,11,Trey McBride,TE,ARI
+George KittleTE - SF,@ARI,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,11,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@PHI,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,11,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,@DEN,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,11,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,CHI,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,11,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@CLE,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,11,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,KC,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,11,Evan Engram,TE,DEN
+David NjokuTE - CLE,BAL,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,11,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,DET,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,11,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,@MIN,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,11,Colston Loveland,TE,CHI
+Jake FergusonTE - DALQ,@LV,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,11,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,NYJ,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,11,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@NE,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,11,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@MIA,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,11,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@NYG,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,11,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,TB,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,11,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@PIT,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,11,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,CAR,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,11,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,@TEN,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,11,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,CIN,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,11,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,LAC,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,11,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@CLE,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,11,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@BUF,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,11,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,HOU,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,11,Chig Okonkwo,TE,TEN
+Chig OkonkwoTE - TEN,HOU,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,11,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@ATL,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,11,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,CIN,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,11,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,WAS,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,11,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,GB,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,11,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@JAX,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,11,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@DEN,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,11,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,BAL,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,11,Harold Fannin Jr.,TE,CLE
+Cole KmetTE - CHI,@MIN,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,11,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@JAX,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,11,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@LAR,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,11,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,SEA,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,11,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,DAL,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,11,Michael Mayer,TE,LV
+Noah FantTE - CIN,@PIT,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,11,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@MIA,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,11,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,TB,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,11,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,SEA,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,11,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,NYJ,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,11,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,CIN,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,11,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,SF,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,11,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@NYG,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,11,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,HOU,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,11,Gunnar Helm,TE,TEN
+Jeremy RuckertTE - NYJ,@NE,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,11,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,GB,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,11,Daniel Bellinger,TE,NYGQ
+Luke SchoonmakerTE - DAL,@LV,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,11,Luke Schoonmaker,TE,DAL
+Brock BowersTE - LVView News,CLE,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,12,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,JAX,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,12,Trey McBride,TE,ARI
+George KittleTE - SF,CAR,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,12,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,NYG,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,12,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,IND,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,12,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@GB,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,12,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,NYJ,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,12,Mark Andrews,TE,BAL
+David NjokuTE - CLE,@LV,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,12,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@DAL,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,12,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,PIT,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,12,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@KC,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,12,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,PHI,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,12,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@CIN,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,12,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@BAL,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,12,Mason Taylor,TE,NYJ
+Tucker KraftTE - GB,MIN,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,12,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@HOU,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,12,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,NE,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,12,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@NO,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,12,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,BUF,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,12,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,@CHI,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,12,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@ARI,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,12,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,NYJ,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,12,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@LAR,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,12,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,SEA,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,12,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@SF,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,12,Ja'Tavion Sanders,TE,CAR
+Ja'Tavion SandersTE - CAR,@SF,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,12,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,@CHI,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,12,Pat Freiermuth,TE,PIT
+Theo JohnsonTE - NYG,@DET,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,12,Theo Johnson,TE,NYG
+Noah GrayTE - KC,IND,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,12,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,@LV,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,12,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,ATL,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,12,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,PIT,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,12,Cole Kmet,TE,CHI
+Elijah ArroyoTE - SEA,@TEN,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,12,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,TB,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,12,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,CLE,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,12,Michael Mayer,TE,LV
+Noah FantTE - CIN,NE,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,12,Noah Fant,TE,CIN
+Dawson KnoxTE - BUF,@HOU,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,12,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,TB,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,12,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@CIN,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,12,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,@CHI,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,12,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,JAX,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,12,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,MIN,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,12,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,SEA,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,12,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,ATL,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,12,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,@BAL,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,12,Jeremy Ruckert,TE,NYJ
+Daniel BellingerTE - NYGQView News,@DET,0,0,0,0.0,0,0.9,8.46,0.06,0,0,0,0.0,2.11,12,Daniel Bellinger,TE,NYGQ
+Luke SchoonmakerTE - DAL,PHI,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,12,Luke Schoonmaker,TE,DAL
+Cade StoverTE - HOU,BUF,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,12,Cade Stover,TE,HOU
+Tommy TrembleTE - CARPUP,@SF,0,0,0,0.0,0,0.84,8.4,0.06,0,0,0,0.0,2.04,12,Tommy TrembleTE - CA,,RPUP
+AJ BarnerTE - SEA,@TEN,0,0,0,0.0,0,0.84,8.04,0.06,0,0,0,0.0,2.0,12,AJ Barner,TE,SEA
+Brock BowersTE - LVView News,@LAC,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,13,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@TB,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,13,Trey McBride,TE,ARI
+George KittleTE - SF,@CLE,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,13,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,GB,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,13,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,@DAL,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,13,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@SEA,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,13,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,CIN,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,13,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,@WAS,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,13,Evan Engram,TE,DEN
+David NjokuTE - CLE,SF,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,13,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,CHI,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,13,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,@PHI,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,13,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,HOU,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,13,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,KC,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,13,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,NYG,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,13,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,ATL,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,13,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,DEN,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,13,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@DET,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,13,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@PIT,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,13,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@BAL,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,13,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@NYJ,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,13,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,@IND,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,13,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,BUF,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,13,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@TEN,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,13,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,CIN,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,13,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,ARI,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,13,Cade Otton,TE,TB
+Cade OttonTE - TBView News,ARI,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,13,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,JAX,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,13,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,LAR,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,13,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,BUF,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,13,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,NO,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,13,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,@NE,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,13,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,LV,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,13,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@DAL,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,13,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,SF,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,13,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@MIA,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,13,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@PHI,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,13,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,LV,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,13,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,MIN,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,13,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@CAR,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,13,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@LAC,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,13,Michael Mayer,TE,LV
+Noah FantTE - CIN,@BAL,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,13,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,DEN,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,13,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@PIT,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,13,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@CAR,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,13,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,NYG,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,13,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,BUF,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,13,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@TB,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,13,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@DET,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,13,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,JAX,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,13,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@MIA,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,13,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,DEN,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,14,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,LAR,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,14,Trey McBride,TE,ARI
+Sam LaPortaTE - DETQ,DAL,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,14,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,HOU,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,14,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,WAS,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,14,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,PIT,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,14,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,@LV,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,14,Evan Engram,TE,DEN
+David NjokuTE - CLE,TEN,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,14,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@LAC,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,14,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,@GB,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,14,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@JAX,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,14,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,@DET,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,14,Jake Ferguson,TE,DALQ
+Mason TaylorTE - NYJ,MIA,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,14,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@MIN,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,14,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,CHI,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,14,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,CIN,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,14,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@BUF,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,14,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,SEA,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,14,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,@KC,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,14,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,@BAL,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,14,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,IND,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,14,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,PIT,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,14,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,NO,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,14,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@CLE,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,14,Chig Okonkwo,TE,TEN
+Pat FreiermuthTE - PIT,@BAL,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,14,Pat Freiermuth,TE,PIT
+Pat FreiermuthTE - PIT,@BAL,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,14,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,@NYJ,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,14,Darren WallerTE - MI,,APUP
+Tyler ConklinTE - LAC,PHI,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,14,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,HOU,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,14,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,TEN,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,14,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@TB,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,14,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@GB,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,14,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,PHI,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,14,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@ATL,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,14,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@ARI,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,14,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,DEN,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,14,Michael Mayer,TE,LV
+Noah FantTE - CIN,@BUF,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,14,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@MIN,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,14,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,CIN,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,14,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@ARI,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,14,Terrance Ferguson,TE,LARQ
+Darnell WashingtonTE - PIT,@BAL,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,14,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,LAR,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,14,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,CHI,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,14,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@CLE,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,14,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@TB,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,14,Foster MoreauTE - N,,OPUP
+Jeremy RuckertTE - NYJ,MIA,0,0,0,0.0,0,0.95,8.92,0.06,0,0,0,0.0,2.2,14,Jeremy Ruckert,TE,NYJ
+Luke SchoonmakerTE - DAL,@DET,0,0,0,0.0,0,0.86,8.57,0.06,0,0,0,0.0,2.08,14,Luke Schoonmaker,TE,DAL
+Cade StoverTE - HOU,@KC,0,0,0,0.0,0,0.84,8.46,0.06,0,0,0,0.0,2.05,14,Cade Stover,TE,HOU
+AJ BarnerTE - SEA,@ATL,0,0,0,0.0,0,0.84,8.04,0.06,0,0,0,0.0,2.0,14,AJ Barner,TE,SEA
+Devin CulpTE - TB,NO,0,0,0,0.0,0,0.79,7.82,0.06,0,0,0,0.0,1.93,14,Devin Culp,TE,TB
+Brock BowersTE - LVView News,@PHI,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,15,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@HOU,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,15,Trey McBride,TE,ARI
+George KittleTE - SF,TEN,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,15,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@LAR,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,15,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,LAC,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,15,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@DAL,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,15,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@CIN,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,15,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,GB,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,15,Evan Engram,TE,DEN
+David NjokuTE - CLE,@CHI,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,15,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,LV,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,15,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,CLE,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,15,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@SEA,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,15,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,MIN,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,15,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,BUF,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,15,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@JAX,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,15,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@NYG,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,15,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@DEN,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,15,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@NE,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,15,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,BAL,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,15,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@TB,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,15,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,ARI,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,15,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,MIA,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,15,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,NYJ,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,15,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@CIN,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,15,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,ATL,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,15,Cade Otton,TE,TB
+Cade OttonTE - TBView News,ATL,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,15,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@SF,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,15,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@NO,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,15,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,MIA,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,15,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,@PIT,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,15,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,WAS,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,15,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@KC,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,15,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,LAC,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,15,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,@CHI,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,15,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,CAR,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,15,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,CLE,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,15,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@KC,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,15,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,IND,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,15,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,DET,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,15,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@PHI,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,15,Michael Mayer,TE,LV
+Noah FantTE - CIN,BAL,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,15,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@NYG,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,15,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@NE,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,15,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,DET,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,15,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,BUF,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,15,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,MIA,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,15,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@HOU,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,15,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@DEN,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,15,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@SF,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,15,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,CAR,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,15,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,@HOU,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,16,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,ATL,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,16,Trey McBride,TE,ARI
+George KittleTE - SF,@IND,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,16,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,PIT,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,16,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,@TEN,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,16,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,@NYG,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,16,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,NE,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,16,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,JAX,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,16,Evan Engram,TE,DEN
+David NjokuTE - CLE,BUF,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,16,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@WAS,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,16,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,GB,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,16,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,SF,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,16,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,LAC,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,16,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@BAL,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,16,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@NO,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,16,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,PHI,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,16,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@CHI,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,16,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,@CLE,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,16,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,@MIA,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,16,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,@ARI,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,16,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,LV,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,16,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,@DET,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,16,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@DEN,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,16,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,NE,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,16,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@CAR,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,16,Cade Otton,TE,TB
+Cade OttonTE - TBView News,@CAR,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,16,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,KC,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,16,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,TB,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,16,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,@DET,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,16,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,CIN,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,16,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,MIN,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,16,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@DAL,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,16,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@TEN,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,16,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,BUF,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,16,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,NYJ,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,16,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,GB,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,16,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@DAL,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,16,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,LAR,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,16,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@SEA,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,16,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,@HOU,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,16,Michael Mayer,TE,LV
+Noah FantTE - CIN,@MIA,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,16,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,PHI,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,16,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,@CLE,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,16,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@SEA,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,16,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@BAL,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,16,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,@DET,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,16,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,ATL,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,16,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@CHI,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,16,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,KC,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,16,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,NYJ,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,16,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,NYG,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,17,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@CIN,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,17,Trey McBride,TE,ARI
+George KittleTE - SF,CHI,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,17,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@MIN,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,17,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,DEN,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,17,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,DET,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,17,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@GB,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,17,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,@KC,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,17,Evan Engram,TE,DEN
+David NjokuTE - CLE,PIT,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,17,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,@BUF,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,17,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,@SF,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,17,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,JAX,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,17,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,@WAS,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,17,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,@NYJ,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,17,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,NE,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,17,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,DAL,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,17,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,BAL,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,17,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,PHI,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,17,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,ARI,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,17,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,LAR,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,17,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,@LAC,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,17,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,@CLE,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,17,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,@IND,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,17,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@GB,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,17,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,@MIA,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,17,Cade Otton,TE,TB
+Cade OttonTE - TBView News,@MIA,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,17,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,NO,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,17,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,SEA,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,17,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,@CLE,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,17,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,TB,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,17,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,@LV,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,17,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,HOU,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,17,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,DEN,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,17,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,PIT,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,17,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@TEN,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,17,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,@SF,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,17,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,HOU,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,17,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@CAR,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,17,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,@ATL,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,17,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,NYG,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,17,Michael Mayer,TE,LV
+Noah FantTE - CIN,ARI,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,17,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,DAL,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,17,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,PHI,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,17,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,@ATL,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,17,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,@NYJ,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,17,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,@CLE,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,17,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@CIN,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,17,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,BAL,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,17,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,NO,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,17,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@TEN,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,17,Foster MoreauTE - N,,OPUP
+Brock BowersTE - LVView News,KC,0,0,0,0.94,0,5.55,58.58,0.35,0,0,0,0.06,13.48,18,Brock Bowers,TE,LV
+Trey McBrideTE - ARI,@LAR,0,0,0,0.18,0,5.61,57.41,0.35,0,0,0,0.06,13.35,18,Trey McBride,TE,ARI
+George KittleTE - SF,SEA,0,0,0,0.0,0,4.14,57.41,0.41,0,0,0,0.06,12.22,18,George Kittle,TE,SF
+Sam LaPortaTE - DETQ,@CHI,0,0,0,0.0,0,4.11,45.95,0.35,0,0,0,0.06,10.69,18,Sam LaPorta,TE,DETQ
+Travis KelceTE - KC,@LV,0,0,0,0.06,0,4.17,41.25,0.29,0,0,0,0.06,9.92,18,Travis Kelce,TE,KC
+T.J. HockensonTE - MIN,GB,0,0,0,0.0,0,4.12,41.19,0.28,0,0,0,0.06,9.8,18,T.J. Hockenson,TE,MIN
+Mark AndrewsTE - BAL,@PIT,0,0,0,0.24,0,3.26,40.32,0.41,0,0,0,0.06,9.66,18,Mark Andrews,TE,BAL
+Evan EngramTE - DENView News,LAC,0,0,0,0.0,0,4.02,37.45,0.25,0,0,0,0.06,9.15,18,Evan Engram,TE,DEN
+David NjokuTE - CLE,@CIN,0,0,0,0.0,0,3.83,38.37,0.24,0,0,0,0.06,8.99,18,David Njoku,TE,CLE
+Dallas GoedertTE - PHI,WAS,0,0,0,0.0,0,3.54,38.63,0.24,0,0,0,0.06,8.72,18,Dallas Goedert,TE,PHI
+Colston LovelandTE - CHI,DET,0,0,0,0.0,0,3.65,36.94,0.24,0,0,0,0.06,8.66,18,Colston Loveland,TE,CHI
+Tyler WarrenTE - INDView News,@HOU,0,0,0,0.65,0,3.59,36.71,0.24,0,0,0,0.06,8.65,18,Tyler Warren,TE,IND
+Jake FergusonTE - DALQ,@NYG,0,0,0,0.0,0,3.62,35.7,0.23,0,0,0,0.06,8.45,18,Jake Ferguson,TE,DALQ
+Hunter HenryTE - NE,MIA,0,0,0,0.0,0,3.26,34.07,0.24,0,0,0,0.06,7.99,18,Hunter Henry,TE,NE
+Mason TaylorTE - NYJ,@BUF,0,0,0,0.0,0,3.32,33.6,0.21,0,0,0,0.0,7.94,18,Mason Taylor,TE,NYJ
+Zach ErtzTE - WAS,@PHI,0,0,0,0.0,0,3.33,31.57,0.24,0,0,0,0.0,7.93,18,Zach Ertz,TE,WAS
+Tucker KraftTE - GB,@MIN,0,0,0,0.0,0,3.18,33.75,0.24,0,0,0,0.06,7.88,18,Tucker Kraft,TE,GB
+Dalton KincaidTE - BUF,NYJ,0,0,0,0.0,0,3.42,34.5,0.18,0,0,0,0.06,7.83,18,Dalton Kincaid,TE,BUF
+Mike GesickiTE - CINQ,CLE,0,0,0,0.0,0,2.86,30.0,0.23,0,0,0,0.0,7.24,18,Mike Gesicki,TE,CINQ
+Kyle PittsTE - ATL,NO,0,0,0,0.0,0,2.71,33.75,0.18,0,0,0,0.0,7.17,18,Kyle Pitts,TE,ATL
+Dalton SchultzTE - HOU,IND,0,0,0,0.0,0,2.96,30.73,0.18,0,0,0,0.06,6.99,18,Dalton Schultz,TE,HOU
+Jonnu SmithTE - PITQ,BAL,0,0,0,0.19,0,2.92,29.9,0.19,0,0,0,0.06,6.95,18,Jonnu Smith,TE,PITQ
+Brenton StrangeTE - JAX,TEN,0,0,0,0.0,0,2.88,27.76,0.18,0,0,0,0.0,6.74,18,Brenton Strange,TE,JAX
+Isaiah LikelyTE - BALQ,@PIT,0,0,0,0.0,0,2.45,27.14,0.24,0,0,0,0.06,6.48,18,Isaiah Likely,TE,BALQ
+Cade OttonTE - TBView News,CAR,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,18,Cade Otton,TE,TB
+Cade OttonTE - TBView News,CAR,0,0,0,0.0,0,2.68,26.89,0.17,0,0,0,0.0,6.39,18,Cade Otton,TE,TB
+Chig OkonkwoTE - TEN,@JAX,0,0,0,0.3,0,2.73,26.42,0.18,0,0,0,0.06,6.36,18,Chig Okonkwo,TE,TEN
+Ja'Tavion SandersTE - CAR,@TB,0,0,0,0.0,0,2.58,25.78,0.18,0,0,0,0.0,6.24,18,Ja'Tavion Sanders,TE,CAR
+Pat FreiermuthTE - PIT,BAL,0,0,0,0.0,0,2.68,25.47,0.16,0,0,0,0.05,6.09,18,Pat Freiermuth,TE,PIT
+Darren WallerTE - MIAPUP,@NE,0,0,0,0.0,0,2.47,26.47,0.15,0,0,0,0.0,6.02,18,Darren WallerTE - MI,,APUP
+Theo JohnsonTE - NYG,DAL,0,0,0,0.0,0,2.39,24.92,0.16,0,0,0,0.0,5.84,18,Theo Johnson,TE,NYG
+Tyler ConklinTE - LAC,@DEN,0,0,0,0.0,0,2.3,21.35,0.18,0,0,0,0.0,5.52,18,Tyler Conklin,TE,LAC
+Noah GrayTE - KC,@LV,0,0,0,0.0,0,2.04,20.59,0.18,0,0,0,0.0,5.18,18,Noah Gray,TE,KC
+Harold Fannin Jr.TE - CLE,@CIN,0,0,0,0.0,0,2.14,21.07,0.14,0,0,0,0.0,5.09,18,Harold Fannin Jr.,TE,CLE
+Juwan JohnsonTE - NO,@ATL,0,0,0,0.0,0,2.09,22.24,0.12,0,0,0,0.0,5.03,18,Juwan Johnson,TE,NO
+Cole KmetTE - CHI,DET,0,0,0,0.0,0,2.09,21.52,0.13,0,0,0,0.07,4.88,18,Cole Kmet,TE,CHI
+Will DisslyTE - LAC,@DEN,0,0,0,0.0,0,1.96,18.87,0.12,0,0,0,0.0,4.57,18,Will Dissly,TE,LAC
+Elijah ArroyoTE - SEA,@SF,0,0,0,0.0,0,1.85,16.85,0.12,0,0,0,0.0,4.26,18,Elijah Arroyo,TE,SEA
+Tyler HigbeeTE - LAR,ARI,0,0,0,0.0,0,1.77,17.2,0.12,0,0,0,0.0,4.21,18,Tyler Higbee,TE,LAR
+Michael MayerTE - LV,KC,0,0,0,0.0,0,1.73,16.96,0.12,0,0,0,0.0,4.15,18,Michael Mayer,TE,LV
+Noah FantTE - CIN,CLE,0,0,0,0.0,0,1.67,16.96,0.12,0,0,0,0.0,4.09,18,Noah Fant,TE,CIN
+Ben SinnottTE - WAS,@PHI,0,0,0,0.0,0,1.34,13.35,0.12,0,0,0,0.0,3.4,18,Ben Sinnott,TE,WAS
+Dawson KnoxTE - BUF,NYJ,0,0,0,0.0,0,1.28,13.76,0.12,0,0,0,0.0,3.38,18,Dawson Knox,TE,BUF
+Terrance FergusonTE - LARQ,ARI,0,0,0,0.0,0,1.29,13.29,0.12,0,0,0,0.0,3.34,18,Terrance Ferguson,TE,LARQ
+Austin HooperTE - NE,MIA,0,0,0,0.0,0,1.32,12.9,0.06,0,0,0,0.0,2.97,18,Austin Hooper,TE,NE
+Darnell WashingtonTE - PIT,BAL,0,0,0,0.0,0,1.17,11.88,0.09,0,0,0,0.0,2.9,18,Darnell Washington,TE,PIT
+Elijah HigginsTE - ARI,@LAR,0,0,0,0.0,0,1.08,10.86,0.06,0,0,0,0.0,2.53,18,Elijah Higgins,TE,ARI
+Luke MusgraveTE - GB,@MIN,0,0,0,0.0,0,0.99,10.91,0.06,0,0,0,0.0,2.44,18,Luke Musgrave,TE,GB
+Gunnar HelmTE - TEN,@JAX,0,0,0,0.0,0,0.97,9.98,0.06,0,0,0,0.0,2.33,18,Gunnar Helm,TE,TEN
+Foster MoreauTE - NOPUP,@ATL,0,0,0,0.0,0,0.97,9.37,0.06,0,0,0,0.0,2.27,18,Foster MoreauTE - N,,OPUP

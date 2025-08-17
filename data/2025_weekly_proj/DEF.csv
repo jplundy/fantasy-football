@@ -1,0 +1,595 @@
+Team,Opp,Sack,Int,Fum Rec,Saf,TD,Def 2pt Ret,TD_1,Pts Allow,Points,Week,Name,_position,_team
+Denver BroncosDEF,TEN,2.93,0.89,0.64,0.06,0.19,0,0.0,17.0,7.25,1,Denver Broncos,,DEF
+Pittsburgh SteelersDEF,@NYJ,2.74,0.83,0.6,0.06,0.18,0,0.0,17.75,6.8,1,Pittsburgh Steelers,,DEF
+Philadelphia EaglesDEF,DAL,2.63,0.87,0.59,0.06,0.18,0,0.0,19.75,6.75,1,Philadelphia Eagles,,DEF
+Cincinnati BengalsDEF,@CLE,2.78,0.88,0.59,0.0,0.14,0,0.0,19.5,6.56,1,Cincinnati Bengals,,DEF
+Kansas City ChiefsDEF,@LAC,2.46,0.74,0.57,0.06,0.17,0,0.0,21.5,6.22,1,Kansas City Chiefs,,DEF
+Minnesota VikingsDEF,@CHI,2.46,0.77,0.55,0.05,0.16,0,0.0,22.5,6.16,1,Minnesota Vikings,,DEF
+Arizona CardinalsDEF,@NO,2.65,0.79,0.53,0.0,0.14,0,0.0,18.25,6.13,1,Arizona Cardinals,,DEF
+New England PatriotsDEF,LV,2.76,0.85,0.57,0.0,0.07,0,0.0,19.5,6.02,1,New England Patriots,,DEF
+Washington CommandersDEF,NYG,2.62,0.75,0.56,0.0,0.12,0,0.0,19.25,5.96,1,Washington Commanders,,DEF
+Jacksonville JaguarsDEF,CAR,2.76,0.8,0.59,0.0,0.07,0,0.0,22.0,5.96,1,Jacksonville Jaguars,,DEF
+Houston TexansDEF,@LAR,2.39,0.73,0.52,0.05,0.16,0,0.0,24.25,5.95,1,Houston Texans,,DEF
+Los Angeles RamsDEF,HOU,2.6,0.72,0.54,0.0,0.12,0,0.0,21.25,5.84,1,Los Angeles Rams,,DEF
+Detroit LionsDEF,@GB,2.31,0.69,0.53,0.05,0.16,0,0.0,25.75,5.81,1,Detroit Lions,,DEF
+Chicago BearsDEF,MIN,2.53,0.76,0.51,0.0,0.12,0,0.0,21.5,5.79,1,Chicago Bears,,DEF
+San Francisco 49ersDEF,@SEA,2.5,0.72,0.54,0.0,0.12,0,0.0,22.0,5.74,1,San Francisco 49ers,,DEF
+Tampa Bay BuccaneersDEF,@ATL,2.52,0.74,0.49,0.0,0.12,0,0.0,23.25,5.7,1,Tampa Bay Buccaneers,,DEF
+Green Bay PackersDEF,DET,2.42,0.75,0.52,0.0,0.12,0,0.0,23.75,5.68,1,Green Bay Packers,,DEF
+Miami DolphinsDEF,@IND,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,1,Miami Dolphins,,DEF
+Baltimore RavensDEF,@BUF,2.21,0.74,0.49,0.05,0.15,0,0.0,26.75,5.67,1,Baltimore Ravens,,DEF
+New York JetsDEF,PIT,2.24,0.7,0.47,0.0,0.12,0,0.06,20.75,5.66,1,New York Jets,,DEF
+Buffalo BillsDEF,BAL,2.26,0.66,0.5,0.05,0.15,0,0.0,25.25,5.58,1,Buffalo Bills,,DEF
+Seattle SeahawksDEF,SF,2.38,0.7,0.52,0.0,0.12,0,0.0,23.5,5.54,1,Seattle Seahawks,,DEF
+Las Vegas RaidersDEF,@NE,2.5,0.69,0.55,0.0,0.08,0,0.0,22.5,5.46,1,Las Vegas Raiders,,DEF
+Indianapolis ColtsDEF,MIA,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,1,Indianapolis Colts,,DEF
+Los Angeles ChargersDEF,KC,2.21,0.62,0.45,0.0,0.11,0,0.06,23.25,5.37,1,Los Angeles Chargers,,DEF
+Los Angeles ChargersDEF,KC,2.21,0.62,0.45,0.0,0.11,0,0.06,23.25,5.37,1,Los Angeles Chargers,,DEF
+Dallas CowboysDEF,@PHI,2.11,0.65,0.45,0.0,0.1,0,0.05,26.75,5.21,1,Dallas Cowboys,,DEF
+New York GiantsDEF,@WAS,2.15,0.61,0.5,0.0,0.11,0,0.0,26.25,5.03,1,New York Giants,,DEF
+Cleveland BrownsDEF,CIN,2.23,0.61,0.45,0.0,0.11,0,0.0,25.25,5.01,1,Cleveland Browns,,DEF
+New Orleans SaintsDEF,ARI,2.15,0.59,0.47,0.0,0.06,0,0.06,24.25,4.99,1,New Orleans Saints,,DEF
+Atlanta FalconsDEF,TB,2.25,0.65,0.47,0.0,0.06,0,0.0,25.25,4.85,1,Atlanta Falcons,,DEF
+Carolina PanthersDEF,@JAX,2.09,0.58,0.46,0.0,0.06,0,0.0,24.5,4.53,1,Carolina Panthers,,DEF
+Tennessee TitansDEF,@DEN,1.81,0.48,0.37,0.0,0.05,0,0.0,24.75,3.81,1,Tennessee Titans,,DEF
+Denver BroncosDEF,@IND,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,2,Denver Broncos,,DEF
+Buffalo BillsDEF,@NYJ,2.78,0.8,0.62,0.06,0.19,0,0.0,22.75,6.88,2,Buffalo Bills,,DEF
+Baltimore RavensDEF,CLE,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,2,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,ATL,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,2,Minnesota Vikings,,DEF
+Pittsburgh SteelersDEF,SEA,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,2,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,CHI,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,2,Detroit Lions,,DEF
+Los Angeles RamsDEF,@TEN,2.85,0.78,0.58,0.0,0.14,0,0.0,22.75,6.41,2,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@NO,2.72,0.84,0.58,0.0,0.14,0,0.0,22.75,6.4,2,San Francisco 49ers,,DEF
+Arizona CardinalsDEF,CAR,2.66,0.8,0.53,0.0,0.14,0,0.0,22.75,6.16,2,Arizona Cardinals,,DEF
+Dallas CowboysDEF,NYG,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,2,Dallas Cowboys,,DEF
+Los Angeles ChargersDEF,@LV,2.4,0.75,0.49,0.0,0.12,0,0.06,22.75,5.96,2,Los Angeles Chargers,,DEF
+Cincinnati BengalsDEF,JAX,2.46,0.78,0.52,0.0,0.14,0,0.0,22.75,5.9,2,Cincinnati Bengals,,DEF
+Kansas City ChiefsDEF,PHI,2.28,0.68,0.53,0.05,0.16,0,0.0,22.75,5.76,2,Kansas City Chiefs,,DEF
+Philadelphia EaglesDEF,@KC,2.25,0.75,0.5,0.05,0.15,0,0.0,22.75,5.75,2,Philadelphia Eagles,,DEF
+Houston TexansDEF,TB,2.3,0.7,0.5,0.05,0.15,0,0.0,22.75,5.7,2,Houston Texans,,DEF
+Washington CommandersDEF,@GB,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,2,Washington Commanders,,DEF
+Miami DolphinsDEF,NE,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,2,Miami Dolphins,,DEF
+Green Bay PackersDEF,WAS,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,2,Green Bay Packers,,DEF
+Seattle SeahawksDEF,@PIT,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,2,Seattle Seahawks,,DEF
+Tampa Bay BuccaneersDEF,@HOU,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,2,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,DEN,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,2,Indianapolis Colts,,DEF
+New York GiantsDEF,@DAL,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,2,New York Giants,,DEF
+Carolina PanthersDEF,@ARI,2.33,0.65,0.52,0.0,0.07,0,0.0,22.75,5.09,2,Carolina Panthers,,DEF
+New York JetsDEF,BUF,2.02,0.64,0.42,0.0,0.1,0,0.05,22.75,5.04,2,New York Jets,,DEF
+New England PatriotsDEF,@MIA,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,2,New England Patriots,,DEF
+New England PatriotsDEF,@MIA,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,2,New England Patriots,,DEF
+New Orleans SaintsDEF,SF,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,2,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@MIN,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,2,Atlanta Falcons,,DEF
+Cleveland BrownsDEF,@BAL,2.12,0.59,0.42,0.0,0.1,0,0.0,22.75,4.74,2,Cleveland Browns,,DEF
+Chicago BearsDEF,@DET,2.07,0.62,0.41,0.0,0.1,0,0.0,22.75,4.73,2,Chicago Bears,,DEF
+Las Vegas RaidersDEF,LAC,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,2,Las Vegas Raiders,,DEF
+Tennessee TitansDEF,LAR,2.1,0.62,0.49,0.0,0.06,0,0.0,22.75,4.68,2,Tennessee Titans,,DEF
+Jacksonville JaguarsDEF,@CIN,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,2,Jacksonville Jaguars,,DEF
+Denver BroncosDEF,@LAC,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,3,Denver Broncos,,DEF
+Houston TexansDEF,@JAX,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,3,Houston Texans,,DEF
+Philadelphia EaglesDEF,LAR,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,3,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,DET,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,3,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,CIN,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,3,Minnesota Vikings,,DEF
+Buffalo BillsDEF,MIA,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,3,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@NYG,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,3,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,@NE,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,3,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@BAL,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,3,Detroit Lions,,DEF
+Dallas CowboysDEF,@CHI,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,3,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@PHI,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,3,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,ARI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,3,San Francisco 49ers,,DEF
+Washington CommandersDEF,LV,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,3,Washington Commanders,,DEF
+Miami DolphinsDEF,@BUF,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,3,Miami Dolphins,,DEF
+Green Bay PackersDEF,@CLE,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,3,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,DEN,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,3,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,NO,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,3,Seattle Seahawks,,DEF
+New York JetsDEF,@TB,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,3,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,NYJ,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,3,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@TEN,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,3,Indianapolis Colts,,DEF
+New York GiantsDEF,KC,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,3,New York Giants,,DEF
+Chicago BearsDEF,DAL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,3,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@MIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,3,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,GB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,3,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@SF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,3,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,@SF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,3,Arizona Cardinals,,DEF
+New England PatriotsDEF,PIT,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,3,New England Patriots,,DEF
+New Orleans SaintsDEF,@SEA,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,3,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@CAR,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,3,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,@WAS,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,3,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,HOU,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,3,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,ATL,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,3,Carolina Panthers,,DEF
+Tennessee TitansDEF,IND,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,3,Tennessee Titans,,DEF
+Denver BroncosDEF,CIN,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,4,Denver Broncos,,DEF
+Houston TexansDEF,TEN,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,4,Houston Texans,,DEF
+Philadelphia EaglesDEF,@TB,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,4,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,@KC,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,4,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@PIT,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,4,Minnesota Vikings,,DEF
+Buffalo BillsDEF,NO,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,4,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,BAL,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,4,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,MIN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,4,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,CLE,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,4,Detroit Lions,,DEF
+Dallas CowboysDEF,GB,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,4,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,IND,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,4,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,JAX,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,4,San Francisco 49ers,,DEF
+Washington CommandersDEF,@ATL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,4,Washington Commanders,,DEF
+Miami DolphinsDEF,NYJ,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,4,Miami Dolphins,,DEF
+Green Bay PackersDEF,@DAL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,4,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@NYG,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,4,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@ARI,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,4,Seattle Seahawks,,DEF
+New York JetsDEF,@MIA,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,4,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,PHI,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,4,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@LAR,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,4,Indianapolis Colts,,DEF
+New York GiantsDEF,LAC,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,4,New York Giants,,DEF
+Chicago BearsDEF,@LV,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,4,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@DEN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,4,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,@DET,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,4,Cleveland Browns,,DEF
+Arizona CardinalsDEF,SEA,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,4,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,SEA,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,4,Arizona Cardinals,,DEF
+New England PatriotsDEF,CAR,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,4,New England Patriots,,DEF
+New Orleans SaintsDEF,@BUF,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,4,New Orleans Saints,,DEF
+Atlanta FalconsDEF,WAS,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,4,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,CHI,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,4,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@SF,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,4,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@NE,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,4,Carolina Panthers,,DEF
+Tennessee TitansDEF,@HOU,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,4,Tennessee Titans,,DEF
+Denver BroncosDEF,@PHI,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,5,Denver Broncos,,DEF
+Houston TexansDEF,@BAL,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,5,Houston Texans,,DEF
+Philadelphia EaglesDEF,DEN,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,5,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,HOU,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,5,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@CLE,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,5,Minnesota Vikings,,DEF
+Buffalo BillsDEF,NE,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,5,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@JAX,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,5,Kansas City Chiefs,,DEF
+Detroit LionsDEF,@CIN,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,5,Detroit Lions,,DEF
+Dallas CowboysDEF,@NYJ,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,5,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,SF,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,5,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@LAR,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,5,San Francisco 49ers,,DEF
+Washington CommandersDEF,@LAC,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,5,Washington Commanders,,DEF
+Miami DolphinsDEF,@CAR,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,5,Miami Dolphins,,DEF
+Los Angeles ChargersDEF,WAS,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,5,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,TB,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,5,Seattle Seahawks,,DEF
+New York JetsDEF,DAL,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,5,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@SEA,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,5,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,LV,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,5,Indianapolis Colts,,DEF
+New York GiantsDEF,@NO,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,5,New York Giants,,DEF
+Cincinnati BengalsDEF,DET,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,5,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,MIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,5,Cleveland Browns,,DEF
+Arizona CardinalsDEF,TEN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,5,Arizona Cardinals,,DEF
+New England PatriotsDEF,@BUF,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,5,New England Patriots,,DEF
+New Orleans SaintsDEF,NYG,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,5,New Orleans Saints,,DEF
+Las Vegas RaidersDEF,@IND,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,5,Las Vegas Raiders,,DEF
+Las Vegas RaidersDEF,@IND,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,5,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,KC,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,5,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,MIA,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,5,Carolina Panthers,,DEF
+Tennessee TitansDEF,@ARI,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,5,Tennessee Titans,,DEF
+Chicago BearsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,5,Chicago Bears,,DEF
+Atlanta FalconsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,5,Atlanta Falcons,,DEF
+Green Bay PackersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,5,Green Bay Packers,,DEF
+Pittsburgh SteelersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,5,Pittsburgh Steelers,,DEF
+Denver BroncosDEF,@NYJ,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,6,Denver Broncos,,DEF
+Philadelphia EaglesDEF,@NYG,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,6,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,LAR,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,6,Baltimore Ravens,,DEF
+Buffalo BillsDEF,@ATL,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,6,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,DET,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,6,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,CLE,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,6,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@KC,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,6,Detroit Lions,,DEF
+Dallas CowboysDEF,@CAR,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,6,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@BAL,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,6,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@TB,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,6,San Francisco 49ers,,DEF
+Washington CommandersDEF,CHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,6,Washington Commanders,,DEF
+Miami DolphinsDEF,LAC,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,6,Miami Dolphins,,DEF
+Green Bay PackersDEF,CIN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,6,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@MIA,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,6,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@JAX,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,6,Seattle Seahawks,,DEF
+New York JetsDEF,DEN,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,6,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,SF,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,6,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,ARI,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,6,Indianapolis Colts,,DEF
+New York GiantsDEF,PHI,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,6,New York Giants,,DEF
+Chicago BearsDEF,@WAS,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,6,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@GB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,6,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,@PIT,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,6,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@IND,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,6,Arizona Cardinals,,DEF
+New England PatriotsDEF,@NO,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,6,New England Patriots,,DEF
+New Orleans SaintsDEF,NE,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,6,New Orleans Saints,,DEF
+New Orleans SaintsDEF,NE,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,6,New Orleans Saints,,DEF
+Atlanta FalconsDEF,BUF,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,6,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,TEN,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,6,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,SEA,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,6,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,DAL,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,6,Carolina Panthers,,DEF
+Tennessee TitansDEF,@LV,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,6,Tennessee Titans,,DEF
+Houston TexansDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,6,Houston Texans,,DEF
+Minnesota VikingsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,6,Minnesota Vikings,,DEF
+Denver BroncosDEF,NYG,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,7,Denver Broncos,,DEF
+Houston TexansDEF,@SEA,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,7,Houston Texans,,DEF
+Philadelphia EaglesDEF,@MIN,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,7,Philadelphia Eagles,,DEF
+Minnesota VikingsDEF,PHI,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,7,Minnesota Vikings,,DEF
+Kansas City ChiefsDEF,LV,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,7,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,@CIN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,7,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,TB,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,7,Detroit Lions,,DEF
+Dallas CowboysDEF,WAS,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,7,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@JAX,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,7,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,ATL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,7,San Francisco 49ers,,DEF
+Washington CommandersDEF,@DAL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,7,Washington Commanders,,DEF
+Miami DolphinsDEF,@CLE,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,7,Miami Dolphins,,DEF
+Green Bay PackersDEF,@ARI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,7,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,IND,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,7,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,HOU,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,7,Seattle Seahawks,,DEF
+New York JetsDEF,CAR,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,7,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@DET,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,7,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@LAC,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,7,Indianapolis Colts,,DEF
+New York GiantsDEF,@DEN,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,7,New York Giants,,DEF
+Chicago BearsDEF,NO,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,7,Chicago Bears,,DEF
+Cincinnati BengalsDEF,PIT,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,7,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,MIA,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,7,Cleveland Browns,,DEF
+Arizona CardinalsDEF,GB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,7,Arizona Cardinals,,DEF
+New England PatriotsDEF,@TEN,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,7,New England Patriots,,DEF
+New Orleans SaintsDEF,@CHI,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,7,New Orleans Saints,,DEF
+New Orleans SaintsDEF,@CHI,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,7,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@SF,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,7,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,@KC,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,7,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,LAR,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,7,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@NYJ,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,7,Carolina Panthers,,DEF
+Tennessee TitansDEF,NE,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,7,Tennessee Titans,,DEF
+Buffalo BillsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,7,Buffalo Bills,,DEF
+Baltimore RavensDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,7,Baltimore Ravens,,DEF
+Denver BroncosDEF,DAL,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,8,Denver Broncos,,DEF
+Houston TexansDEF,SF,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,8,Houston Texans,,DEF
+Philadelphia EaglesDEF,NYG,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,8,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,CHI,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,8,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@LAC,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,8,Minnesota Vikings,,DEF
+Buffalo BillsDEF,@CAR,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,8,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,WAS,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,8,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,GB,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,8,Pittsburgh Steelers,,DEF
+Dallas CowboysDEF,@DEN,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,8,Dallas Cowboys,,DEF
+San Francisco 49ersDEF,@HOU,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,8,San Francisco 49ers,,DEF
+Washington CommandersDEF,@KC,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,8,Washington Commanders,,DEF
+Miami DolphinsDEF,@ATL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,8,Miami Dolphins,,DEF
+Green Bay PackersDEF,@PIT,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,8,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,MIN,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,8,Los Angeles Chargers,,DEF
+New York JetsDEF,@CIN,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,8,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@NO,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,8,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,TEN,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,8,Indianapolis Colts,,DEF
+New York GiantsDEF,@PHI,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,8,New York Giants,,DEF
+Chicago BearsDEF,@BAL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,8,Chicago Bears,,DEF
+Cincinnati BengalsDEF,NYJ,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,8,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,@NE,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,8,Cleveland Browns,,DEF
+New England PatriotsDEF,CLE,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,8,New England Patriots,,DEF
+New Orleans SaintsDEF,TB,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,8,New Orleans Saints,,DEF
+Atlanta FalconsDEF,MIA,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,8,Atlanta Falcons,,DEF
+Carolina PanthersDEF,BUF,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,8,Carolina Panthers,,DEF
+Carolina PanthersDEF,BUF,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,8,Carolina Panthers,,DEF
+Tennessee TitansDEF,@IND,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,8,Tennessee Titans,,DEF
+Arizona CardinalsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,8,Arizona Cardinals,,DEF
+Jacksonville JaguarsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,8,Jacksonville Jaguars,,DEF
+Detroit LionsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,8,Detroit Lions,,DEF
+Las Vegas RaidersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,8,Las Vegas Raiders,,DEF
+Los Angeles RamsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,8,Los Angeles Rams,,DEF
+Seattle SeahawksDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,8,Seattle Seahawks,,DEF
+Denver BroncosDEF,@HOU,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,9,Denver Broncos,,DEF
+Houston TexansDEF,DEN,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,9,Houston Texans,,DEF
+Baltimore RavensDEF,@MIA,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,9,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@DET,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,9,Minnesota Vikings,,DEF
+Buffalo BillsDEF,KC,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,9,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@BUF,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,9,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,IND,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,9,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,MIN,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,9,Detroit Lions,,DEF
+Dallas CowboysDEF,ARI,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,9,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,NO,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,9,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@NYG,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,9,San Francisco 49ers,,DEF
+Washington CommandersDEF,SEA,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,9,Washington Commanders,,DEF
+Miami DolphinsDEF,BAL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,9,Miami Dolphins,,DEF
+Green Bay PackersDEF,CAR,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,9,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@TEN,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,9,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@WAS,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,9,Seattle Seahawks,,DEF
+Indianapolis ColtsDEF,@PIT,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,9,Indianapolis Colts,,DEF
+New York GiantsDEF,SF,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,9,New York Giants,,DEF
+Chicago BearsDEF,@CIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,9,Chicago Bears,,DEF
+Cincinnati BengalsDEF,CHI,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,9,Cincinnati Bengals,,DEF
+Arizona CardinalsDEF,@DAL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,9,Arizona Cardinals,,DEF
+New England PatriotsDEF,ATL,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,9,New England Patriots,,DEF
+New Orleans SaintsDEF,@LAR,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,9,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@NE,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,9,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,JAX,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,9,Las Vegas Raiders,,DEF
+Las Vegas RaidersDEF,JAX,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,9,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@LV,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,9,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@GB,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,9,Carolina Panthers,,DEF
+Tennessee TitansDEF,LAC,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,9,Tennessee Titans,,DEF
+Cleveland BrownsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,9,Cleveland Browns,,DEF
+Tampa Bay BuccaneersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,9,Tampa Bay Buccaneers,,DEF
+Philadelphia EaglesDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,9,Philadelphia Eagles,,DEF
+New York JetsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,9,New York Jets,,DEF
+Denver BroncosDEF,LV,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,10,Denver Broncos,,DEF
+Houston TexansDEF,JAX,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,10,Houston Texans,,DEF
+Philadelphia EaglesDEF,@GB,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,10,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,@MIN,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,10,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,BAL,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,10,Minnesota Vikings,,DEF
+Buffalo BillsDEF,@MIA,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,10,Buffalo Bills,,DEF
+Pittsburgh SteelersDEF,@LAC,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,10,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@WAS,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,10,Detroit Lions,,DEF
+Los Angeles RamsDEF,@SF,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,10,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,LAR,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,10,San Francisco 49ers,,DEF
+Washington CommandersDEF,DET,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,10,Washington Commanders,,DEF
+Miami DolphinsDEF,BUF,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,10,Miami Dolphins,,DEF
+Green Bay PackersDEF,PHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,10,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,PIT,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,10,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,ARI,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,10,Seattle Seahawks,,DEF
+New York JetsDEF,CLE,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,10,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,NE,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,10,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,ATL,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,10,Indianapolis Colts,,DEF
+New York GiantsDEF,@CHI,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,10,New York Giants,,DEF
+Chicago BearsDEF,NYG,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,10,Chicago Bears,,DEF
+Cleveland BrownsDEF,@NYJ,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,10,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@SEA,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,10,Arizona Cardinals,,DEF
+New England PatriotsDEF,@TB,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,10,New England Patriots,,DEF
+New Orleans SaintsDEF,@CAR,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,10,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@IND,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,10,Atlanta Falcons,,DEF
+Atlanta FalconsDEF,@IND,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,10,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,@DEN,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,10,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@HOU,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,10,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,NO,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,10,Carolina Panthers,,DEF
+Cincinnati BengalsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,10,Cincinnati Bengals,,DEF
+Kansas City ChiefsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,10,Kansas City Chiefs,,DEF
+Dallas CowboysDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,10,Dallas Cowboys,,DEF
+Tennessee TitansDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,10,Tennessee Titans,,DEF
+Denver BroncosDEF,KC,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,11,Denver Broncos,,DEF
+Houston TexansDEF,@TEN,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,11,Houston Texans,,DEF
+Philadelphia EaglesDEF,DET,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,11,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,@CLE,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,11,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,CHI,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,11,Minnesota Vikings,,DEF
+Buffalo BillsDEF,TB,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,11,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@DEN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,11,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,CIN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,11,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@PHI,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,11,Detroit Lions,,DEF
+Dallas CowboysDEF,@LV,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,11,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,SEA,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,11,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@ARI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,11,San Francisco 49ers,,DEF
+Washington CommandersDEF,@MIA,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,11,Washington Commanders,,DEF
+Miami DolphinsDEF,WAS,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,11,Miami Dolphins,,DEF
+Green Bay PackersDEF,@NYG,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,11,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@JAX,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,11,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@LAR,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,11,Seattle Seahawks,,DEF
+New York JetsDEF,@NE,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,11,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@BUF,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,11,Tampa Bay Buccaneers,,DEF
+New York GiantsDEF,GB,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,11,New York Giants,,DEF
+Chicago BearsDEF,@MIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,11,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@PIT,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,11,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,BAL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,11,Cleveland Browns,,DEF
+Arizona CardinalsDEF,SF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,11,Arizona Cardinals,,DEF
+New England PatriotsDEF,NYJ,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,11,New England Patriots,,DEF
+New England PatriotsDEF,NYJ,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,11,New England Patriots,,DEF
+Atlanta FalconsDEF,CAR,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,11,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,DAL,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,11,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,LAC,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,11,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@ATL,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,11,Carolina Panthers,,DEF
+Tennessee TitansDEF,HOU,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,11,Tennessee Titans,,DEF
+Indianapolis ColtsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,11,Indianapolis Colts,,DEF
+New Orleans SaintsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,11,New Orleans Saints,,DEF
+Houston TexansDEF,BUF,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,12,Houston Texans,,DEF
+Philadelphia EaglesDEF,@DAL,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,12,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,NYJ,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,12,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@GB,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,12,Minnesota Vikings,,DEF
+Buffalo BillsDEF,@HOU,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,12,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,IND,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,12,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,@CHI,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,12,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,NYG,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,12,Detroit Lions,,DEF
+Dallas CowboysDEF,PHI,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,12,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,TB,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,12,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,CAR,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,12,San Francisco 49ers,,DEF
+Green Bay PackersDEF,MIN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,12,Green Bay Packers,,DEF
+Seattle SeahawksDEF,@TEN,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,12,Seattle Seahawks,,DEF
+New York JetsDEF,@BAL,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,12,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@LAR,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,12,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@KC,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,12,Indianapolis Colts,,DEF
+New York GiantsDEF,@DET,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,12,New York Giants,,DEF
+Chicago BearsDEF,PIT,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,12,Chicago Bears,,DEF
+Cincinnati BengalsDEF,NE,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,12,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,@LV,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,12,Cleveland Browns,,DEF
+Arizona CardinalsDEF,JAX,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,12,Arizona Cardinals,,DEF
+New England PatriotsDEF,@CIN,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,12,New England Patriots,,DEF
+New Orleans SaintsDEF,ATL,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,12,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@NO,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,12,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,CLE,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,12,Las Vegas Raiders,,DEF
+Las Vegas RaidersDEF,CLE,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,12,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@ARI,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,12,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@SF,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,12,Carolina Panthers,,DEF
+Tennessee TitansDEF,SEA,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,12,Tennessee Titans,,DEF
+Denver BroncosDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,12,Denver Broncos,,DEF
+Los Angeles ChargersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,12,Los Angeles Chargers,,DEF
+Washington CommandersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,12,Washington Commanders,,DEF
+Miami DolphinsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,12,Miami Dolphins,,DEF
+Denver BroncosDEF,@WAS,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,13,Denver Broncos,,DEF
+Houston TexansDEF,@IND,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,13,Houston Texans,,DEF
+Philadelphia EaglesDEF,CHI,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,13,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,CIN,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,13,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@SEA,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,13,Minnesota Vikings,,DEF
+Buffalo BillsDEF,@PIT,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,13,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@DAL,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,13,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,BUF,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,13,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,GB,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,13,Detroit Lions,,DEF
+Dallas CowboysDEF,KC,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,13,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@CAR,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,13,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@CLE,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,13,San Francisco 49ers,,DEF
+Washington CommandersDEF,DEN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,13,Washington Commanders,,DEF
+Miami DolphinsDEF,NO,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,13,Miami Dolphins,,DEF
+Green Bay PackersDEF,@DET,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,13,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,LV,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,13,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,MIN,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,13,Seattle Seahawks,,DEF
+New York JetsDEF,ATL,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,13,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,ARI,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,13,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,HOU,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,13,Indianapolis Colts,,DEF
+New York GiantsDEF,@NE,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,13,New York Giants,,DEF
+Chicago BearsDEF,@PHI,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,13,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@BAL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,13,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,SF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,13,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@TB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,13,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,@TB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,13,Arizona Cardinals,,DEF
+New England PatriotsDEF,NYG,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,13,New England Patriots,,DEF
+New Orleans SaintsDEF,@MIA,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,13,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@NYJ,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,13,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,@LAC,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,13,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@TEN,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,13,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,LAR,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,13,Carolina Panthers,,DEF
+Tennessee TitansDEF,JAX,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,13,Tennessee Titans,,DEF
+Denver BroncosDEF,@LV,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,14,Denver Broncos,,DEF
+Houston TexansDEF,@KC,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,14,Houston Texans,,DEF
+Philadelphia EaglesDEF,@LAC,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,14,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,PIT,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,14,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,WAS,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,14,Minnesota Vikings,,DEF
+Buffalo BillsDEF,CIN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,14,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,HOU,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,14,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,@BAL,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,14,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,DAL,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,14,Detroit Lions,,DEF
+Dallas CowboysDEF,@DET,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,14,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@ARI,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,14,Los Angeles Rams,,DEF
+Washington CommandersDEF,@MIN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,14,Washington Commanders,,DEF
+Miami DolphinsDEF,@NYJ,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,14,Miami Dolphins,,DEF
+Green Bay PackersDEF,CHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,14,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,PHI,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,14,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@ATL,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,14,Seattle Seahawks,,DEF
+New York JetsDEF,MIA,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,14,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,NO,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,14,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@JAX,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,14,Indianapolis Colts,,DEF
+Chicago BearsDEF,@GB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,14,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@BUF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,14,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,TEN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,14,Cleveland Browns,,DEF
+Arizona CardinalsDEF,LAR,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,14,Arizona Cardinals,,DEF
+New Orleans SaintsDEF,@TB,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,14,New Orleans Saints,,DEF
+Atlanta FalconsDEF,SEA,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,14,Atlanta Falcons,,DEF
+Atlanta FalconsDEF,SEA,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,14,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,DEN,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,14,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,IND,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,14,Jacksonville Jaguars,,DEF
+Tennessee TitansDEF,@CLE,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,14,Tennessee Titans,,DEF
+San Francisco 49ersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,14,San Francisco 49ers,,DEF
+New York GiantsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,14,New York Giants,,DEF
+Carolina PanthersDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,14,Carolina Panthers,,DEF
+New England PatriotsDEF,Bye,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,14,New England Patriots,,DEF
+Denver BroncosDEF,GB,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,15,Denver Broncos,,DEF
+Houston TexansDEF,ARI,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,15,Houston Texans,,DEF
+Philadelphia EaglesDEF,LV,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,15,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,@CIN,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,15,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@DAL,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,15,Minnesota Vikings,,DEF
+Buffalo BillsDEF,@NE,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,15,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,LAC,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,15,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,MIA,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,15,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@LAR,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,15,Detroit Lions,,DEF
+Dallas CowboysDEF,MIN,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,15,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,DET,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,15,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,TEN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,15,San Francisco 49ers,,DEF
+Washington CommandersDEF,@NYG,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,15,Washington Commanders,,DEF
+Miami DolphinsDEF,@PIT,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,15,Miami Dolphins,,DEF
+Green Bay PackersDEF,@DEN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,15,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@KC,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,15,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,IND,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,15,Seattle Seahawks,,DEF
+New York JetsDEF,@JAX,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,15,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,ATL,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,15,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@SEA,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,15,Indianapolis Colts,,DEF
+New York GiantsDEF,WAS,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,15,New York Giants,,DEF
+Chicago BearsDEF,CLE,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,15,Chicago Bears,,DEF
+Cincinnati BengalsDEF,BAL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,15,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,@CHI,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,15,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@HOU,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,15,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,@HOU,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,15,Arizona Cardinals,,DEF
+New England PatriotsDEF,BUF,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,15,New England Patriots,,DEF
+New Orleans SaintsDEF,CAR,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,15,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@TB,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,15,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,@PHI,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,15,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,NYJ,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,15,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@NO,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,15,Carolina Panthers,,DEF
+Tennessee TitansDEF,@SF,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,15,Tennessee Titans,,DEF
+Denver BroncosDEF,JAX,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,16,Denver Broncos,,DEF
+Houston TexansDEF,LV,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,16,Houston Texans,,DEF
+Philadelphia EaglesDEF,@WAS,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,16,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,NE,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,16,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,@NYG,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,16,Minnesota Vikings,,DEF
+Buffalo BillsDEF,@CLE,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,16,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@TEN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,16,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,@DET,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,16,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,PIT,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,16,Detroit Lions,,DEF
+Dallas CowboysDEF,LAC,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,16,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@SEA,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,16,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,@IND,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,16,San Francisco 49ers,,DEF
+Washington CommandersDEF,PHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,16,Washington Commanders,,DEF
+Miami DolphinsDEF,CIN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,16,Miami Dolphins,,DEF
+Green Bay PackersDEF,@CHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,16,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@DAL,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,16,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,LAR,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,16,Seattle Seahawks,,DEF
+New York JetsDEF,@NO,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,16,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@CAR,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,16,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,SF,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,16,Indianapolis Colts,,DEF
+New York GiantsDEF,MIN,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,16,New York Giants,,DEF
+Chicago BearsDEF,GB,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,16,Chicago Bears,,DEF
+Cincinnati BengalsDEF,@MIA,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,16,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,BUF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,16,Cleveland Browns,,DEF
+Arizona CardinalsDEF,ATL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,16,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,ATL,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,16,Arizona Cardinals,,DEF
+New England PatriotsDEF,@BAL,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,16,New England Patriots,,DEF
+New Orleans SaintsDEF,NYJ,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,16,New Orleans Saints,,DEF
+Atlanta FalconsDEF,@ARI,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,16,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,@HOU,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,16,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@DEN,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,16,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,TB,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,16,Carolina Panthers,,DEF
+Tennessee TitansDEF,KC,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,16,Tennessee Titans,,DEF
+Denver BroncosDEF,@KC,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,17,Denver Broncos,,DEF
+Houston TexansDEF,@LAC,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,17,Houston Texans,,DEF
+Philadelphia EaglesDEF,@BUF,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,17,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,@GB,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,17,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,DET,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,17,Minnesota Vikings,,DEF
+Buffalo BillsDEF,PHI,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,17,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,DEN,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,17,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,@CLE,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,17,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@MIN,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,17,Detroit Lions,,DEF
+Dallas CowboysDEF,@WAS,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,17,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,@ATL,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,17,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,CHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,17,San Francisco 49ers,,DEF
+Washington CommandersDEF,DAL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,17,Washington Commanders,,DEF
+Miami DolphinsDEF,TB,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,17,Miami Dolphins,,DEF
+Green Bay PackersDEF,BAL,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,17,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,HOU,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,17,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@CAR,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,17,Seattle Seahawks,,DEF
+New York JetsDEF,NE,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,17,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,@MIA,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,17,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,JAX,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,17,Indianapolis Colts,,DEF
+New York GiantsDEF,@LV,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,17,New York Giants,,DEF
+Chicago BearsDEF,@SF,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,17,Chicago Bears,,DEF
+Cincinnati BengalsDEF,ARI,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,17,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,PIT,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,17,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@CIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,17,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,@CIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,17,Arizona Cardinals,,DEF
+New England PatriotsDEF,@NYJ,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,17,New England Patriots,,DEF
+New Orleans SaintsDEF,@TEN,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,17,New Orleans Saints,,DEF
+Atlanta FalconsDEF,LAR,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,17,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,NYG,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,17,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,@IND,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,17,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,SEA,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,17,Carolina Panthers,,DEF
+Tennessee TitansDEF,NO,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,17,Tennessee Titans,,DEF
+Denver BroncosDEF,LAC,2.65,0.82,0.59,0.06,0.18,0,0.06,22.75,7.03,18,Denver Broncos,,DEF
+Houston TexansDEF,IND,2.71,0.82,0.59,0.06,0.18,0,0.0,22.75,6.73,18,Houston Texans,,DEF
+Philadelphia EaglesDEF,WAS,2.53,0.88,0.59,0.06,0.18,0,0.0,22.75,6.67,18,Philadelphia Eagles,,DEF
+Baltimore RavensDEF,@PIT,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,18,Baltimore Ravens,,DEF
+Minnesota VikingsDEF,GB,2.65,0.82,0.59,0.06,0.18,0,0.0,22.75,6.67,18,Minnesota Vikings,,DEF
+Buffalo BillsDEF,NYJ,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,18,Buffalo Bills,,DEF
+Kansas City ChiefsDEF,@LV,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,18,Kansas City Chiefs,,DEF
+Pittsburgh SteelersDEF,BAL,2.65,0.76,0.59,0.06,0.18,0,0.0,22.75,6.55,18,Pittsburgh Steelers,,DEF
+Detroit LionsDEF,@CHI,2.59,0.76,0.59,0.06,0.18,0,0.0,22.75,6.49,18,Detroit Lions,,DEF
+Dallas CowboysDEF,@NYG,2.47,0.76,0.53,0.0,0.12,0,0.06,22.75,6.13,18,Dallas Cowboys,,DEF
+Los Angeles RamsDEF,ARI,2.53,0.71,0.53,0.0,0.12,0,0.0,22.75,5.73,18,Los Angeles Rams,,DEF
+San Francisco 49ersDEF,SEA,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,18,San Francisco 49ers,,DEF
+Washington CommandersDEF,@PHI,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,18,Washington Commanders,,DEF
+Miami DolphinsDEF,@NE,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,18,Miami Dolphins,,DEF
+Green Bay PackersDEF,@MIN,2.47,0.71,0.53,0.0,0.12,0,0.0,22.75,5.67,18,Green Bay Packers,,DEF
+Los Angeles ChargersDEF,@DEN,2.29,0.65,0.47,0.0,0.12,0,0.06,22.75,5.61,18,Los Angeles Chargers,,DEF
+Seattle SeahawksDEF,@SF,2.41,0.71,0.53,0.0,0.12,0,0.0,22.75,5.61,18,Seattle Seahawks,,DEF
+New York JetsDEF,@BUF,2.24,0.65,0.47,0.0,0.12,0,0.06,22.75,5.56,18,New York Jets,,DEF
+Tampa Bay BuccaneersDEF,CAR,2.41,0.71,0.47,0.0,0.12,0,0.0,22.75,5.49,18,Tampa Bay Buccaneers,,DEF
+Indianapolis ColtsDEF,@HOU,2.35,0.71,0.47,0.0,0.12,0,0.0,22.75,5.43,18,Indianapolis Colts,,DEF
+New York GiantsDEF,DAL,2.29,0.65,0.53,0.0,0.12,0,0.0,22.75,5.37,18,New York Giants,,DEF
+Chicago BearsDEF,DET,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,18,Chicago Bears,,DEF
+Cincinnati BengalsDEF,CLE,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,18,Cincinnati Bengals,,DEF
+Cleveland BrownsDEF,@CIN,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,18,Cleveland Browns,,DEF
+Arizona CardinalsDEF,@LAR,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,18,Arizona Cardinals,,DEF
+Arizona CardinalsDEF,@LAR,2.35,0.65,0.47,0.0,0.12,0,0.0,22.75,5.31,18,Arizona Cardinals,,DEF
+New England PatriotsDEF,MIA,2.29,0.71,0.47,0.0,0.06,0,0.0,22.75,5.01,18,New England Patriots,,DEF
+New Orleans SaintsDEF,@ATL,2.12,0.59,0.47,0.0,0.06,0,0.06,22.75,4.96,18,New Orleans Saints,,DEF
+Atlanta FalconsDEF,NO,2.24,0.65,0.47,0.0,0.06,0,0.0,22.75,4.84,18,Atlanta Falcons,,DEF
+Las Vegas RaidersDEF,KC,2.24,0.59,0.47,0.0,0.06,0,0.0,22.75,4.72,18,Las Vegas Raiders,,DEF
+Jacksonville JaguarsDEF,TEN,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,18,Jacksonville Jaguars,,DEF
+Carolina PanthersDEF,@TB,2.12,0.59,0.47,0.0,0.06,0,0.0,22.75,4.6,18,Carolina Panthers,,DEF
+Tennessee TitansDEF,@JAX,2.0,0.53,0.41,0.0,0.06,0,0.0,22.75,4.24,18,Tennessee Titans,,DEF

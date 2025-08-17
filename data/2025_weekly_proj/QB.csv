@@ -1,0 +1,901 @@
+Player,Opp,PassYds,PassTD,Int,RushYds,RushTD,Rec,RecYds,RecTD,RetTD,FumTD,TwoPt,Lost,Points,Week,Name,_position,_team
+Josh AllenQB - BUF,BAL,238.18,1.7,0.69,31.93,0.63,0,0,0,0,0.0,0,0.19,21.54,1,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,NYG,232.47,1.62,0.69,47.14,0.37,0,0,0,0,0.0,0,0.19,20.95,1,Jayden Daniels,QB,WAS
+Lamar JacksonQB - BAL,@BUF,217.68,1.8,0.54,47.15,0.23,0,0,0,0,0.06,0,0.24,20.8,1,Lamar Jackson,QB,BAL
+Jalen HurtsQB - PHI,DAL,208.32,1.32,0.57,33.53,0.88,0,0,0,0,0.0,0,0.19,20.73,1,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@CLE,271.12,2.09,0.68,9.65,0.12,0,0,0,0,0.0,0,0.18,19.17,1,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@ATL,252.63,1.96,0.82,15.87,0.17,0,0,0,0,0.06,0,0.25,18.77,1,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@LAC,258.74,1.96,0.74,16.12,0.1,0,0,0,0,0.0,0,0.12,18.68,1,Patrick Mahomes,QB,KC
+Bo NixQB - DEN,TEN,231.77,1.64,0.73,24.36,0.24,0,0,0,0,0.0,0,0.18,17.89,1,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@NO,218.24,1.45,0.66,31.24,0.28,0,0,0,0,0.0,0,0.18,17.65,1,Kyler Murray,QB,ARI
+Drake MayeQB - NEView News,LV,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,1,Drake Maye,QB,NE
+Brock PurdyQB - SFView News,@SEA,241.63,1.67,0.72,14.89,0.18,0,0,0,0,0.0,0,0.12,17.23,1,Brock Purdy,QB,SF
+Trevor LawrenceQB - JAXView News,CAR,242.05,1.58,0.79,15.46,0.18,0,0,0,0,0.06,0,0.24,16.93,1,Trevor Lawrence,QB,JAX
+J.J. McCarthyQB - MIN,@CHI,229.3,1.52,0.73,20.14,0.21,0,0,0,0,0.0,0,0.17,16.73,1,J.J. McCarthy,QB,MIN
+Jordan LoveQB - GBQView News,DET,242.69,1.68,0.75,10.49,0.13,0,0,0,0,0.0,0,0.19,16.38,1,Jordan Love,QB,GBQ
+Caleb WilliamsQB - CHI,MIN,213.66,1.35,0.71,22.49,0.23,0,0,0,0,0.06,0,0.24,16.04,1,Caleb Williams,QB,CHI
+Jared GoffQB - DET,@GB,248.75,1.65,0.65,3.72,0.06,0,0,0,0,0.0,0,0.18,15.62,1,Jared Goff,QB,DET
+Justin HerbertQB - LACView News,KC,212.15,1.42,0.51,14.37,0.17,0,0,0,0,0.0,0,0.11,15.38,1,Justin Herbert,QB,LAC
+C.J. StroudQB - HOU,@LAR,225.36,1.55,0.69,11.2,0.11,0,0,0,0,0.0,0,0.17,15.27,1,C.J. Stroud,QB,HOU
+Dak PrescottQB - DAL,@PHI,225.25,1.56,0.67,7.88,0.11,0,0,0,0,0.0,0,0.17,15.02,1,Dak Prescott,QB,DAL
+Matthew StaffordQB - LARQView News,HOU,236.0,1.57,0.75,2.28,0.06,0,0,0,0,0.0,0,0.13,14.55,1,Matthew Stafford,QB,LARQ
+Bryce YoungQB - CAR,@JAX,195.8,1.19,0.65,18.45,0.25,0,0,0,0,0.05,0,0.22,14.5,1,Bryce Young,QB,CAR
+Justin FieldsQB - NYJView News,PIT,159.18,0.86,0.59,40.78,0.35,0,0,0,0,0.0,0,0.26,14.29,1,Justin Fields,QB,NYJ
+Tua TagovailoaQB - MIA,@IND,229.74,1.5,0.69,4.48,0.05,0,0,0,0,0.0,0,0.17,14.22,1,Tua Tagovailoa,QB,MIA
+Michael Penix Jr.QB - ATL,TB,214.3,1.37,0.71,11.72,0.12,0,0,0,0,0.0,0,0.18,14.16,1,Michael Penix Jr.,QB,ATL
+Sam DarnoldQB - SEA,SF,213.6,1.28,0.81,11.57,0.12,0,0,0,0,0.0,0,0.17,13.58,1,Sam Darnold,QB,SEA
+Sam DarnoldQB - SEA,SF,213.6,1.28,0.81,11.57,0.12,0,0,0,0,0.0,0,0.17,13.58,1,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@WAS,203.62,1.22,0.61,12.05,0.14,0,0,0,0,0.0,0,0.17,13.51,1,Russell Wilson,QB,NYG
+Geno SmithQB - LVView News,@NE,206.34,1.24,0.73,11.28,0.11,0,0,0,0,0.0,0,0.17,13.2,1,Geno Smith,QB,LV
+Cam WardQB - TEN,@DEN,179.42,1.06,0.74,20.8,0.16,0,0,0,0,0.05,0,0.21,12.86,1,Cam Ward,QB,TEN
+Aaron RodgersQB - PIT,@NYJ,203.69,1.21,0.6,7.23,0.08,0,0,0,0,0.0,0,0.11,12.77,1,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,CIN,224.72,1.21,0.99,3.92,0.06,0,0,0,0,0.0,0,0.33,11.94,1,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,MIA,97.71,0.56,0.4,17.25,0.18,0,0,0,0,0.06,0,0.14,8.23,1,Anthony Richardson,QB,IND
+Daniel JonesQB - IND,MIA,100.94,0.5,0.39,14.13,0.13,0,0,0,0,0.0,0,0.14,7.17,1,Daniel Jones,QB,IND
+Tyler ShoughQB - NO,ARI,95.04,0.51,0.43,11.35,0.11,0,0,0,0,0.07,0,0.12,6.96,1,Tyler Shough,QB,NO
+Spencer RattlerQB - NO,ARI,93.81,0.44,0.37,10.39,0.08,0,0,0,0,0.0,0,0.07,6.15,1,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,SF,1.95,0.01,0.01,2.59,0.03,0,0,0,0,0.0,0,0.01,0.52,1,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Sean Clifford,QB,GB
+Brady CookQB - NYJ,PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,1,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,CLE,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,2,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@NYJ,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,2,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@GB,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,2,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@KC,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,2,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,JAX,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,2,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@HOU,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,2,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,PHI,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,2,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@MIA,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,2,Drake Maye,QB,NE
+Bo NixQB - DEN,@IND,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,2,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,CAR,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,2,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@NO,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,2,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,ATL,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,2,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@CIN,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,2,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@DET,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,2,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@LV,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,2,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,NYG,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,2,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,TB,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,2,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,BUF,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,2,Justin Fields,QB,NYJ
+Jared GoffQB - DET,CHI,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,2,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,WAS,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,2,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@ARI,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,2,Bryce Young,QB,CAR
+Cam WardQB - TEN,LAR,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,2,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,NE,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,2,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@TEN,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,2,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@MIN,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,2,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,@MIN,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,2,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,LAC,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,2,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@PIT,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,2,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@DAL,213.17,1.27,0.63,9.9,0.12,0,0,0,0,0.0,0,0.18,13.7,2,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,SEA,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,2,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@BAL,234.9,1.28,1.04,4.16,0.06,0,0,0,0,0.0,0,0.25,12.71,2,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,DEN,94.85,0.56,0.39,25.2,0.3,0,0,0,0,0.06,0,0.12,9.69,2,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,SF,102.72,0.55,0.47,12.27,0.14,0,0,0,0,0.04,0,0.13,7.42,2,Tyler Shough,QB,NO
+Daniel JonesQB - IND,DEN,107.99,0.56,0.44,12.5,0.11,0,0,0,0,0.0,0,0.2,7.19,2,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,SF,101.4,0.52,0.39,11.71,0.14,0,0,0,0,0.0,0,0.13,7.11,2,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@PIT,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,2,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@TEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,WAS,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Sean Clifford,QB,GB
+Brady CookQB - NYJ,BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,2,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,DET,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,3,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,MIA,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,3,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,LV,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,3,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,LAR,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,3,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@MIN,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,3,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,NYJ,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,3,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@NYG,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,3,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,PIT,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,3,Drake Maye,QB,NE
+Bo NixQB - DEN,@LAC,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,3,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@SF,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,3,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,ARI,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,3,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,CIN,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,3,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,HOU,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,3,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,DAL,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,3,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,DEN,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,3,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@CHI,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,3,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@JAX,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,3,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@TB,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,3,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@BAL,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,3,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@CLE,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,3,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,ATL,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,3,Bryce Young,QB,CAR
+Cam WardQB - TEN,IND,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,3,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@BUF,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,3,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@PHI,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,3,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@CAR,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,3,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,@CAR,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,3,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,@WAS,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,3,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,NO,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,3,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,KC,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,3,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,@NE,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,3,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,GB,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,3,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@TEN,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,3,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@SEA,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,3,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@TEN,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,3,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@SEA,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,3,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,NO,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,3,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,IND,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@TEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,3,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,@KC,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,4,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,NO,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,4,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@ATL,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,4,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@TB,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,4,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@DEN,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,4,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,PHI,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,4,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,BAL,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,4,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,CAR,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,4,Drake Maye,QB,NE
+Bo NixQB - DEN,CIN,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,4,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,SEA,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,4,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,JAX,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,4,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@PIT,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,4,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@SF,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,4,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@LV,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,4,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@NYG,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,4,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,GB,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,4,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,TEN,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,4,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@MIA,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,4,Justin Fields,QB,NYJ
+Jared GoffQB - DET,CLE,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,4,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@DAL,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,4,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@NE,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,4,Bryce Young,QB,CAR
+Cam WardQB - TEN,@HOU,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,4,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,NYJ,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,4,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,IND,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,4,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,WAS,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,4,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,WAS,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,4,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,CHI,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,4,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@ARI,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,4,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,LAC,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,4,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,MIN,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,4,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@DET,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,4,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@LAR,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,4,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@BUF,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,4,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@LAR,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,4,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@BUF,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,4,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@ARI,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,4,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@LV,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,IND,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,WAS,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,4,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,HOU,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,5,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,NE,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,5,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@LAC,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,5,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,DEN,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,5,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,DET,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,5,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@SEA,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,5,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@JAX,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,5,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@BUF,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,5,Drake Maye,QB,NE
+Bo NixQB - DEN,@PHI,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,5,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,TEN,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,5,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@LAR,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,5,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@CLE,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,5,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,KC,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,5,Trevor Lawrence,QB,JAX
+Justin HerbertQB - LACView News,WAS,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,5,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@NYJ,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,5,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@BAL,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,5,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,DAL,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,5,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@CIN,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,5,Jared Goff,QB,DET
+Bryce YoungQB - CAR,MIA,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,5,Bryce Young,QB,CAR
+Cam WardQB - TEN,@ARI,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,5,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@CAR,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,5,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,SF,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,5,Matthew Stafford,QB,LARQ
+Geno SmithQB - LVView News,@IND,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,5,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,TB,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,5,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@NO,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,5,Russell Wilson,QB,NYG
+Russell WilsonQB - NYGView News,@NO,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,5,Russell Wilson,QB,NYG
+Joe FlaccoQB - CLEView News,MIN,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,5,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,LV,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,5,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,NYG,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,5,Tyler Shough,QB,NO
+Daniel JonesQB - IND,LV,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,5,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,NYG,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,5,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,TB,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,5,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Kyle Allen,QB,DET
+Jason BeanQB - IND,LV,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,TEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Shane Buechele,QB,BUF
+Brady CookQB - NYJ,DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Brady Cook,QB,NYJ
+Andy DaltonQB - CARQ,MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Tommy DeVito,QB,NYG
+Joshua DobbsQB - NE,@BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Joshua Dobbs,QB,NE
+Sam EhlingerQB - DEN,@PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Sam Ehlinger,QB,DEN
+Quinn EwersQB - MIAView News,@CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Quinn Ewers,QB,MIA
+Dillon GabrielQB - CLEView News,MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,5,Dillon Gabriel,QB,CLE
+Lamar JacksonQB - BAL,LAR,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,6,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@ATL,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,6,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,CHI,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,6,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@NYG,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,6,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@GB,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,6,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,SF,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,6,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,DET,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,6,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@NO,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,6,Drake Maye,QB,NE
+Bo NixQB - DEN,@NYJ,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,6,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@IND,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,6,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@TB,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,6,Brock Purdy,QB,SF
+Trevor LawrenceQB - JAXView News,SEA,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,6,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@WAS,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,6,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@MIA,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,6,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@CAR,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,6,Dak Prescott,QB,DAL
+Justin FieldsQB - NYJView News,DEN,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,6,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@KC,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,6,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,CIN,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,6,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,DAL,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,6,Bryce Young,QB,CAR
+Cam WardQB - TEN,@LV,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,6,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,LAC,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,6,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@BAL,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,6,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,BUF,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,6,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,TEN,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,6,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@JAX,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,6,Sam Darnold,QB,SEA
+Sam DarnoldQB - SEA,@JAX,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,6,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,PHI,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,6,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,CLE,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,6,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@PIT,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,6,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,ARI,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,6,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,NE,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,6,Tyler Shough,QB,NO
+Daniel JonesQB - IND,ARI,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,6,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,NE,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,6,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@JAX,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,6,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@LV,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@KC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@WAS,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@IND,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Jacoby Brissett,QB,ARI
+Jake BrowningQB - CIN,@GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Sean Clifford,QB,GB
+Brady CookQB - NYJ,DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,6,Tommy DeVito,QB,NYG
+Jayden DanielsQB - WAS,@DAL,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,7,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@MIN,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,7,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,PIT,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,7,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@DET,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,7,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,LV,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,7,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@TEN,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,7,Drake Maye,QB,NE
+Bo NixQB - DEN,NYG,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,7,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,GB,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,7,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,ATL,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,7,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,PHI,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,7,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,LAR,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,7,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,NO,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,7,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,IND,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,7,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,WAS,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,7,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@SEA,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,7,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,CAR,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,7,Justin Fields,QB,NYJ
+Jared GoffQB - DET,TB,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,7,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@ARI,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,7,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@NYJ,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,7,Bryce Young,QB,CAR
+Cam WardQB - TEN,NE,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,7,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@CLE,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,7,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@JAX,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,7,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@SF,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,7,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,@KC,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,7,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,HOU,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,7,Sam Darnold,QB,SEA
+Sam DarnoldQB - SEA,HOU,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,7,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@DEN,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,7,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,@CIN,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,7,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,MIA,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,7,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@LAC,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,7,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@CHI,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,7,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@LAC,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,7,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@CHI,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,7,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,HOU,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,7,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@LAC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Jake Browning,QB,CIN
+Sean CliffordQB - GB,@ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Sean Clifford,QB,GB
+Brady CookQB - NYJ,CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,@NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,@DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,@DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,7,Tommy DeVito,QB,NYG
+Lamar JacksonQB - BAL,CHI,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,8,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@CAR,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,8,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@KC,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,8,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,NYG,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,8,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,NYJ,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,8,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@NO,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,8,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,WAS,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,8,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,CLE,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,8,Drake Maye,QB,NE
+Bo NixQB - DEN,DAL,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,8,Bo Nix,QB,DEN
+Brock PurdyQB - SFView News,@HOU,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,8,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@LAC,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,8,J.J. McCarthy,QB,MIN
+Caleb WilliamsQB - CHI,@BAL,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,8,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,MIN,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,8,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@DEN,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,8,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,SF,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,8,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@CIN,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,8,Justin Fields,QB,NYJ
+Jordan LoveQB - GBQView News,@PIT,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,8,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,BUF,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,8,Bryce Young,QB,CAR
+Cam WardQB - TEN,@IND,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,8,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@ATL,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,8,Tua Tagovailoa,QB,MIA
+Michael Penix Jr.QB - ATL,MIA,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,8,Michael Penix Jr.,QB,ATL
+Russell WilsonQB - NYGView News,@PHI,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,8,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,GB,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,8,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@NE,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,8,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,TEN,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,8,Anthony Richardson,QB,IND
+Anthony RichardsonQB - IND,TEN,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,8,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,TB,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,8,Tyler Shough,QB,NO
+Daniel JonesQB - IND,TEN,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,8,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,TB,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,8,Spencer Rattler,QB,NO
+Brandon AllenQB - TEN,@IND,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Brandon Allen,QB,TEN
+Tyson BagentQB - CHI,@BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,TEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Jason Bean,QB,IND
+Carter BradleyQB - SF,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Teddy Bridgewater,QB,TB
+Max BrosmerQB - MINView News,@LAC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,@PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,@PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Tommy DeVito,QB,NYG
+Joshua DobbsQB - NE,CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Joshua Dobbs,QB,NE
+Sam EhlingerQB - DEN,DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Sam Ehlinger,QB,DEN
+Quinn EwersQB - MIAView News,@ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Quinn Ewers,QB,MIA
+Dillon GabrielQB - CLEView News,@NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Dillon Gabriel,QB,CLE
+Will GrierQB - DAL,@DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Will Grier,QB,DAL
+Jake HaenerQB - NO,TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Jake Haener,QB,NO
+Sam HartmanQB - WAS,@KC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,8,Sam Hartman,QB,WAS
+Lamar JacksonQB - BAL,@MIA,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,9,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,KC,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,9,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,SEA,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,9,Jayden Daniels,QB,WAS
+Joe BurrowQB - CIN,CHI,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,9,Joe Burrow,QB,CIN
+Patrick MahomesQB - KC,@BUF,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,9,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,ATL,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,9,Drake Maye,QB,NE
+Bo NixQB - DEN,@HOU,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,9,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@DAL,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,9,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@NYG,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,9,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@DET,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,9,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@LV,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,9,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@CIN,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,9,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@TEN,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,9,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,ARI,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,9,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,DEN,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,9,C.J. Stroud,QB,HOU
+Jared GoffQB - DET,MIN,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,9,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,CAR,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,9,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@GB,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,9,Bryce Young,QB,CAR
+Cam WardQB - TEN,LAC,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,9,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,BAL,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,9,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,NO,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,9,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@NE,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,9,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,JAX,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,9,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@WAS,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,9,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,SF,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,9,Russell Wilson,QB,NYG
+Russell WilsonQB - NYGView News,SF,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,9,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,IND,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,9,Aaron Rodgers,QB,PIT
+Anthony RichardsonQB - IND,@PIT,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,9,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@LAR,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,9,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@PIT,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,9,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@LAR,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,9,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@WAS,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,9,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,LAC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@NYG,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Carter Bradley,QB,SF
+Jacoby BrissettQB - ARIView News,@DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,KC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Sean Clifford,QB,GB
+Kirk CousinsQB - ATL,@NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,@GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Tommy DeVito,QB,NYG
+Joshua DobbsQB - NE,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Joshua Dobbs,QB,NE
+Sam EhlingerQB - DEN,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Sam Ehlinger,QB,DEN
+Quinn EwersQB - MIAView News,BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,9,Quinn Ewers,QB,MIA
+Lamar JacksonQB - BAL,@MIN,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,10,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@MIA,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,10,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,DET,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,10,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@GB,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,10,Jalen Hurts,QB,PHI
+Baker MayfieldQB - TB,NE,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,10,Baker Mayfield,QB,TB
+Drake MayeQB - NEView News,@TB,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,10,Drake Maye,QB,NE
+Bo NixQB - DEN,LV,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,10,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@SEA,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,10,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,LAR,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,10,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,BAL,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,10,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@HOU,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,10,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,NYG,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,10,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,PIT,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,10,Justin Herbert,QB,LAC
+C.J. StroudQB - HOU,JAX,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,10,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,CLE,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,10,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@WAS,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,10,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,PHI,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,10,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,NO,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,10,Bryce Young,QB,CAR
+Tua TagovailoaQB - MIA,BUF,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,10,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@SF,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,10,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@IND,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,10,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,@DEN,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,10,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,ARI,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,10,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@CHI,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,10,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,@LAC,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,10,Aaron Rodgers,QB,PIT
+Aaron RodgersQB - PIT,@LAC,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,10,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@NYJ,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,10,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,ATL,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,10,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@CAR,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,10,Tyler Shough,QB,NO
+Daniel JonesQB - IND,ATL,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,10,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@CAR,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,10,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,ARI,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,10,Jalen Milroe,QB,SEA
+Kyle AllenQB - DETView News,@WAS,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,NYG,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Max Brosmer,QB,MIN
+Shane BuecheleQB - BUF,@MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Sean Clifford,QB,GB
+Brady CookQB - NYJ,CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@IND,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,@CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,@CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Tommy DeVito,QB,NYG
+Joshua DobbsQB - NE,@TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Joshua Dobbs,QB,NE
+Sam EhlingerQB - DEN,LV,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Sam Ehlinger,QB,DEN
+Quinn EwersQB - MIAView News,BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,10,Quinn Ewers,QB,MIA
+Lamar JacksonQB - BAL,@CLE,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,11,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,TB,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,11,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@MIA,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,11,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,DET,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,11,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@PIT,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,11,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@BUF,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,11,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@DEN,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,11,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,NYJ,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,11,Drake Maye,QB,NE
+Bo NixQB - DEN,KC,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,11,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,SF,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,11,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@ARI,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,11,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,CHI,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,11,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,LAC,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,11,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@MIN,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,11,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@JAX,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,11,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@LV,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,11,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@TEN,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,11,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@NE,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,11,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@PHI,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,11,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@NYG,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,11,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@ATL,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,11,Bryce Young,QB,CAR
+Cam WardQB - TEN,HOU,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,11,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,WAS,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,11,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,SEA,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,11,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,CAR,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,11,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,CAR,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,11,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,DAL,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,11,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@LAR,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,11,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,GB,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,11,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,CIN,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,11,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,BAL,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,11,Joe Flacco,QB,CLE
+Jalen MilroeQB - SEA,@LAR,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,11,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Tyson Bagent,QB,CHI
+Stetson BennettQB - LARView News,SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@NYG,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,@ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Tommy DeVito,QB,NYG
+Joshua DobbsQB - NE,NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Joshua Dobbs,QB,NE
+Sam EhlingerQB - DEN,KC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,11,Sam Ehlinger,QB,DEN
+Lamar JacksonQB - BAL,NYJ,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,12,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@HOU,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,12,Josh Allen,QB,BUF
+Jalen HurtsQB - PHI,@DAL,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,12,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,NE,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,12,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@LAR,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,12,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,IND,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,12,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@CIN,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,12,Drake Maye,QB,NE
+Kyler MurrayQB - ARI,JAX,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,12,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,CAR,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,12,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@GB,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,12,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@ARI,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,12,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,PIT,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,12,Caleb Williams,QB,CHI
+Dak PrescottQB - DAL,PHI,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,12,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,BUF,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,12,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@BAL,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,12,Justin Fields,QB,NYJ
+Jared GoffQB - DET,NYG,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,12,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,MIN,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,12,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@SF,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,12,Bryce Young,QB,CAR
+Cam WardQB - TEN,SEA,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,12,Cam Ward,QB,TEN
+Matthew StaffordQB - LARQView News,TB,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,12,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@NO,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,12,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,CLE,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,12,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@TEN,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,12,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@DET,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,12,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,@CHI,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,12,Aaron Rodgers,QB,PIT
+Aaron RodgersQB - PIT,@CHI,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,12,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@LV,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,12,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@KC,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,12,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,ATL,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,12,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@KC,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,12,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,ATL,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,12,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@TEN,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,12,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,NYG,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@KC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Kirk Cousins,QB,ATL
+Andy DaltonQB - CARQ,@SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Andy Dalton,QB,CARQ
+Jaxson DartQB - NYGView News,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Jaxson Dart,QB,NYG
+Tommy DeVitoQB - NYG,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Tommy DeVito,QB,NYG
+Joshua DobbsQB - NE,@CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,12,Joshua Dobbs,QB,NE
+Lamar JacksonQB - BAL,CIN,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,13,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@PIT,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,13,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,DEN,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,13,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,CHI,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,13,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@BAL,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,13,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,ARI,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,13,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@DAL,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,13,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,NYG,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,13,Drake Maye,QB,NE
+Bo NixQB - DEN,@WAS,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,13,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@TB,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,13,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@CLE,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,13,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@SEA,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,13,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@TEN,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,13,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@PHI,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,13,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,LV,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,13,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,KC,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,13,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@IND,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,13,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,ATL,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,13,Justin Fields,QB,NYJ
+Jared GoffQB - DET,GB,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,13,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@DET,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,13,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,LAR,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,13,Bryce Young,QB,CAR
+Cam WardQB - TEN,JAX,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,13,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,NO,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,13,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@CAR,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,13,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@NYJ,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,13,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,@NYJ,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,13,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,@LAC,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,13,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,MIN,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,13,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@NE,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,13,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,BUF,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,13,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,SF,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,13,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,HOU,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,13,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@MIA,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,13,Tyler Shough,QB,NO
+Daniel JonesQB - IND,HOU,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,13,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@MIA,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,13,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,MIN,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,13,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Sean Clifford,QB,GB
+Brady CookQB - NYJ,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,13,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,PIT,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,14,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,CIN,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,14,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@MIN,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,14,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@LAC,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,14,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@BUF,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,14,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,NO,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,14,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,HOU,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,14,Patrick Mahomes,QB,KC
+Bo NixQB - DEN,@LV,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,14,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,LAR,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,14,Kyler Murray,QB,ARI
+J.J. McCarthyQB - MIN,WAS,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,14,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,IND,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,14,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@GB,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,14,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,PHI,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,14,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@DET,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,14,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@KC,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,14,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,MIA,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,14,Justin Fields,QB,NYJ
+Jared GoffQB - DET,DAL,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,14,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,CHI,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,14,Jordan Love,QB,GBQ
+Cam WardQB - TEN,@CLE,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,14,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@NYJ,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,14,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@ARI,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,14,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,SEA,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,14,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,DEN,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,14,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@ATL,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,14,Sam Darnold,QB,SEA
+Aaron RodgersQB - PIT,@BAL,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,14,Aaron Rodgers,QB,PIT
+Aaron RodgersQB - PIT,@BAL,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,14,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,TEN,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,14,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@JAX,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,14,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@TB,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,14,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@JAX,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,14,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@TB,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,14,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@ATL,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,14,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Stetson Bennett,QB,LAR
+Teddy BridgewaterQB - TBView News,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,WAS,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Sean Clifford,QB,GB
+Brady CookQB - NYJ,MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Kirk Cousins,QB,ATL
+Sam EhlingerQB - DEN,@LV,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Sam Ehlinger,QB,DEN
+Quinn EwersQB - MIAView News,@NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Quinn Ewers,QB,MIA
+Dillon GabrielQB - CLEView News,TEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Dillon Gabriel,QB,CLE
+Jimmy GaroppoloQB - LAR,@ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Jimmy Garoppolo,QB,LAR
+Will GrierQB - DAL,@DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,14,Will Grier,QB,DAL
+Lamar JacksonQB - BAL,@CIN,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,15,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@NE,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,15,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@NYG,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,15,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,LV,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,15,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,BAL,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,15,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,ATL,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,15,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,LAC,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,15,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,BUF,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,15,Drake Maye,QB,NE
+Bo NixQB - DEN,GB,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,15,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@HOU,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,15,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,TEN,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,15,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@DAL,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,15,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,NYJ,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,15,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,CLE,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,15,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@KC,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,15,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,MIN,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,15,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,ARI,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,15,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@JAX,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,15,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@LAR,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,15,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@DEN,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,15,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@NO,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,15,Bryce Young,QB,CAR
+Cam WardQB - TEN,@SF,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,15,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@PIT,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,15,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,DET,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,15,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@TB,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,15,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,@TB,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,15,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,@PHI,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,15,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,IND,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,15,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,WAS,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,15,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,MIA,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,15,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@CHI,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,15,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@SEA,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,15,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,CAR,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,15,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@SEA,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,15,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,CAR,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,15,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,IND,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,15,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,TEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@DAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@DEN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@TB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,15,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,NE,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,16,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,@CLE,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,16,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,PHI,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,16,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@WAS,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,16,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,@MIA,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,16,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@CAR,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,16,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@TEN,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,16,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@BAL,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,16,Drake Maye,QB,NE
+Bo NixQB - DEN,JAX,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,16,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,ATL,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,16,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,@IND,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,16,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,@NYG,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,16,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@DEN,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,16,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,GB,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,16,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@DAL,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,16,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,LAC,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,16,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,LV,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,16,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@NO,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,16,Justin Fields,QB,NYJ
+Jared GoffQB - DET,PIT,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,16,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@CHI,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,16,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,TB,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,16,Bryce Young,QB,CAR
+Cam WardQB - TEN,KC,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,16,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,CIN,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,16,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@SEA,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,16,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,@ARI,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,16,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,@ARI,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,16,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,@HOU,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,16,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,LAR,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,16,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,MIN,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,16,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,@DET,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,16,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,BUF,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,16,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,SF,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,16,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,NYJ,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,16,Tyler Shough,QB,NO
+Daniel JonesQB - IND,SF,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,16,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,NYJ,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,16,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,LAR,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,16,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,KC,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,PIT,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,@IND,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,@NYG,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,@MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,@CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,@ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,16,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,@GB,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,17,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,PHI,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,17,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,DAL,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,17,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,@BUF,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,17,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,ARI,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,17,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,@MIA,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,17,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,DEN,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,17,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,@NYJ,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,17,Drake Maye,QB,NE
+Bo NixQB - DEN,@KC,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,17,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@CIN,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,17,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,CHI,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,17,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,DET,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,17,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,@IND,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,17,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,@SF,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,17,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,HOU,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,17,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@WAS,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,17,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,@LAC,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,17,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,NE,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,17,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@MIN,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,17,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,BAL,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,17,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,SEA,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,17,Bryce Young,QB,CAR
+Cam WardQB - TEN,NO,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,17,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,TB,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,17,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,@ATL,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,17,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,LAR,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,17,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,LAR,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,17,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,NYG,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,17,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@CAR,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,17,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,@LV,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,17,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,@CLE,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,17,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,PIT,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,17,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,JAX,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,17,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@TEN,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,17,Tyler Shough,QB,NO
+Daniel JonesQB - IND,JAX,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,17,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@TEN,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,17,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@CAR,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,17,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,@SF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,@ATL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,@MIA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@CIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,PHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,BAL,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Sean Clifford,QB,GB
+Brady CookQB - NYJ,NE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,17,Kirk Cousins,QB,ATL
+Lamar JacksonQB - BAL,@PIT,213.22,1.77,0.53,44.78,0.24,0,0,0,0,0.06,0,0.24,20.35,18,Lamar Jackson,QB,BAL
+Josh AllenQB - BUF,NYJ,222.53,1.59,0.65,29.83,0.59,0,0,0,0,0.0,0,0.18,20.12,18,Josh Allen,QB,BUF
+Jayden DanielsQB - WAS,@PHI,219.0,1.53,0.65,44.41,0.35,0,0,0,0,0.0,0,0.18,19.76,18,Jayden Daniels,QB,WAS
+Jalen HurtsQB - PHI,WAS,194.63,1.23,0.53,31.33,0.82,0,0,0,0,0.0,0,0.18,19.34,18,Jalen Hurts,QB,PHI
+Joe BurrowQB - CIN,CLE,259.71,2.0,0.65,9.24,0.12,0,0,0,0,0.0,0,0.18,18.37,18,Joe Burrow,QB,CIN
+Baker MayfieldQB - TB,CAR,243.02,1.88,0.79,15.27,0.16,0,0,0,0,0.06,0,0.24,18.03,18,Baker Mayfield,QB,TB
+Patrick MahomesQB - KC,@LV,248.76,1.82,0.71,15.94,0.12,0,0,0,0,0.0,0,0.12,17.88,18,Patrick Mahomes,QB,KC
+Drake MayeQB - NEView News,MIA,210.54,1.4,0.73,32.55,0.28,0,0,0,0,0.06,0,0.23,17.4,18,Drake Maye,QB,NE
+Bo NixQB - DEN,LAC,223.9,1.59,0.71,23.53,0.23,0,0,0,0,0.0,0,0.18,17.27,18,Bo Nix,QB,DEN
+Kyler MurrayQB - ARI,@LAR,212.63,1.41,0.65,30.43,0.28,0,0,0,0,0.0,0,0.17,17.23,18,Kyler Murray,QB,ARI
+Brock PurdyQB - SFView News,SEA,238.48,1.65,0.71,14.7,0.18,0,0,0,0,0.0,0,0.12,17.03,18,Brock Purdy,QB,SF
+J.J. McCarthyQB - MIN,GB,230.31,1.53,0.74,20.23,0.21,0,0,0,0,0.0,0,0.17,16.8,18,J.J. McCarthy,QB,MIN
+Trevor LawrenceQB - JAXView News,TEN,236.85,1.54,0.77,15.13,0.18,0,0,0,0,0.06,0,0.24,16.57,18,Trevor Lawrence,QB,JAX
+Caleb WilliamsQB - CHI,DET,216.98,1.39,0.69,22.49,0.23,0,0,0,0,0.06,0,0.23,16.39,18,Caleb Williams,QB,CHI
+Justin HerbertQB - LACView News,@DEN,219.88,1.47,0.53,14.89,0.18,0,0,0,0,0.0,0,0.12,15.94,18,Justin Herbert,QB,LAC
+Dak PrescottQB - DAL,@NYG,237.8,1.65,0.71,8.32,0.12,0,0,0,0,0.0,0,0.18,15.88,18,Dak Prescott,QB,DAL
+C.J. StroudQB - HOU,IND,231.46,1.59,0.71,11.5,0.12,0,0,0,0,0.0,0,0.18,15.71,18,C.J. Stroud,QB,HOU
+Justin FieldsQB - NYJView News,@BUF,174.52,0.94,0.65,44.71,0.38,0,0,0,0,0.0,0,0.29,15.61,18,Justin Fields,QB,NYJ
+Jared GoffQB - DET,@CHI,244.46,1.62,0.64,3.66,0.06,0,0,0,0,0.0,0,0.17,15.36,18,Jared Goff,QB,DET
+Jordan LoveQB - GBQView News,@MIN,230.09,1.53,0.71,9.96,0.12,0,0,0,0,0.0,0,0.18,15.26,18,Jordan Love,QB,GBQ
+Bryce YoungQB - CAR,@TB,198.41,1.21,0.66,18.7,0.25,0,0,0,0,0.06,0,0.22,14.75,18,Bryce Young,QB,CAR
+Cam WardQB - TEN,@JAX,198.63,1.18,0.82,23.03,0.18,0,0,0,0,0.06,0,0.24,14.29,18,Cam Ward,QB,TEN
+Tua TagovailoaQB - MIA,@NE,230.76,1.51,0.7,4.5,0.05,0,0,0,0,0.0,0,0.17,14.28,18,Tua Tagovailoa,QB,MIA
+Matthew StaffordQB - LARQView News,ARI,229.94,1.53,0.73,2.22,0.06,0,0,0,0,0.0,0,0.12,14.2,18,Matthew Stafford,QB,LARQ
+Michael Penix Jr.QB - ATL,NO,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,18,Michael Penix Jr.,QB,ATL
+Michael Penix Jr.QB - ATL,NO,212.43,1.35,0.71,11.62,0.12,0,0,0,0,0.0,0,0.18,14.0,18,Michael Penix Jr.,QB,ATL
+Geno SmithQB - LVView News,KC,215.83,1.29,0.76,11.8,0.12,0,0,0,0,0.0,0,0.18,13.81,18,Geno Smith,QB,LV
+Sam DarnoldQB - SEA,@SF,216.46,1.3,0.82,11.73,0.12,0,0,0,0,0.0,0,0.18,13.75,18,Sam Darnold,QB,SEA
+Russell WilsonQB - NYGView News,DAL,212.22,1.16,0.58,10.64,0.11,0,0,0,0,0.0,0,0.16,13.37,18,Russell Wilson,QB,NYG
+Aaron RodgersQB - PIT,BAL,211.11,1.25,0.63,7.5,0.09,0,0,0,0,0.0,0,0.12,13.23,18,Aaron Rodgers,QB,PIT
+Joe FlaccoQB - CLEView News,@CIN,232.45,1.28,0.86,4.16,0.06,0,0,0,0,0.0,0,0.31,12.85,18,Joe Flacco,QB,CLE
+Anthony RichardsonQB - IND,@HOU,95.23,0.56,0.39,25.2,0.23,0,0,0,0,0.06,0,0.11,9.31,18,Anthony Richardson,QB,IND
+Tyler ShoughQB - NO,@ATL,102.71,0.55,0.46,12.27,0.14,0,0,0,0,0.04,0,0.13,7.44,18,Tyler Shough,QB,NO
+Daniel JonesQB - IND,@HOU,107.98,0.57,0.44,12.5,0.11,0,0,0,0,0.0,0,0.18,7.27,18,Daniel Jones,QB,IND
+Spencer RattlerQB - NO,@ATL,101.39,0.51,0.38,11.72,0.14,0,0,0,0,0.0,0,0.13,7.09,18,Spencer Rattler,QB,NO
+Jalen MilroeQB - SEA,@SF,1.97,0.01,0.01,2.63,0.03,0,0,0,0,0.0,0,0.01,0.52,18,Jalen Milroe,QB,SEA
+Brandon AllenQB - TEN,@JAX,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Brandon Allen,QB,TEN
+Kyle AllenQB - DETView News,@CHI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Kyle Allen,QB,DET
+Tyson BagentQB - CHI,DET,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Tyson Bagent,QB,CHI
+Jason BeanQB - IND,@HOU,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Jason Bean,QB,IND
+Stetson BennettQB - LARView News,ARI,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Stetson Bennett,QB,LAR
+Carter BradleyQB - SF,SEA,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Carter Bradley,QB,SF
+Teddy BridgewaterQB - TBView News,CAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Teddy Bridgewater,QB,TB
+Jacoby BrissettQB - ARIView News,@LAR,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Jacoby Brissett,QB,ARI
+Max BrosmerQB - MINView News,GB,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Max Brosmer,QB,MIN
+Jake BrowningQB - CIN,CLE,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Jake Browning,QB,CIN
+Shane BuecheleQB - BUF,NYJ,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Shane Buechele,QB,BUF
+Sean CliffordQB - GB,@MIN,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Sean Clifford,QB,GB
+Brady CookQB - NYJ,@BUF,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Brady Cook,QB,NYJ
+Kirk CousinsQB - ATL,NO,0.0,0.0,0.0,0.0,0.0,0,0,0,0,0.0,0,0.0,0.0,18,Kirk Cousins,QB,ATL
