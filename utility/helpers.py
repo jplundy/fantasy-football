@@ -111,19 +111,6 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
         else: cols = df.columns
         df = df[cols]
 
-
-
-    if pos:
-        pos = pos.upper()
-        if pos == 'QB': 
-            df['ModelPoints'] = df.apply(scoring.calculate_qb_points, axis=1)
-        elif pos == 'RB' or 'WR': 
-            df['ModelPoints'] = df.apply(scoring.calculate_rb_wr_points, axis=1)
-        elif pos == 'TE':
-            df['ModelPoints'] = df.apply(scoring.calculate_te_points, axis=1)
-        else:
-            df['ModelPoints'] = 0.0
-
     return df
 
 def get_board():

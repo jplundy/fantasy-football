@@ -15,28 +15,28 @@ from layout import create_layout
 import warnings
 warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
 
-pos = 'QB'
-qb_data_w_scoring = helpers.get_position_data(pos)
-qb_data_w_scoring = helpers.clean_offense_data(qb_data_w_scoring, pos=pos)
 
-pos = 'RB'
-rb_data_w_scoring = helpers.get_position_data(pos)
-rb_data_w_scoring = helpers.clean_offense_data(rb_data_w_scoring, pos=pos)
+def load_position_data(pos: str) -> pd.DataFrame:
+    data = helpers.get_position_data(pos)
+    data = helpers.clean_offense_data(data, pos=pos)
+    scoring_map = {
+        'QB': scoring.calculate_qb_points,
+        'RB': scoring.calculate_rb_wr_points,
+        'WR': scoring.calculate_rb_wr_points,
+        'TE': scoring.calculate_te_points,
+    }
+    score_func = scoring_map.get(pos)
+    if score_func:
+        data['ModelPoints'] = data.apply(score_func, axis=1)
+    else:
+        data['ModelPoints'] = 0.0
+    return data
 
-pos = 'WR'
-wr_data_w_scoring = helpers.get_position_data(pos)
-wr_data_w_scoring = helpers.clean_offense_data(wr_data_w_scoring, pos=pos)
 
-pos = 'TE'
-te_data_w_scoring = helpers.get_position_data(pos)
-te_data_w_scoring = helpers.clean_offense_data(te_data_w_scoring, pos=pos)
+positions = ['QB', 'RB', 'WR', 'TE']
+position_data = {pos: load_position_data(pos) for pos in positions}
 
-qb_data_w_scoring['ModelPoints'] = qb_data_w_scoring.apply(scoring.calculate_qb_points, axis=1)
-rb_data_w_scoring['ModelPoints'] = rb_data_w_scoring.apply(scoring.calculate_rb_wr_points, axis=1)
-wr_data_w_scoring['ModelPoints'] = wr_data_w_scoring.apply(scoring.calculate_rb_wr_points, axis=1)
-te_data_w_scoring['ModelPoints'] = te_data_w_scoring.apply(scoring.calculate_te_points, axis=1)
-
-merge_all = pd.concat([qb_data_w_scoring, rb_data_w_scoring, wr_data_w_scoring, te_data_w_scoring], ignore_index=True)
+merge_all = pd.concat(position_data.values(), ignore_index=True)
 merge_all.to_csv('data/all_data.csv', index=False)
 grouped_data = merge_all.groupby('Name').agg({'ModelPoints': ['sum', 'count']})
 grouped_data.to_csv('data/grouped_data.csv', index=True)
