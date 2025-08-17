@@ -4,6 +4,7 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 from utility import scoring
+from modeling.predict import predict_position
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DB_FILE = str(BASE_DIR / 'data' / 'draft_history.db')
@@ -150,7 +151,24 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
         elif pos == 'TE': cols = main_cols + ['Rec', 'RecYds', 'RecTD', 'Fum']
         else: cols = df.columns
         df = df[cols]
-        
+
+    if pos:
+        pos = pos.upper()
+        if pos == 'QB':
+            df['ModelPoints'] = df.apply(scoring.calculate_qb_points, axis=1)
+        elif pos == 'RB' or 'WR':
+            df['ModelPoints'] = df.apply(scoring.calculate_rb_wr_points, axis=1)
+        elif pos == 'TE':
+            df['ModelPoints'] = df.apply(scoring.calculate_te_points, axis=1)
+        else:
+            df['ModelPoints'] = 0.0
+
+    if pos:
+        try:
+            df['Projection'] = predict_position(df, pos)
+        except Exception:
+            df['Projection'] = 0.0
+
     return df
 
 def get_board():
