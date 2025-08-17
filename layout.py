@@ -17,6 +17,47 @@ def create_filters(positions):
         ], width=3)
     ], className="mb-4")
 
+def create_scoring_controls():
+    return dbc.Row([
+        dbc.Col([
+            html.H4("Scoring Settings"),
+            dbc.Label("Pass Yds per Point"),
+            dcc.Input(id='pass-yds-pt', type='number', value=25, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Pass TD Points"),
+            dcc.Input(id='pass-td-pts', type='number', value=6, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("INT Penalty"),
+            dcc.Input(id='int-pen', type='number', value=-3, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Rush Yds per Point"),
+            dcc.Input(id='rush-yds-pt', type='number', value=10, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Rush TD Points"),
+            dcc.Input(id='rush-td-pts', type='number', value=6, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Fumble Penalty"),
+            dcc.Input(id='fum-pen', type='number', value=-3, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Rec Yds per Point"),
+            dcc.Input(id='rec-yds-pt', type='number', value=10, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Receptions per Point"),
+            dcc.Input(id='rec-per', type='number', value=5, className="form-control"),
+        ], width=2),
+        dbc.Col([
+            dbc.Label("Rec TD Points"),
+            dcc.Input(id='rec-td-pts', type='number', value=6, className="form-control"),
+        ], width=2),
+    ], className="mb-4")
+
 def create_draft_input(players, teams):
     return dbc.Row([
         dbc.Col([
@@ -91,6 +132,7 @@ def create_graphs():
 def create_layout(players, positions, teams):
     return dbc.Container([
         html.H1("Fantasy Football Draft Dashboard", className="my-4"),
+        create_scoring_controls(),
         create_filters(positions),
         create_draft_input(players, teams),
         dbc.Row([
