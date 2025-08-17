@@ -153,7 +153,6 @@ app.layout = create_layout(
     all_players_sorted.to_dict('records'),
 )
 
-
 @app.callback(
     Output('player-data', 'data'),
     [
@@ -242,7 +241,6 @@ def update_draft(draft_clicks, undo_clicks, draft_name, draft_team, draft_price,
 @app.callback(Output('player-table', 'rowData'), Input('player-data', 'data'))
 def update_table(data):
     return data or []
-
 
 @app.callback(
     [Output('value-distribution-graph', 'figure'),
