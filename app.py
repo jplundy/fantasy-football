@@ -1,42 +1,35 @@
 import dash
-from dash import dcc, html, Output, Input, callback, State, dash_table
+from dash import dcc, html, Output, Input, State
 from plotly import express as px
-import dash_bootstrap_components as dbc  # Optional for better styling
+import dash_bootstrap_components as dbc
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import random
-from scipy import stats
-from utility import helpers
-from utility import scoring
+from utility import helpers, scoring
 import plotly.graph_objs as go
 from layout import create_layout
 import warnings
 warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
 
-pos = 'QB'
-qb_data_w_scoring = helpers.get_position_data(pos)
-qb_data_w_scoring = helpers.clean_offense_data(qb_data_w_scoring, pos=pos)
+def load_position_data(pos: str) -> pd.DataFrame:
+    data = helpers.get_position_data(pos)
+    data = helpers.clean_offense_data(data, pos=pos)
+    scoring_map = {
+        'QB': scoring.calculate_qb_points,
+        'RB': scoring.calculate_rb_wr_points,
+        'WR': scoring.calculate_rb_wr_points,
+        'TE': scoring.calculate_te_points,
+    }
+    score_func = scoring_map.get(pos)
+    if score_func:
+        data['ModelPoints'] = data.apply(score_func, axis=1)
+    else:
+        data['ModelPoints'] = 0.0
+    return data
 
-pos = 'RB'
-rb_data_w_scoring = helpers.get_position_data(pos)
-rb_data_w_scoring = helpers.clean_offense_data(rb_data_w_scoring, pos=pos)
 
-pos = 'WR'
-wr_data_w_scoring = helpers.get_position_data(pos)
-wr_data_w_scoring = helpers.clean_offense_data(wr_data_w_scoring, pos=pos)
+positions = ['QB', 'RB', 'WR', 'TE']
+position_data = {pos: load_position_data(pos) for pos in positions}
 
-pos = 'TE'
-te_data_w_scoring = helpers.get_position_data(pos)
-te_data_w_scoring = helpers.clean_offense_data(te_data_w_scoring, pos=pos)
-
-qb_data_w_scoring['ModelPoints'] = qb_data_w_scoring.apply(scoring.calculate_qb_points, axis=1)
-rb_data_w_scoring['ModelPoints'] = rb_data_w_scoring.apply(scoring.calculate_rb_wr_points, axis=1)
-wr_data_w_scoring['ModelPoints'] = wr_data_w_scoring.apply(scoring.calculate_rb_wr_points, axis=1)
-te_data_w_scoring['ModelPoints'] = te_data_w_scoring.apply(scoring.calculate_te_points, axis=1)
-
-merge_all = pd.concat([qb_data_w_scoring, rb_data_w_scoring, wr_data_w_scoring, te_data_w_scoring], ignore_index=True)
+merge_all = pd.concat(position_data.values(), ignore_index=True)
 merge_all.to_csv('data/all_data.csv', index=False)
 grouped_data = merge_all.groupby('Name').agg({'ModelPoints': ['sum', 'count']})
 grouped_data.to_csv('data/grouped_data.csv', index=True)
@@ -85,83 +78,77 @@ season_totals = df.groupby(['Name', 'Position', 'Team']).agg({
 
 # Step 2: Split the dataframe by position
 positions = ['QB', 'RB', 'WR', 'TE']
-position_dfs = {pos: season_totals[season_totals['Position'] == pos] for pos in positions}
+base_data = {pos: helpers.clean_offense_data(helpers.get_position_data(pos), pos=pos) for pos in positions}
 
-# Step 3: Define baselines for each position
-baselines = {'QB': 14, 'RB': 48, 'WR': 48, 'TE': 14}
+NUM_TEAMS = 12
+INITIAL_BUDGET = 200
+TOTAL_BUDGET = NUM_TEAMS * INITIAL_BUDGET
+MIN_SPEND = NUM_TEAMS * 17
+AUCTION_BUDGET = TOTAL_BUDGET - MIN_SPEND
 
-# Step 4: Calculate VORP for each position
-for pos in positions:
-    position_dfs[pos] = position_dfs[pos].sort_values('ModelPoints', ascending=False)
-    baseline_value = position_dfs[pos].iloc[baselines[pos] - 1]['ModelPoints']
-    position_dfs[pos]['VORP'] = position_dfs[pos]['ModelPoints'] - baseline_value
+def compute_values(config):
+    qb = base_data['QB'].copy()
+    qb['ModelPoints'] = qb.apply(lambda r: scoring.calculate_qb_points(r, config['QB']), axis=1)
+    rb = base_data['RB'].copy()
+    rb['ModelPoints'] = rb.apply(lambda r: scoring.calculate_rb_wr_points(r, config['RB_WR']), axis=1)
+    wr = base_data['WR'].copy()
+    wr['ModelPoints'] = wr.apply(lambda r: scoring.calculate_rb_wr_points(r, config['RB_WR']), axis=1)
+    te = base_data['TE'].copy()
+    te['ModelPoints'] = te.apply(lambda r: scoring.calculate_te_points(r, config['TE']), axis=1)
 
-# Step 5: Calculate total VORP across all positions
-total_vorp = sum(position_dfs[pos]['VORP'].clip(lower=0).sum() for pos in positions)
+    merge_all = pd.concat([qb, rb, wr, te], ignore_index=True)
+    season_totals = merge_all.groupby(['Name', 'Position', 'Team']).agg({
+        'PassYds': 'sum',
+        'PassTD': 'sum',
+        'Int': 'sum',
+        'RushYds': 'sum',
+        'RushTD': 'sum',
+        'Rec': 'sum',
+        'RecYds': 'sum',
+        'RecTD': 'sum',
+        'Fum': 'sum',
+        'ModelPoints': 'sum',
+    }).reset_index()
 
-# Step 6: Calculate price per point
-total_budget = 12 * 200  # 12 teams, $200 each
-min_spend = 12 * 17  # 12 teams, 17 rounds, $1 minimum
-auction_budget = total_budget - min_spend
-price_per_point = auction_budget / total_vorp
+    position_dfs = {pos: season_totals[season_totals['Position'] == pos].sort_values('ModelPoints', ascending=False) for pos in positions}
+    baselines = {'QB': 14, 'RB': 48, 'WR': 48, 'TE': 14}
+    for pos in positions:
+        df_pos = position_dfs[pos]
+        if len(df_pos) >= baselines[pos]:
+            baseline_value = df_pos.iloc[baselines[pos]-1]['ModelPoints']
+        else:
+            baseline_value = df_pos['ModelPoints'].min()
+        df_pos['VORP'] = df_pos['ModelPoints'] - baseline_value
+        position_dfs[pos] = df_pos
 
-# Step 7: Calculate auction values
-for pos in positions:
-    position_dfs[pos]['AuctionValue'] = (position_dfs[pos]['VORP'].clip(lower=0) * price_per_point + 0).round(2)
+    total_vorp = sum(df['VORP'].clip(lower=0).sum() for df in position_dfs.values())
+    price_per_point = AUCTION_BUDGET / total_vorp if total_vorp else 0
 
+    for pos in positions:
+        position_dfs[pos]['AuctionValue'] = (position_dfs[pos]['VORP'].clip(lower=0) * price_per_point).round(2)
 
-from utility import excel
+    all_players = pd.concat(position_dfs.values())
+    all_players_sorted = all_players.sort_values('AuctionValue', ascending=False)
+    return all_players_sorted
 
-# Call the function to save the data
-excel.save_to_excel(position_dfs)
+DEFAULT_CONFIG = {
+    'QB': scoring.QB_SCORING_DEFAULT,
+    'RB_WR': scoring.RB_WR_SCORING_DEFAULT,
+    'TE': scoring.TE_SCORING_DEFAULT,
+}
 
-# Print summary for each position
-for pos in positions:
-    print(f"\n{pos} Top 10 Auction Values:")
-    print(position_dfs[pos][['Name', 'ModelPoints', 'VORP', 'AuctionValue']].head(10))
-
-# Print top 20 players across all positions
-all_players = pd.concat(position_dfs.values())
-all_players_sorted = all_players.sort_values('AuctionValue', ascending=False)
-print("\nTop 20 Players Across All Positions:")
-print(all_players_sorted[['Name', 'Position', 'ModelPoints', 'VORP', 'AuctionValue']].head(20))
-
-# Calculate and print total auction values
-total_auction_value = all_players['AuctionValue'].sum()
-print(f"\nTotal Auction Value: ${total_auction_value:.2f}")
-print(f"Expected Total Value: ${total_budget:.2f}")
-
-
-# Prepare the data
-all_players = pd.concat(position_dfs.values())
-all_players_sorted = all_players.sort_values('AuctionValue', ascending=False)
+all_players_sorted = compute_values(DEFAULT_CONFIG)
 all_players_sorted['Drafted'] = False
 all_players_sorted['DraftedBy'] = ''
 all_players_sorted['PricePaid'] = 0
 
-app = dash.Dash(__name__, 
-                use_pages=True,
-                title='FF',
-                update_title='****',
-                suppress_callback_exceptions=True,
-                external_stylesheets=[dbc.themes.BOOTSTRAP])
-server = app.server
-
-
-# # # # # # # # # # #
-
-
-# Set number of teams and initial budget
-NUM_TEAMS = 12
-INITIAL_BUDGET = 200
-
-# Create a draft history to enable undo functionality
 draft_history = []
 
-# Set the layout
+app = dash.Dash(__name__, use_pages=True, title='FF', update_title='****', suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
+
 app.layout = create_layout(all_players_sorted['Name'].tolist(), positions, NUM_TEAMS)
 
-# Callback to update player table, graphs, and team summaries
 @app.callback(
     [Output('player-table', 'rowData'),
      Output('value-distribution-graph', 'figure'),
@@ -174,57 +161,95 @@ app.layout = create_layout(all_players_sorted['Name'].tolist(), positions, NUM_T
     [Input('position-filter', 'value'),
      Input('search-input', 'value'),
      Input('draft-button', 'n_clicks'),
-     Input('undo-button', 'n_clicks')],
+     Input('undo-button', 'n_clicks'),
+     Input('pass-yds-pt', 'value'),
+     Input('pass-td-pts', 'value'),
+     Input('int-pen', 'value'),
+     Input('rush-yds-pt', 'value'),
+     Input('rush-td-pts', 'value'),
+     Input('fum-pen', 'value'),
+     Input('rec-yds-pt', 'value'),
+     Input('rec-per', 'value'),
+     Input('rec-td-pts', 'value')],
     [State('draft-name', 'value'),
      State('draft-team', 'value'),
      State('draft-price', 'value')]
 )
-def update_data(position, search, draft_clicks, undo_clicks, draft_name, draft_team, draft_price):
+def update_data(position, search, draft_clicks, undo_clicks,
+                pass_yds_pt, pass_td_pts, int_pen, rush_yds_pt, rush_td_pts, fum_pen,
+                rec_yds_pt, rec_per, rec_td_pts,
+                draft_name, draft_team, draft_price):
     ctx = dash.callback_context
     global all_players_sorted, draft_history
 
-    if ctx.triggered[0]['prop_id'] == 'draft-button.n_clicks':
-        if draft_name and draft_team and draft_price:
+    config = {
+        'QB': {
+            'PassYds': {'points_per': pass_yds_pt, 'bonuses': scoring.QB_SCORING_DEFAULT['PassYds']['bonuses']},
+            'PassTD': {'points': pass_td_pts},
+            'Int': {'points': int_pen},
+            'RushYds': {'points_per': rush_yds_pt, 'bonuses': scoring.QB_SCORING_DEFAULT['RushYds']['bonuses']},
+            'RushTD': {'points': rush_td_pts},
+            'Fum': {'points': fum_pen},
+        },
+        'RB_WR': {
+            'RushYds': {'points_per': rush_yds_pt, 'bonuses': scoring.RB_WR_SCORING_DEFAULT['RushYds']['bonuses']},
+            'RushTD': {'points': rush_td_pts},
+            'Fum': {'points': fum_pen},
+            'RecYds': {'points_per': rec_yds_pt, 'bonuses': scoring.RB_WR_SCORING_DEFAULT['RecYds']['bonuses']},
+            'Rec': {'points_per': rec_per, 'bonuses': scoring.RB_WR_SCORING_DEFAULT['Rec']['bonuses']},
+            'RecTD': {'points': rec_td_pts},
+            'BigRushTD': scoring.RB_WR_SCORING_DEFAULT['BigRushTD'],
+            'BigRec': scoring.RB_WR_SCORING_DEFAULT['BigRec'],
+            'BigRecTD': scoring.RB_WR_SCORING_DEFAULT['BigRecTD'],
+        },
+        'TE': {
+            'RecYds': {'points_per': rec_yds_pt, 'bonuses': scoring.TE_SCORING_DEFAULT['RecYds']['bonuses']},
+            'Rec': {'points_per': rec_per, 'bonuses': scoring.TE_SCORING_DEFAULT['Rec']['bonuses']},
+            'RecTD': {'points': rec_td_pts},
+            'Fum': {'points': fum_pen},
+        }
+    }
+
+    new_players = compute_values(config)
+    drafted_cols = all_players_sorted[['Name', 'Drafted', 'DraftedBy', 'PricePaid']]
+    new_players = new_players.merge(drafted_cols, on='Name', how='left')
+    new_players['Drafted'] = new_players['Drafted'].fillna(False)
+    new_players['DraftedBy'] = new_players['DraftedBy'].fillna('')
+    new_players['PricePaid'] = new_players['PricePaid'].fillna(0)
+    all_players_sorted = new_players
+
+    if ctx.triggered and ctx.triggered[0]['prop_id'] == 'draft-button.n_clicks':
+        if draft_name and draft_team and draft_price is not None:
             player = all_players_sorted[all_players_sorted['Name'] == draft_name]
             if not player.empty and not player['Drafted'].iloc[0]:
                 draft_history.append((draft_name, draft_team, draft_price))
                 all_players_sorted.loc[all_players_sorted['Name'] == draft_name, 'Drafted'] = True
                 all_players_sorted.loc[all_players_sorted['Name'] == draft_name, 'DraftedBy'] = draft_team
                 all_players_sorted.loc[all_players_sorted['Name'] == draft_name, 'PricePaid'] = draft_price
-    
-    elif ctx.triggered[0]['prop_id'] == 'undo-button.n_clicks' and draft_history:
+    elif ctx.triggered and ctx.triggered[0]['prop_id'] == 'undo-button.n_clicks' and draft_history:
         last_draft = draft_history.pop()
         all_players_sorted.loc[all_players_sorted['Name'] == last_draft[0], 'Drafted'] = False
         all_players_sorted.loc[all_players_sorted['Name'] == last_draft[0], 'DraftedBy'] = ''
         all_players_sorted.loc[all_players_sorted['Name'] == last_draft[0], 'PricePaid'] = 0
 
     filtered_df = all_players_sorted
-
     if position != 'All':
         filtered_df = filtered_df[filtered_df['Position'] == position]
-    
     if search:
         filtered_df = filtered_df[filtered_df['Name'].str.contains(search, case=False)]
 
-    # Create value distribution graph
     value_dist = px.box(filtered_df, x='Position', y='AuctionValue', title='Auction Value Distribution by Position')
-    
-    # Create top players graph
-    top_players = px.bar(filtered_df.head(20), x='Name', y='AuctionValue', color='Position',
-                         title='Top 20 Players by Auction Value')
-    top_players.update_layout(xaxis={'categoryorder':'total descending'})
+    top_players = px.bar(filtered_df.head(20), x='Name', y='AuctionValue', color='Position', title='Top 20 Players by Auction Value')
+    top_players.update_layout(xaxis={'categoryorder': 'total descending'})
 
-    # Create overall draft summary
     drafted_players = all_players_sorted[all_players_sorted['Drafted']]
     summary = [
         html.P(f"Total Players Drafted: {len(drafted_players)}"),
         html.P(f"Total Spend: ${drafted_players['PricePaid'].sum():.2f}"),
         html.P("Top Drafted Players:"),
-        html.Ul([html.Li(f"{row['Name']} - {row['DraftedBy']} - ${row['PricePaid']}") 
-                 for _, row in drafted_players.sort_values('PricePaid', ascending=False).head(5).iterrows()])
+        html.Ul([html.Li(f"{row['Name']} - {row['DraftedBy']} - ${row['PricePaid']}") for _, row in drafted_players.sort_values('PricePaid', ascending=False).head(5).iterrows()])
     ]
 
-    # Create team summaries, remaining budgets, and composition charts
     team_summaries = []
     team_budgets = []
     team_charts = []
@@ -233,24 +258,20 @@ def update_data(position, search, draft_clicks, undo_clicks, draft_name, draft_t
         team_players = drafted_players[drafted_players['DraftedBy'] == team_name]
         team_spend = team_players['PricePaid'].sum()
         remaining_budget = INITIAL_BUDGET - team_spend
-        
         team_summary = [
             html.P(f"Players Drafted: {len(team_players)}"),
             html.P(f"Total Spend: ${team_spend:.2f}"),
             html.P("Drafted Players:"),
-            html.Ul([html.Li(f"{row['Name']} ({row['Position']}) - ${row['PricePaid']}") 
-                     for _, row in team_players.iterrows()])
+            html.Ul([html.Li(f"{row['Name']} ({row['Position']}) - ${row['PricePaid']}") for _, row in team_players.iterrows()])
         ]
         team_summaries.append(team_summary)
-        
         team_budgets.append(f"Remaining Budget: ${remaining_budget:.2f}")
-        
         position_counts = team_players['Position'].value_counts()
         team_chart = go.Figure(data=[go.Pie(labels=position_counts.index, values=position_counts.values)])
         team_chart.update_layout(title=f"{team_name} Composition", height=300)
         team_charts.append(team_chart)
 
-    return (filtered_df.to_dict('records'), value_dist, top_players, '', summary, 
+    return (filtered_df.to_dict('records'), value_dist, top_players, '', summary,
             *team_summaries, *team_budgets, *team_charts)
 
 if __name__ == '__main__':
