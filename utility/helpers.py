@@ -1,5 +1,34 @@
 import pandas as pd
 from pathlib import Path
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+from utility import scoring
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DB_FILE = str(BASE_DIR / 'data' / 'draft_history.db')
+CURRENT_SEASON = datetime.now().year
+
+
+def init_db():
+    conn = sqlite3.connect(DB_FILE)
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE IF NOT EXISTS draft_picks (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            timestamp TEXT NOT NULL,
+            season INTEGER NOT NULL,
+            player TEXT,
+            position TEXT,
+            team TEXT,
+            owner TEXT,
+            price REAL
+        )
+        """
+    )
+    conn.commit()
+    conn.close()
 
 def get_schedule():
     file_path = Path(__file__).resolve().parents[1] / 'assets' / 'schedule_2025.csv'
@@ -129,3 +158,45 @@ def get_position_data(pos: str):
         print("no data")
         df = pd.DataFrame()
     return df
+
+
+def log_draft_picks(df: pd.DataFrame, season: int = CURRENT_SEASON):
+    conn = sqlite3.connect(DB_FILE)
+    cur = conn.cursor()
+    for _, row in df.iterrows():
+        owner = str(row.get('Owner', '')).strip()
+        if owner:
+            cur.execute(
+                'SELECT 1 FROM draft_picks WHERE season=? AND player=?',
+                (season, row['Name'])
+            )
+            if not cur.fetchone():
+                cur.execute(
+                    'INSERT INTO draft_picks(timestamp, season, player, position, team, owner, price) VALUES (?, ?, ?, ?, ?, ?, ?)',
+                    (
+                        datetime.utcnow().isoformat(),
+                        season,
+                        row['Name'],
+                        row.get('Position'),
+                        row.get('Team'),
+                        owner,
+                        float(row.get('Price', 0))
+                    )
+                )
+    conn.commit()
+    conn.close()
+
+
+def get_draft_history(season: int = None):
+    conn = sqlite3.connect(DB_FILE)
+    query = 'SELECT * FROM draft_picks'
+    params = ()
+    if season is not None:
+        query += ' WHERE season=?'
+        params = (season,)
+    df = pd.read_sql_query(query, conn, params=params)
+    conn.close()
+    return df
+
+
+init_db()
