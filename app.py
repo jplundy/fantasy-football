@@ -154,7 +154,7 @@ app.layout = create_layout(
 )
 
 @app.callback(
-    Output('player-data', 'data'),
+    Output('player-data', 'data', allow_duplicate=True),
     [
         Input('pass-yds-pt', 'value'),
         Input('pass-td-pts', 'value'),
@@ -167,6 +167,7 @@ app.layout = create_layout(
         Input('rec-td-pts', 'value'),
     ],
     State('player-data', 'data'),
+    prevent_initial_call=True,
 )
 def update_player_data(pass_yds_pt, pass_td_pts, int_pen, rush_yds_pt, rush_td_pts,
                        fum_pen, rec_yds_pt, rec_per, rec_td_pts, current_data):
@@ -212,7 +213,7 @@ def update_player_data(pass_yds_pt, pass_td_pts, int_pen, rush_yds_pt, rush_td_p
 
 
 @app.callback(
-    Output('player-data', 'data'),
+    Output('player-data', 'data', allow_duplicate=True),
     [Input('draft-button', 'n_clicks'),
      Input('undo-button', 'n_clicks')],
     [State('draft-name', 'value'),
