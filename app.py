@@ -9,6 +9,74 @@ from layout import create_layout
 import warnings
 warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
 
+def load_position_data(pos: str) -> pd.DataFrame:
+    data = helpers.get_position_data(pos)
+    data = helpers.clean_offense_data(data, pos=pos)
+    scoring_map = {
+        'QB': scoring.calculate_qb_points,
+        'RB': scoring.calculate_rb_wr_points,
+        'WR': scoring.calculate_rb_wr_points,
+        'TE': scoring.calculate_te_points,
+    }
+    score_func = scoring_map.get(pos)
+    if score_func:
+        data['ModelPoints'] = data.apply(score_func, axis=1)
+    else:
+        data['ModelPoints'] = 0.0
+    return data
+
+
+positions = ['QB', 'RB', 'WR', 'TE']
+position_data = {pos: load_position_data(pos) for pos in positions}
+
+merge_all = pd.concat(position_data.values(), ignore_index=True)
+merge_all.to_csv('data/all_data.csv', index=False)
+grouped_data = merge_all.groupby('Name').agg({'ModelPoints': ['sum', 'count']})
+grouped_data.to_csv('data/grouped_data.csv', index=True)
+
+def calculate_vorp_and_rank(group):
+    position = group['Position'].iloc[0]
+    if position == 'QB':
+        baseline = group['ModelPoints'].nlargest(14).iloc[-1]
+    elif position in ['RB', 'WR']:
+        baseline = group['ModelPoints'].nlargest(48).iloc[-1]
+    elif position == 'TE':
+        baseline = group['ModelPoints'].nlargest(14).iloc[-1]
+    else:
+        baseline = 0  # For any other positions
+    
+    group['VORP'] = group['ModelPoints'] - baseline
+    
+    # Add ranking
+    group['Rank'] = group['ModelPoints'].rank(method='min', ascending=False)
+    
+    return group
+
+# Apply the function to each group
+grouped_vorp_and_rank_data = merge_all.groupby(['Week', 'Position']).apply(calculate_vorp_and_rank).reset_index(drop=True)
+
+grouped_vorp_and_rank_data = grouped_vorp_and_rank_data.sort_values(['Week', 'Position', 'Rank'])
+
+### At this point we have correctly built data
+# using "df" from now on:
+
+df = grouped_vorp_and_rank_data.copy(deep=True)
+
+# Step 1: Aggregate weekly data into season totals
+season_totals = df.groupby(['Name', 'Position', 'Team']).agg({
+    'PassYds': 'sum',
+    'PassTD': 'sum',
+    'Int': 'sum',
+    'RushYds': 'sum',
+    'RushTD': 'sum',
+    'Rec': 'sum',
+    'RecYds': 'sum',
+    'RecTD': 'sum',
+    'Fum': 'sum',
+    'ModelPoints': 'sum',
+}).reset_index()
+
+# Step 2: Split the dataframe by position
 positions = ['QB', 'RB', 'WR', 'TE']
 base_data = {pos: helpers.clean_offense_data(helpers.get_position_data(pos), pos=pos) for pos in positions}
 

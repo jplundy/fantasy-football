@@ -150,9 +150,7 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
         elif pos == 'TE': cols = main_cols + ['Rec', 'RecYds', 'RecTD', 'Fum']
         else: cols = df.columns
         df = df[cols]
-
-
-
+        
     return df
 
 def get_board():
