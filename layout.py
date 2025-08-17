@@ -2,21 +2,6 @@ from dash_ag_grid import AgGrid
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 
-def create_filters(positions):
-    return dbc.Row([
-        dbc.Col([
-            dcc.Dropdown(
-                id='position-filter',
-                options=[{'label': pos, 'value': pos} for pos in positions] + [{'label': 'All', 'value': 'All'}],
-                value='All',
-                placeholder="Select Position"
-            )
-        ], width=3),
-        dbc.Col([
-            dcc.Input(id='search-input', type='text', placeholder='Search players...', className="form-control")
-        ], width=3)
-    ], className="mb-4")
-
 def create_scoring_controls():
     return dbc.Row([
         dbc.Col([
@@ -97,9 +82,9 @@ def create_player_table():
         ],
         rowData=[],
         defaultColDef={"resizable": True, "filter": True, "sortable": True},
-        dashGridOptions={"pagination": True, "paginationAutoPageSize": True},
+        dashGridOptions={"pagination": True, "paginationAutoPageSize": True, "rowBuffer": 0},
         className="ag-theme-alpine",
-        style={"height": 1600}
+        style={"height": "70vh"}
     )
 
 def create_draft_summary():
@@ -129,11 +114,10 @@ def create_graphs():
         dcc.Graph(id='top-players-graph')
     ])
 
-def create_layout(players, positions, teams):
+def create_layout(players, teams):
     return dbc.Container([
         html.H1("Fantasy Football Draft Dashboard", className="my-4"),
         create_scoring_controls(),
-        create_filters(positions),
         create_draft_input(players, teams),
         dbc.Row([
             dbc.Col(create_player_table(), width=12),
