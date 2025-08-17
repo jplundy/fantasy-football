@@ -147,7 +147,7 @@ draft_history = []
 app = dash.Dash(__name__, use_pages=True, title='FF', update_title='****', suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
-app.layout = create_layout(all_players_sorted['Name'].tolist(), positions, NUM_TEAMS)
+app.layout = create_layout(all_players_sorted['Name'].tolist(), NUM_TEAMS)
 
 @app.callback(
     [Output('player-table', 'rowData'),
@@ -158,9 +158,7 @@ app.layout = create_layout(all_players_sorted['Name'].tolist(), positions, NUM_T
     [Output(f'team-{i}-summary', 'children') for i in range(1, NUM_TEAMS + 1)] +
     [Output(f'team-{i}-remaining-budget', 'children') for i in range(1, NUM_TEAMS + 1)] +
     [Output(f'team-{i}-composition-chart', 'figure') for i in range(1, NUM_TEAMS + 1)],
-    [Input('position-filter', 'value'),
-     Input('search-input', 'value'),
-     Input('draft-button', 'n_clicks'),
+    [Input('draft-button', 'n_clicks'),
      Input('undo-button', 'n_clicks'),
      Input('pass-yds-pt', 'value'),
      Input('pass-td-pts', 'value'),
@@ -175,7 +173,7 @@ app.layout = create_layout(all_players_sorted['Name'].tolist(), positions, NUM_T
      State('draft-team', 'value'),
      State('draft-price', 'value')]
 )
-def update_data(position, search, draft_clicks, undo_clicks,
+def update_data(draft_clicks, undo_clicks,
                 pass_yds_pt, pass_td_pts, int_pen, rush_yds_pt, rush_td_pts, fum_pen,
                 rec_yds_pt, rec_per, rec_td_pts,
                 draft_name, draft_team, draft_price):
@@ -233,10 +231,6 @@ def update_data(position, search, draft_clicks, undo_clicks,
         all_players_sorted.loc[all_players_sorted['Name'] == last_draft[0], 'PricePaid'] = 0
 
     filtered_df = all_players_sorted
-    if position != 'All':
-        filtered_df = filtered_df[filtered_df['Position'] == position]
-    if search:
-        filtered_df = filtered_df[filtered_df['Name'].str.contains(search, case=False)]
 
     value_dist = px.box(filtered_df, x='Position', y='AuctionValue', title='Auction Value Distribution by Position')
     top_players = px.bar(filtered_df.head(20), x='Name', y='AuctionValue', color='Position', title='Top 20 Players by Auction Value')
