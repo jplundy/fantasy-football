@@ -82,5 +82,6 @@ def update_draft_board(timestamp, rows):
         # Update the board data and save it to CSV
         updated_board = pd.DataFrame(rows)
         helpers.save_board(updated_board)
+        helpers.log_draft_picks(updated_board)
         return updated_board.to_dict('records')
     return dash.no_update

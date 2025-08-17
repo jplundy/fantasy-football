@@ -1,11 +1,37 @@
 import pandas as pd
 from typing import Optional
-
+import sqlite3
+from datetime import datetime
+from pathlib import Path
 from utility import scoring
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+DB_FILE = str(BASE_DIR / 'data' / 'draft_history.db')
+CURRENT_SEASON = datetime.now().year
+
+
+def init_db():
+    conn = sqlite3.connect(DB_FILE)
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE IF NOT EXISTS draft_picks (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            timestamp TEXT NOT NULL,
+            season INTEGER NOT NULL,
+            player TEXT,
+            position TEXT,
+            team TEXT,
+            owner TEXT,
+            price REAL
+        )
+        """
+    )
+    conn.commit()
+    conn.close()
 
 def get_schedule():
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/assets/schedule_2025.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'assets' / 'schedule_2025.csv'
     try:
         df = pd.read_csv(file_path)
     except Exception:
@@ -72,7 +98,7 @@ def clean_schedule(df: pd.DataFrame, def_metrics: Optional[pd.DataFrame] = None)
     return df_long
 
 def get_offense_data():
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/data/2025_weekly_proj/off.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / '2025_weekly_proj' / 'off.csv'
     try:
         df = pd.read_csv(file_path, index_col=0, header=0)
     except :
@@ -127,21 +153,10 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
 
 
 
-    if pos:
-        pos = pos.upper()
-        if pos == 'QB': 
-            df['ModelPoints'] = df.apply(scoring.calculate_qb_points, axis=1)
-        elif pos == 'RB' or 'WR': 
-            df['ModelPoints'] = df.apply(scoring.calculate_rb_wr_points, axis=1)
-        elif pos == 'TE':
-            df['ModelPoints'] = df.apply(scoring.calculate_te_points, axis=1)
-        else:
-            df['ModelPoints'] = 0.0
-
     return df
 
 def get_board():
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/data/board.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / 'board.csv'
     try:
         board_df = pd.read_csv(file_path)
     except :
@@ -163,7 +178,7 @@ def clean_board(df: pd.DataFrame):
     return df
 
 def save_board(df):
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/data/board.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / 'board.csv'
     if df is pd.DataFrame:
         try:
             df.to_csv(file_path, index=False)
@@ -175,10 +190,52 @@ def save_board(df):
 def get_position_data(pos: str):
     pos = pos.upper()
     if pos not in ['QB', 'RB', 'WR', 'TE', 'K']: return pd.DataFrame()
-    file_path = f'/Users/justin/Desktop/chest/fantasy_football/2025/data/2025_weekly_proj/{pos}.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / '2025_weekly_proj' / f'{pos}.csv'
     try:
         df = pd.read_csv(file_path, header=0)
     except :
         print("no data")
         df = pd.DataFrame()
     return df
+
+
+def log_draft_picks(df: pd.DataFrame, season: int = CURRENT_SEASON):
+    conn = sqlite3.connect(DB_FILE)
+    cur = conn.cursor()
+    for _, row in df.iterrows():
+        owner = str(row.get('Owner', '')).strip()
+        if owner:
+            cur.execute(
+                'SELECT 1 FROM draft_picks WHERE season=? AND player=?',
+                (season, row['Name'])
+            )
+            if not cur.fetchone():
+                cur.execute(
+                    'INSERT INTO draft_picks(timestamp, season, player, position, team, owner, price) VALUES (?, ?, ?, ?, ?, ?, ?)',
+                    (
+                        datetime.utcnow().isoformat(),
+                        season,
+                        row['Name'],
+                        row.get('Position'),
+                        row.get('Team'),
+                        owner,
+                        float(row.get('Price', 0))
+                    )
+                )
+    conn.commit()
+    conn.close()
+
+
+def get_draft_history(season: int = None):
+    conn = sqlite3.connect(DB_FILE)
+    query = 'SELECT * FROM draft_picks'
+    params = ()
+    if season is not None:
+        query += ' WHERE season=?'
+        params = (season,)
+    df = pd.read_sql_query(query, conn, params=params)
+    conn.close()
+    return df
+
+
+init_db()
