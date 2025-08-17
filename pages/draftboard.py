@@ -59,7 +59,7 @@ def layout():
 
 # Enable the save button only when changes are made
 @callback(
-    Output('save-draftboard', 'disabled'),
+    Output('save-draftboard', 'disabled', allow_duplicate=True),
     Input('draftboard-table', 'data_timestamp'),
     State('draftboard-table', 'data'),
     State('draftboard-saved', 'data'),
@@ -76,7 +76,7 @@ def toggle_save_button(timestamp, current_rows, saved_rows):
 @callback(
     Output('draftboard-status', 'children'),
     Output('draftboard-saved', 'data'),
-    Output('save-draftboard', 'disabled'),
+    Output('save-draftboard', 'disabled', allow_duplicate=True),
     Output('last-save-timestamp', 'data'),
     Input('save-draftboard', 'n_clicks'),
     State('draftboard-table', 'data'),
