@@ -1,5 +1,6 @@
 import pandas as pd
 from utility import scoring
+from modeling.predict import predict_position
 
 def get_schedule():
     file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/assets/schedule_2025.csv'
@@ -87,14 +88,20 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
 
     if pos:
         pos = pos.upper()
-        if pos == 'QB': 
+        if pos == 'QB':
             df['ModelPoints'] = df.apply(scoring.calculate_qb_points, axis=1)
-        elif pos == 'RB' or 'WR': 
+        elif pos == 'RB' or 'WR':
             df['ModelPoints'] = df.apply(scoring.calculate_rb_wr_points, axis=1)
         elif pos == 'TE':
             df['ModelPoints'] = df.apply(scoring.calculate_te_points, axis=1)
         else:
             df['ModelPoints'] = 0.0
+
+    if pos:
+        try:
+            df['Projection'] = predict_position(df, pos)
+        except Exception:
+            df['Projection'] = 0.0
 
     return df
 
