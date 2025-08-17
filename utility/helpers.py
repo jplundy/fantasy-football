@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 import sqlite3
 from datetime import datetime
 from pathlib import Path
@@ -30,7 +31,7 @@ def init_db():
     conn.close()
 
 def get_schedule():
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/assets/schedule_2025.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'assets' / 'schedule_2025.csv'
     try:
         df = pd.read_csv(file_path)
     except:
@@ -58,7 +59,7 @@ def clean_schedule(df: pd.DataFrame):
     return df_long
 
 def get_offense_data():
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/data/2025_weekly_proj/off.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / '2025_weekly_proj' / 'off.csv'
     try:
         df = pd.read_csv(file_path, index_col=0, header=0)
     except :
@@ -113,21 +114,10 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
 
 
 
-    if pos:
-        pos = pos.upper()
-        if pos == 'QB': 
-            df['ModelPoints'] = df.apply(scoring.calculate_qb_points, axis=1)
-        elif pos == 'RB' or 'WR': 
-            df['ModelPoints'] = df.apply(scoring.calculate_rb_wr_points, axis=1)
-        elif pos == 'TE':
-            df['ModelPoints'] = df.apply(scoring.calculate_te_points, axis=1)
-        else:
-            df['ModelPoints'] = 0.0
-
     return df
 
 def get_board():
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/data/board.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / 'board.csv'
     try:
         board_df = pd.read_csv(file_path)
     except :
@@ -149,7 +139,7 @@ def clean_board(df: pd.DataFrame):
     return df
 
 def save_board(df):
-    file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/data/board.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / 'board.csv'
     if df is pd.DataFrame:
         try:
             df.to_csv(file_path, index=False)
@@ -161,7 +151,7 @@ def save_board(df):
 def get_position_data(pos: str):
     pos = pos.upper()
     if pos not in ['QB', 'RB', 'WR', 'TE', 'K']: return pd.DataFrame()
-    file_path = f'/Users/justin/Desktop/chest/fantasy_football/2025/data/2025_weekly_proj/{pos}.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / '2025_weekly_proj' / f'{pos}.csv'
     try:
         df = pd.read_csv(file_path, header=0)
     except :
