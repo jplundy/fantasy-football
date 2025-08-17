@@ -1,15 +1,45 @@
 import pandas as pd
+from typing import Optional
+
 from utility import scoring
+
 
 def get_schedule():
     file_path = '/Users/justin/Desktop/chest/fantasy_football/2025/assets/schedule_2025.csv'
     try:
         df = pd.read_csv(file_path)
-    except:
+    except Exception:
         print("schedule not found")
+        df = pd.DataFrame()
     return df
 
-def clean_schedule(df: pd.DataFrame):
+
+def get_defense_metrics():
+    """Return per-team defensive metrics.
+
+    The data is sourced from advanced team statistics and uses ``Prss%`` as a
+    lightweight proxy for defensive DVOA while ``Yds`` is used as a simple
+    estimate for fantasy points allowed.  If the file is not found an empty
+    :class:`~pandas.DataFrame` is returned so downstream code can handle the
+    absence gracefully.
+    """
+
+    file_path = 'data/2024_adv_stats/Pressure_by_team.csv'
+    try:
+        df = pd.read_csv(file_path)
+        df.rename(
+            columns={'Tm': 'TEAM', 'Prss%': 'DVOA', 'Yds': 'FantasyPointsAllowed'},
+            inplace=True,
+        )
+        if 'DVOA' in df.columns:
+            df['DVOA'] = df['DVOA'].astype(str).str.replace('%', '').astype(float)
+        df = df[['TEAM', 'DVOA', 'FantasyPointsAllowed']]
+    except Exception:
+        print("defensive metrics not found")
+        df = pd.DataFrame()
+    return df
+
+def clean_schedule(df: pd.DataFrame, def_metrics: Optional[pd.DataFrame] = None):
     # Melt the DataFrame to long format
     df_long = pd.melt(df, id_vars=['TEAM'], var_name='Week', value_name='Opponent')
 
@@ -26,6 +56,18 @@ def clean_schedule(df: pd.DataFrame):
 
     # Sort by team and week
     df_long = df_long.sort_values(by=['TEAM', 'Week'])
+
+    # Merge in opponent defensive metrics if provided
+    if def_metrics is not None and not def_metrics.empty:
+        metrics = def_metrics.rename(columns={'TEAM': 'Opponent'})
+        df_long = df_long.merge(metrics, on='Opponent', how='left')
+        df_long.rename(
+            columns={
+                'DVOA': 'Opp_DVOA',
+                'FantasyPointsAllowed': 'Opp_FantasyPointsAllowed',
+            },
+            inplace=True,
+        )
 
     return df_long
 
