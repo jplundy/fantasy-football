@@ -275,4 +275,4 @@ def update_data(position, search, draft_clicks, undo_clicks,
             *team_summaries, *team_budgets, *team_charts)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)

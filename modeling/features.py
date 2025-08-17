@@ -2,7 +2,8 @@ import os
 import glob
 import numpy as np
 import pandas as pd
-
+from typing import Optional
+from utility import helpers
 
 def load_player_stats(data_dir: str, position: str) -> pd.DataFrame:
     """Load historical stats for a position from CSV files.
@@ -69,12 +70,6 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     df = _coerce_numeric(df)
     df = add_derived_features(df)
     return df
-=======
-import pandas as pd
-from typing import Optional
-
-from utility import helpers
-
 
 def build_player_features(pos: Optional[str] = None) -> pd.DataFrame:
     """Return player level features with schedule adjusted metrics.
