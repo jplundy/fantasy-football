@@ -2,6 +2,19 @@ from dash_ag_grid import AgGrid
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 
+def create_filters():
+    """Provide a client-side search box for AgGrid."""
+    return dbc.Row([
+        dbc.Col([
+            dcc.Input(
+                id='search-input',
+                type='text',
+                placeholder='Search players...',
+                className='form-control',
+            )
+        ], width=3),
+    ], className='mb-4')
+
 def create_scoring_controls():
     passing = dbc.Row([
         dbc.Col([
@@ -106,7 +119,7 @@ def create_player_table():
             {"headerName": "Auction Value", "field": "AuctionValue", "filter": True, "sortable": True},
             {"headerName": "Drafted", "field": "Drafted", "filter": True, "sortable": True},
             {"headerName": "Drafted By", "field": "DraftedBy", "filter": True, "sortable": True},
-            {"headerName": "Price Paid", "field": "PricePaid", "filter": True, "sortable": True}
+            {"headerName": "Price Paid", "field": "PricePaid", "filter": True, "sortable": True},
         ],
         rowData=[],
         defaultColDef={"resizable": True, "filter": True, "sortable": True},
@@ -119,7 +132,7 @@ def create_player_table():
 def create_draft_summary():
     return html.Div([
         html.H3("Overall Draft Summary"),
-        html.Div(id='draft-summary')
+        html.Div(id='draft-summary'),
     ])
 
 
@@ -132,6 +145,7 @@ def create_team_summaries(teams):
                 dbc.CardBody([
                     html.Div(id=f'team-{i}-summary'),
                     html.Div(id=f'team-{i}-remaining-budget', className="mt-2 font-weight-bold"),
+
                     dcc.Graph(id=f'team-{i}-composition-chart')
                 ])
             ], className="mb-3", style={'width': '100%'}) for i in range(1, teams + 1)
@@ -142,13 +156,15 @@ def create_team_summaries(teams):
 def create_graphs():
     return html.Div([
         dcc.Graph(id='value-distribution-graph'),
-        dcc.Graph(id='top-players-graph')
+        dcc.Graph(id='top-players-graph'),
     ])
 
-def create_layout(players, teams):
+def create_layout(players, teams, data):
     return dbc.Container([
+        dcc.Store(id='player-data', data=data),
         html.H1("Fantasy Football Draft Dashboard", className="my-4"),
         create_scoring_controls(),
+        create_filters(),
         create_draft_input(players, teams),
         dbc.Row([
             dbc.Col(create_player_table(), width=12),
