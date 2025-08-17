@@ -52,18 +52,107 @@ def calculate_qb_points(row):
 
     return score
 
+def rushing_points(row):
+    """Calculate fantasy points from rushing production.
+
+    Points are awarded for yardage milestones and touchdowns. Yardage is
+    measured in 10 yard increments with additional bonuses at 100, 200 and
+    300 yards. Touchdowns are worth six points each.
+    """
+
+    rushing_yards = row['RushYds']
+    rushing_tds = row['RushTD']
+
+    yard_points = rushing_yards // 10
+    hundred_bonus = 3 if rushing_yards >= 100 else 0
+    two_hundred_bonus = 3 if rushing_yards >= 200 else 0
+    three_hundred_bonus = 3 if rushing_yards >= 300 else 0
+    td_points = rushing_tds * 6
+
+    return yard_points + hundred_bonus + two_hundred_bonus + three_hundred_bonus + td_points
+
+
+def receiving_points(row):
+    """Calculate fantasy points from receiving production.
+
+    Yardage and receptions are rewarded with incremental bonuses while each
+    receiving touchdown is worth six points.
+    """
+
+    receiving_yards = row['RecYds']
+    receptions = row['Rec']
+    receiving_tds = row['RecTD']
+
+    yard_points = receiving_yards // 10
+    hundred_bonus = 3 if receiving_yards >= 100 else 0
+    two_hundred_bonus = 3 if receiving_yards >= 200 else 0
+    three_hundred_bonus = 3 if receiving_yards >= 300 else 0
+
+    reception_points = receptions // 5
+    ten_reception_bonus = 1 if receptions >= 10 else 0
+    fifteen_reception_bonus = 1 if receptions >= 15 else 0
+
+    td_points = receiving_tds * 6
+
+    return (
+        yard_points
+        + hundred_bonus
+        + two_hundred_bonus
+        + three_hundred_bonus
+        + reception_points
+        + ten_reception_bonus
+        + fifteen_reception_bonus
+        + td_points
+    )
+
+
+def rushing_bonus(rush_td, rb_player_stats):
+    """Bonus points for long rushing touchdowns.
+
+    Probabilities of touchdowns of 40+ yards are derived from yards-before
+    contact and yards-after contact metrics. Each threshold awards additional
+    bonus points.
+    """
+
+    p40 = rb_player_stats['p() 40yd rus']
+    p60 = rb_player_stats['p() 60yd rus']
+    p80 = rb_player_stats['p() 80yd rus']
+
+    bonus_80 = rush_td * p80 * 3
+    bonus_60 = rush_td * (p60 - p80) * 2
+    bonus_40 = rush_td * (p40 - p60 - p80)
+
+    return bonus_80 + bonus_60 + bonus_40
+
+
+def receiving_bonus(rec, rec_td, wr_player_stats):
+    """Bonus points for long receptions and receiving touchdowns.
+
+    Probabilities for each distance bucket are estimated from average depth of
+    target and yards after the catch.
+    """
+
+    p20 = wr_player_stats['p() 20yd rec']
+    p40 = wr_player_stats['p() 40yd rec']
+    p60 = wr_player_stats['p() 60yd rec']
+    p80 = wr_player_stats['p() 80yd rec']
+
+    rec_bonus = rec * p20 + rec * p40 * 2
+
+    td_bonus_80 = rec_td * p80 * 3
+    td_bonus_60 = rec_td * (p60 - p80) * 2
+    td_bonus_40 = rec_td * (p40 - p60 - p80)
+
+    return rec_bonus + td_bonus_80 + td_bonus_60 + td_bonus_40
+
+
 def calculate_rb_wr_points(row):
+    """Calculate fantasy points for running backs and wide receivers."""
+
     player_name = row['Name']
 
     rb_player_stats = rb_adv_stats.loc[rb_adv_stats['Player'] == player_name]
-    # if len(rb_player_stats) == 0:
-    #     rb_player_stats['YBC/Att'] = 0
-    #     rb_player_stats['YAC/Att'] = 0
-
     wr_player_stats = wr_adv_stats.loc[wr_adv_stats['Player'] == player_name]
-    # if len(wr_player_stats) == 0:
-    #     wr_player_stats['ADOT'] = 0
-    #     wr_player_stats['YAC/R'] = 0
 
     # Handle cases where the player's stats are missing
     if rb_player_stats.empty:
@@ -85,53 +174,15 @@ def calculate_rb_wr_points(row):
     wr_player_stats['p() 40yd rec'] = wr_player_stats['p() 20yd rec'] / 2
     wr_player_stats['p() 60yd rec'] = wr_player_stats['p() 20yd rec'] / 3
     wr_player_stats['p() 80yd rec'] = wr_player_stats['p() 20yd rec'] / 4
-    
-    score = 0
 
-    # Rushing Yards: 1 point per 10 RuYds + bonuses
-    score += row['RushYds'] // 10
-    if row['RushYds'] >= 100:
-        score += 3
-    if row['RushYds'] >= 200:
-        score += 3
-    if row['RushYds'] >= 300:
-        score += 3
+    rushing = rushing_points(row)
+    receiving = receiving_points(row)
+    fumbles = row['Fum'] * -3
 
-    # Rushing TDs: 6 points per RuTD
-    score += row['RushTD'] * 6
+    rush_td_bonus = rushing_bonus(row['RushTD'], rb_player_stats)
+    receiving_td_bonus = receiving_bonus(row['Rec'], row['RecTD'], wr_player_stats)
 
-    # Fumbles: -3 points per Fum
-    score += row['Fum'] * -3
-
-    # Receiving Yards: 1 point per 10 ReYds + bonuses
-    score += row['RecYds'] // 10
-    if row['RecYds'] >= 100:
-        score += 3
-    if row['RecYds'] >= 200:
-        score += 3
-    if row['RecYds'] >= 300:
-        score += 3
-
-    # Receptions: 1 point per 5 Recpt + bonuses
-    score += row['Rec'] // 5
-    if row['Rec'] >= 10:
-        score += 1
-    if row['Rec'] >= 15:
-        score += 1
-
-    # Receiving TDs: 6 points per ReTD
-    score += row['RecTD'] * 6
-
-    # more conditions for specific bonuses, such as RuTD of 40+ yards, etc.
-    score += row['RushTD'] * (rb_player_stats['p() 80yd rus']) * 3
-    score += row['RushTD'] * (rb_player_stats['p() 60yd rus'] - rb_player_stats['p() 80yd rus']) * 2
-    score += row['RushTD'] * (rb_player_stats['p() 40yd rus'] - rb_player_stats['p() 60yd rus'] - rb_player_stats['p() 80yd rus']) * 1
-
-    score += row['Rec'] * wr_player_stats['p() 20yd rec'] * 1
-    score += row['Rec'] * wr_player_stats['p() 40yd rec'] * 2
-    score += row['RecTD'] * (wr_player_stats['p() 80yd rec']) * 3
-    score += row['RecTD'] * (wr_player_stats['p() 60yd rec'] - wr_player_stats['p() 80yd rec']) * 2
-    score += row['RecTD'] * (wr_player_stats['p() 40yd rec'] - wr_player_stats['p() 60yd rec'] - wr_player_stats['p() 80yd rec']) * 1
+    score = rushing + receiving + fumbles + rush_td_bonus + receiving_td_bonus
 
     return score
 
