@@ -3,7 +3,7 @@ import json
 from typing import List
 import numpy as np
 import pandas as pd
-from .features import load_player_stats, build_features
+from features import load_player_stats, build_features
 
 
 def train_position_model(position: str, data_dir: str = "data", models_dir: str = "models") -> str:
