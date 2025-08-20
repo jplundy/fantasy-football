@@ -14,7 +14,14 @@ from models.auction import (
 
 settings_path = Path("assets/settings.json")
 initial_settings = load_config(settings_path)
-NUM_TEAMS = initial_settings.get('league', {}).get('num_teams', 12)
+TEAM_NAMES = initial_settings.get('league', {}).get(
+    'team_names',
+    [
+        f'Team {i}'
+        for i in range(1, initial_settings.get('league', {}).get('num_teams', 12) + 1)
+    ],
+)
+NUM_TEAMS = len(TEAM_NAMES)
 INITIAL_BUDGET = initial_settings.get('league', {}).get('initial_budget', 200)
 
 draft_history = []
@@ -132,8 +139,7 @@ def update_summaries(data):
     team_summaries = []
     team_budgets = []
     team_charts = []
-    for i in range(1, NUM_TEAMS + 1):
-        team_name = f'Team {i}'
+    for i, team_name in enumerate(TEAM_NAMES, start=1):
         team_players = drafted_players[drafted_players['DraftedBy'] == team_name]
         team_spend = team_players['PricePaid'].sum()
         remaining_budget = INITIAL_BUDGET - team_spend

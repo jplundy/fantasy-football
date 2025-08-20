@@ -15,6 +15,7 @@ for df in (qb_adv_stats, rb_adv_stats, wr_adv_stats):
 LEAGUE_SETTINGS_DEFAULT = {
     'num_teams': 12,
     'initial_budget': 200,
+    'team_names': [f'Team {i}' for i in range(1, 13)],
 }
 
 QB_SCORING_DEFAULT = {
