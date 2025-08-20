@@ -125,7 +125,7 @@ def create_player_table():
         defaultColDef={"resizable": True, "filter": True, "sortable": True},
         dashGridOptions={"pagination": True, "paginationAutoPageSize": True, "rowBuffer": 0},
         className="ag-theme-alpine",
-        style={"height": "70vh"}
+        style={"height": "50vh"}
     )
 
 
