@@ -8,10 +8,16 @@ from utility.scoring import load_config
 dash.register_page(__name__, path='/auction')
 
 settings = load_config(Path("assets/settings.json"))
-NUM_TEAMS = settings.get('league', {}).get('num_teams', 12)
+team_names = settings.get('league', {}).get(
+    'team_names',
+    [
+        f'Team {i}'
+        for i in range(1, settings.get('league', {}).get('num_teams', 12) + 1)
+    ],
+)
 
 layout = create_layout(
     all_players_sorted['Name'].tolist(),
-    NUM_TEAMS,
+    team_names,
     all_players_sorted.to_dict('records'),
 )

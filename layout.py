@@ -80,7 +80,7 @@ def create_scoring_controls():
     ], className="mb-4")
 
 
-def create_draft_input(players, teams):
+def create_draft_input(players, team_names):
     return dbc.Row([
         dbc.Col([
             dcc.Dropdown(
@@ -93,7 +93,7 @@ def create_draft_input(players, teams):
         dbc.Col([
             dcc.Dropdown(
                 id='draft-team',
-                options=[{'label': f'Team {i}', 'value': f'Team {i}'} for i in range(1, teams + 1)],
+                options=[{'label': name, 'value': name} for name in team_names],
                 placeholder="Select Team",
             ),
             dbc.Tooltip("Assign the player to a team", target='draft-team'),
@@ -136,19 +136,19 @@ def create_draft_summary():
     ])
 
 
-def create_team_summaries(teams):
+def create_team_summaries(team_names):
     return html.Div([
         html.H3("Team Summaries"),
         dbc.Row([
             dbc.Card([
-                dbc.CardHeader(f"Team {i}"),
+                dbc.CardHeader(name),
                 dbc.CardBody([
                     html.Div(id=f'team-{i}-summary'),
                     html.Div(id=f'team-{i}-remaining-budget', className="mt-2 font-weight-bold"),
 
                     dcc.Graph(id=f'team-{i}-composition-chart')
                 ])
-            ], className="mb-3", style={'width': '100%'}) for i in range(1, teams + 1)
+            ], className="mb-3", style={'width': '100%'}) for i, name in enumerate(team_names, start=1)
         ])
     ])
 
@@ -159,17 +159,17 @@ def create_graphs():
         dcc.Graph(id='top-players-graph'),
     ])
 
-def create_layout(players, teams, data):
+def create_layout(players, team_names, data):
     return dbc.Container([
         dcc.Store(id='player-data', data=data),
         html.H1("Fantasy Football Draft Dashboard", className="my-4"),
         create_filters(),
-        create_draft_input(players, teams),
+        create_draft_input(players, team_names),
         dbc.Row([
             dbc.Col(create_player_table(), width=12),
         ]),
         dbc.Row([
-            create_team_summaries(teams)
+            create_team_summaries(team_names)
         ]),
         dbc.Row([
             dbc.Col([create_draft_summary()], width=12)

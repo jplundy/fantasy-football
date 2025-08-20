@@ -1,5 +1,5 @@
 import dash
-from dash import html, dcc, Input, Output, State, callback
+from dash import html, dcc, Input, Output, State, callback, ALL
 import dash_bootstrap_components as dbc
 from copy import deepcopy
 from pathlib import Path
@@ -35,6 +35,7 @@ def layout():
                             dcc.Input(id='initial-budget', type='number', value=200, className="form-control"),
                         ], xs=12, sm=6, md=4),
                     ], className="g-2"),
+                    html.Div(id='team-names-container', className="mt-3"),
                 ],
                 className="mb-4",
             ),
@@ -47,10 +48,33 @@ def layout():
 
 
 @callback(
+    Output('team-names-container', 'children'),
+    Input('num-teams', 'value'),
+    Input('scoring-config', 'data'),
+)
+def render_team_names(num_teams, config):
+    cfg = config or SCORING_CONFIG_DEFAULT
+    names = cfg.get('league', {}).get('team_names', [])
+    if num_teams is None:
+        num_teams = len(names)
+    if len(names) < num_teams:
+        names += [f'Team {i}' for i in range(len(names) + 1, num_teams + 1)]
+    inputs = [
+        dbc.Col([
+            dbc.Label(f'Team {i + 1} Name'),
+            dcc.Input(id={'type': 'team-name', 'index': i}, type='text', value=names[i], className='form-control'),
+        ], xs=12, sm=6, md=4)
+        for i in range(num_teams or 0)
+    ]
+    return dbc.Row(inputs, className='g-2')
+
+
+@callback(
     Output("scoring-config", "data"),
     Input("save-config", "n_clicks"),
     State("num-teams", "value"),
     State("initial-budget", "value"),
+    State({"type": "team-name", "index": ALL}, "value"),
     State("pass-yds-pt", "value"),
     State("pass-td-pts", "value"),
     State("int-pen", "value"),
@@ -62,13 +86,17 @@ def layout():
     State("rec-td-pts", "value"),
     prevent_initial_call=True,
 )
-def save_settings(n_clicks, num_teams, initial_budget, pass_yds_pt, pass_td_pts, int_pen,
+def save_settings(n_clicks, num_teams, initial_budget, team_names, pass_yds_pt, pass_td_pts, int_pen,
                   rush_yds_pt, rush_td_pts, fum_pen, rec_yds_pt, rec_per, rec_td_pts):
     """Persist scoring settings and update the store."""
 
     config = deepcopy(SCORING_CONFIG_DEFAULT)
     config["league"]["num_teams"] = num_teams
     config["league"]["initial_budget"] = initial_budget
+    names = team_names or []
+    if len(names) < num_teams:
+        names += [f"Team {i}" for i in range(len(names) + 1, num_teams + 1)]
+    config["league"]["team_names"] = names[:num_teams]
     config["QB"]["PassYds"]["points_per"] = pass_yds_pt
     config["QB"]["PassTD"]["points"] = pass_td_pts
     config["QB"]["Int"]["points"] = int_pen
