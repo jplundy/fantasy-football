@@ -46,8 +46,22 @@ TE_SCORING_DEFAULT = {
 }
 
 def _apply_yardage(value, config):
+    """Apply yardage-based scoring with optional bonuses.
+
+    ``config['bonuses']`` keys may be serialized to JSON which coerces
+    dictionary keys to strings.  When a configuration is loaded back from
+    JSON the threshold values will therefore be strings, causing type errors
+    when compared to numeric ``value`` inputs.  To support both numeric and
+    string thresholds, cast each threshold to ``float`` before comparison.
+    Invalid thresholds are ignored.
+    """
+
     points = value // config.get('points_per', 1)
     for threshold, bonus in config.get('bonuses', {}).items():
+        try:
+            threshold = float(threshold)
+        except (TypeError, ValueError):
+            continue
         if value >= threshold:
             points += bonus
     return points
