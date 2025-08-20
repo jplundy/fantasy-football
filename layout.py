@@ -137,19 +137,24 @@ def create_draft_summary():
 
 
 def create_team_summaries(team_names):
-    return html.Div([
-        html.H3("Team Summaries"),
-        dbc.Row([
-            dbc.Card([
-                dbc.CardHeader(name),
+    items = [
+        dbc.AccordionItem(
+            dbc.Card(
                 dbc.CardBody([
                     html.Div(id=f'team-{i}-summary'),
                     html.Div(id=f'team-{i}-remaining-budget', className="mt-2 font-weight-bold"),
+                    dcc.Graph(id=f'team-{i}-composition-chart', style={'height': '250px'})
+                ]),
+                className="mb-3"
+            ),
+            title=name
+        )
+        for i, name in enumerate(team_names, start=1)
+    ]
 
-                    dcc.Graph(id=f'team-{i}-composition-chart')
-                ])
-            ], className="mb-3", style={'width': '100%'}) for i, name in enumerate(team_names, start=1)
-        ])
+    return html.Div([
+        html.H3("Team Summaries"),
+        dbc.Accordion(items, start_collapsed=True)
     ])
 
 
