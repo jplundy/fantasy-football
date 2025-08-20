@@ -208,9 +208,12 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
 
     if pos:
         pos = pos.upper()
-        if pos == 'QB': cols = main_cols + ['PassYds', 'PassTD', 'Int', 'RushYds', 'RushTD', 'Fum']
-        elif pos == 'RB' or 'WR': cols = main_cols + ['RushYds', 'RushTD', 'Rec', 'RecYds', 'RecTD', 'Fum']
-        elif pos == 'TE': cols = main_cols + ['Rec', 'RecYds', 'RecTD', 'Fum']
+        if pos == 'QB':
+            cols = main_cols + ['PassYds', 'PassTD', 'Int', 'RushYds', 'RushTD', 'Fum']
+        elif pos in ('RB', 'WR'):
+            cols = main_cols + ['RushYds', 'RushTD', 'Rec', 'RecYds', 'RecTD', 'Fum']
+        elif pos == 'TE':
+            cols = main_cols + ['Rec', 'RecYds', 'RecTD', 'Fum']
         else: cols = df.columns
         df = df[cols]
 
@@ -218,7 +221,7 @@ def clean_offense_data(df: pd.DataFrame, pos: str = None):
         pos = pos.upper()
         if pos == 'QB':
             df['ModelPoints'] = df.apply(scoring.calculate_qb_points, axis=1)
-        elif pos == 'RB' or 'WR':
+        elif pos in ('RB', 'WR'):
             df['ModelPoints'] = df.apply(scoring.calculate_rb_wr_points, axis=1)
         elif pos == 'TE':
             df['ModelPoints'] = df.apply(scoring.calculate_te_points, axis=1)
