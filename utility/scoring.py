@@ -151,16 +151,42 @@ def receiving_bonus(rec, rec_td, wr_player_stats):
 
 def calculate_rb_wr_points(row):
     """Calculate fantasy points for running backs and wide receivers."""
-		
     rushing = rushing_points(row)
     receiving = receiving_points(row)
     fumbles = row['Fum'] * -3
 
-    rush_td_bonus = rushing_bonus(row['RushTD'], rb_player_stats)
-    receiving_td_bonus = receiving_bonus(row['Rec'], row['RecTD'], wr_player_stats)
+    # Look up the player's advanced rushing metrics.  If the player isn't
+    # found, assume no bonus points.  The CSVs loaded at module import contain
+    # a ``Player`` column, while ``row`` may use ``Name`` or ``Player`` – handle
+    # both for robustness.
+    player_name = row.get('Name') or row.get('Player')
+
+    rb_player_stats = rb_adv_stats.loc[rb_adv_stats['Player'] == player_name]
+    if rb_player_stats.empty:
+        rush_td_bonus = 0
+    else:
+        rb_player_stats = rb_player_stats.iloc[0].copy()
+        if 'p() 40yd rus' not in rb_player_stats:
+            p20 = (rb_player_stats.get('YBC/Att', 0) + rb_player_stats.get('YAC/Att', 0)) / 20
+            rb_player_stats['p() 40yd rus'] = p20 / 2
+            rb_player_stats['p() 60yd rus'] = p20 / 3
+            rb_player_stats['p() 80yd rus'] = p20 / 4
+        rush_td_bonus = rushing_bonus(row['RushTD'], rb_player_stats)
+
+    wr_player_stats = wr_adv_stats.loc[wr_adv_stats['Player'] == player_name]
+    if wr_player_stats.empty:
+        receiving_td_bonus = 0
+    else:
+        wr_player_stats = wr_player_stats.iloc[0].copy()
+        if 'p() 20yd rec' not in wr_player_stats:
+            p20 = (wr_player_stats.get('ADOT', 0) + wr_player_stats.get('YAC/R', 0)) / 20
+            wr_player_stats['p() 20yd rec'] = p20
+            wr_player_stats['p() 40yd rec'] = p20 / 2
+            wr_player_stats['p() 60yd rec'] = p20 / 3
+            wr_player_stats['p() 80yd rec'] = p20 / 4
+        receiving_td_bonus = receiving_bonus(row['Rec'], row['RecTD'], wr_player_stats)
 
     score = rushing + receiving + fumbles + rush_td_bonus + receiving_td_bonus
-		
     return score
 
 def calculate_te_points(row, config=TE_SCORING_DEFAULT):
