@@ -9,14 +9,13 @@ players without, for example, receiving stats will still appear with a score.
 """
 
 import dash
-from dash import html, dcc, Input, Output, callback
+from dash import html, dcc, Input, Output, callback, State
 from dash_ag_grid import AgGrid
 import dash_bootstrap_components as dbc
 
-from layout import create_scoring_controls
 from utility.helpers import get_sportsbook_props
-from utility.scoring import calculate_prop_points, SCORING_CONFIG_DEFAULT
-from copy import deepcopy
+from utility.scoring import calculate_prop_points, SCORING_CONFIG_DEFAULT, load_config
+from pathlib import Path
 
 # Register the projections page
 
@@ -36,7 +35,6 @@ def layout():
     """
 
     positions = sorted(proj_df['Pos'].dropna().unique())
-    scoring_controls = create_scoring_controls()
 
     info = dbc.Alert(
         [
@@ -57,7 +55,6 @@ def layout():
     return dbc.Container(
         [
             html.H1("Sportsbook Prop Projections"),
-            scoring_controls,
             info,
             dcc.Dropdown(
                 id="proj-position-filter",
@@ -78,7 +75,7 @@ def layout():
                         "sort": "desc",
                     },
                 ],
-                rowData=proj_df.to_dict("records"),
+                rowData=calculate_prop_points(proj_df, config=load_config(Path("assets/settings.json"))).to_dict("records"),
                 defaultColDef={"resizable": True, "filter": True, "sortable": True},
                 dashGridOptions={"pagination": True, "paginationAutoPageSize": True, "rowBuffer": 0},
                 className="ag-theme-alpine",
@@ -91,69 +88,14 @@ def layout():
 
 @callback(
     Output("proj-grid", "rowData"),
-    [
-        Input("proj-position-filter", "value"),
-        Input("pass-yds-pt", "value"),
-        Input("pass-td-pts", "value"),
-        Input("int-pen", "value"),
-        Input("rush-yds-pt", "value"),
-        Input("rush-td-pts", "value"),
-        Input("fum-pen", "value"),
-        Input("rec-yds-pt", "value"),
-        Input("rec-per", "value"),
-        Input("rec-td-pts", "value"),
-    ],
+    [Input("proj-position-filter", "value")],
+    State("scoring-config", "data"),
 )
-def update_grid(
-    selected_positions,
-    pass_yds_pt,
-    pass_td_pts,
-    int_pen,
-    rush_yds_pt,
-    rush_td_pts,
-    fum_pen,
-    rec_yds_pt,
-    rec_per,
-    rec_td_pts,
-):
+def update_grid(selected_positions, config):
     """Recalculate scores and filter grid based on user selections."""
 
-    config = deepcopy(SCORING_CONFIG_DEFAULT)
-
-    if pass_yds_pt is not None:
-        config["QB"]["PassYds"]["points_per"] = pass_yds_pt
-    if pass_td_pts is not None:
-        config["QB"]["PassTD"]["points"] = pass_td_pts
-    if int_pen is not None:
-        config["QB"]["Int"]["points"] = int_pen
-
-    if rush_yds_pt is not None:
-        for pos in ("QB", "RB", "WR"):
-            if "RushYds" in config[pos]:
-                config[pos]["RushYds"]["points_per"] = rush_yds_pt
-    if rush_td_pts is not None:
-        for pos in ("QB", "RB", "WR"):
-            if "RushTD" in config[pos]:
-                config[pos]["RushTD"]["points"] = rush_td_pts
-    if fum_pen is not None:
-        for pos in ("QB", "RB", "WR", "TE"):
-            if "Fum" in config[pos]:
-                config[pos]["Fum"]["points"] = fum_pen
-
-    if rec_yds_pt is not None:
-        for pos in ("RB", "WR", "TE"):
-            if "RecYds" in config[pos]:
-                config[pos]["RecYds"]["points_per"] = rec_yds_pt
-    if rec_per is not None:
-        for pos in ("RB", "WR", "TE"):
-            if "Rec" in config[pos]:
-                config[pos]["Rec"]["points_per"] = rec_per
-    if rec_td_pts is not None:
-        for pos in ("RB", "WR", "TE"):
-            if "RecTD" in config[pos]:
-                config[pos]["RecTD"]["points"] = rec_td_pts
-
-    df = calculate_prop_points(proj_df, config=config)
+    cfg = config or SCORING_CONFIG_DEFAULT
+    df = calculate_prop_points(proj_df, config=cfg)
 
     if selected_positions:
         df = df[df["Pos"].isin(selected_positions)]

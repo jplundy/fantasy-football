@@ -163,7 +163,6 @@ def create_layout(players, teams, data):
     return dbc.Container([
         dcc.Store(id='player-data', data=data),
         html.H1("Fantasy Football Draft Dashboard", className="my-4"),
-        create_scoring_controls(),
         create_filters(),
         create_draft_input(players, teams),
         dbc.Row([

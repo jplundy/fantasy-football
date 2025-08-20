@@ -1,3 +1,5 @@
+import json
+from copy import deepcopy
 import pandas as pd
 from pathlib import Path
 
@@ -204,6 +206,43 @@ SCORING_CONFIG_DEFAULT = {
     'WR': RB_WR_SCORING_DEFAULT,
     'TE': TE_SCORING_DEFAULT,
 }
+
+
+def save_config(path: str | Path, config: dict) -> None:
+    """Serialize a scoring configuration to JSON.
+
+    Parameters
+    ----------
+    path:
+        Destination file path.
+    config:
+        Scoring configuration mapping to persist.
+    """
+
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open('w', encoding='utf-8') as f:
+        json.dump(config, f, indent=2)
+
+
+def load_config(path: str | Path) -> dict:
+    """Load a scoring configuration from JSON.
+
+    If the file does not exist or cannot be parsed, a deep copy of
+    :data:`SCORING_CONFIG_DEFAULT` is returned.
+    """
+
+    path = Path(path)
+    if not path.exists():
+        return deepcopy(SCORING_CONFIG_DEFAULT)
+    try:
+        with path.open(encoding='utf-8') as f:
+            data = json.load(f)
+        if isinstance(data, dict):
+            return data
+    except Exception:
+        pass
+    return deepcopy(SCORING_CONFIG_DEFAULT)
 
 
 def calculate_prop_points(df: pd.DataFrame, config: dict | None = None) -> pd.DataFrame:
