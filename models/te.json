@@ -1,1 +1,1 @@
-{"coef": [0.0], "columns": []}
+{"coef": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "columns": ["line_attempts", "line_comps", "line_pass_tds", "line_pass_yards", "line_ints", "line_receptions", "line_rec_yards", "line_rec_tds", "line_rush_yards", "line_rush_tds", "line_fumbles", "implied_total", "market_differential"]}

@@ -28,6 +28,71 @@ def load_player_stats(data_dir: str, position: str) -> pd.DataFrame:
     return _coerce_numeric(df)
 
 
+def load_prop_history(asset_dir: str = "assets") -> pd.DataFrame:
+    """Load season-long prop lines and engineer basic market features.
+
+    This function searches ``asset_dir`` for files named
+    ``season_long_proj_table*.csv`` (allowing archived versions) and combines
+    them into a single ``DataFrame``. Per-stat over/under lines are prefixed
+    with ``line_`` while additional columns provide the implied fantasy total
+    and the differential between our projections and the market.
+
+    Parameters
+    ----------
+    asset_dir: str, optional
+        Directory containing prop history CSV files.
+    """
+
+    pattern = os.path.join(asset_dir, "season_long_proj_table*.csv")
+    files = glob.glob(pattern)
+    if not files:
+        return pd.DataFrame()
+
+    frames = []
+    for file in files:
+        try:
+            df = pd.read_csv(file)
+            frames.append(df)
+        except Exception:
+            continue
+    props = pd.concat(frames, ignore_index=True)
+    props = _coerce_numeric(props)
+
+    line_cols = {}
+    for col in props.columns:
+        if col in {"Rank", "Name", "Pos", "Projections"}:
+            continue
+        new_col = "line_" + col.strip().lower().replace(" ", "_")
+        line_cols[col] = new_col
+    props.rename(columns=line_cols, inplace=True)
+
+    pass_yards = props.get("line_pass_yards", 0)
+    pass_tds = props.get("line_pass_tds", 0)
+    ints = props.get("line_ints", 0)
+    rush_yards = props.get("line_rush_yards", 0)
+    rush_tds = props.get("line_rush_tds", 0)
+    rec = props.get("line_receptions", 0)
+    rec_yards = props.get("line_rec_yards", 0)
+    rec_tds = props.get("line_rec_tds", 0)
+    fumbles = props.get("line_fumbles", 0)
+
+    props["implied_total"] = (
+        pass_yards / 25
+        + pass_tds * 4
+        - ints * 2
+        + rec
+        + rec_yards / 10
+        + rec_tds * 6
+        + rush_yards / 10
+        + rush_tds * 6
+        - fumbles * 2
+    )
+    props["market_differential"] = props.get("Projections", 0) - props["implied_total"]
+
+    keep_cols = ["Name", "Pos"] + list(line_cols.values()) + ["implied_total", "market_differential"]
+    return props[keep_cols]
+
+
 def _coerce_numeric(df: pd.DataFrame) -> pd.DataFrame:
     """Convert all non-key columns to numeric when possible."""
     df = df.copy()
@@ -43,6 +108,7 @@ def _rolling_features(group: pd.DataFrame) -> pd.DataFrame:
     for col in ["Week", "Points"]:
         if col in numeric_cols:
             numeric_cols.remove(col)
+    numeric_cols = [c for c in numeric_cols if not c.startswith("line_") and c not in {"implied_total", "market_differential"}]
     group = group.sort_values("Week")
     rolling = group[numeric_cols].rolling(window=3, min_periods=1).mean()
     rolling.columns = [f"{c}_roll3" for c in rolling.columns]

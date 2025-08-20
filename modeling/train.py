@@ -3,7 +3,7 @@ import json
 from typing import List
 import numpy as np
 import pandas as pd
-from features import load_player_stats, build_features
+from features import load_player_stats, build_features, load_prop_history
 
 
 def train_position_model(position: str, data_dir: str = "data", models_dir: str = "models") -> str:
@@ -21,6 +21,12 @@ def train_position_model(position: str, data_dir: str = "data", models_dir: str 
     df = load_player_stats(data_dir, position)
     if df.empty:
         raise ValueError(f"No data found for position {position}")
+
+    props = load_prop_history()
+    if not props.empty:
+        props_pos = props[props["Pos"].str.upper() == position.upper()]
+        df = df.merge(props_pos.drop(columns=["Pos"]), on="Name", how="left")
+
     df = build_features(df)
     if "Points" not in df.columns:
         raise ValueError("Required target column 'Points' not present")
