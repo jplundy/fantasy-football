@@ -136,20 +136,16 @@ def create_draft_summary():
     ])
 
 
-def create_team_summaries(team_names):
+def create_team_summary(team_names):
     return html.Div([
-        html.H3("Team Summaries"),
-        dbc.Row([
-            dbc.Card([
-                dbc.CardHeader(name),
-                dbc.CardBody([
-                    html.Div(id=f'team-{i}-summary'),
-                    html.Div(id=f'team-{i}-remaining-budget', className="mt-2 font-weight-bold"),
-
-                    dcc.Graph(id=f'team-{i}-composition-chart')
-                ])
-            ], className="mb-3", style={'width': '100%'}) for i, name in enumerate(team_names, start=1)
-        ])
+        html.H3("Team Summary"),
+        dcc.Dropdown(
+            id='team-selector',
+            options=[{'label': name, 'value': name} for name in team_names],
+            value=team_names[0] if team_names else None,
+            clearable=False,
+        ),
+        html.Div(id='team-summary-display', className="mt-3"),
     ])
 
 
@@ -169,7 +165,7 @@ def create_layout(players, team_names, data):
             dbc.Col(create_player_table(), width=12),
         ]),
         dbc.Row([
-            create_team_summaries(team_names)
+            dbc.Col(create_team_summary(team_names), width=12)
         ]),
         dbc.Row([
             dbc.Col([create_draft_summary()], width=12)
