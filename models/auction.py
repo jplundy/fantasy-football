@@ -1,6 +1,8 @@
 import pandas as pd
 import warnings
+from pathlib import Path
 from utility import helpers, scoring
+from utility.scoring import load_config, LEAGUE_SETTINGS_DEFAULT
 
 warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
 
@@ -79,25 +81,34 @@ base_data = {
     for pos in positions
 }
 
-NUM_TEAMS = 12
-INITIAL_BUDGET = 200
-TOTAL_BUDGET = NUM_TEAMS * INITIAL_BUDGET
-MIN_SPEND = NUM_TEAMS * 17
-AUCTION_BUDGET = TOTAL_BUDGET - MIN_SPEND
+DEFAULT_CONFIG = load_config(Path("assets/settings.json"))
+LEAGUE_CFG = DEFAULT_CONFIG.get('league', LEAGUE_SETTINGS_DEFAULT)
+NUM_TEAMS = LEAGUE_CFG.get('num_teams', LEAGUE_SETTINGS_DEFAULT['num_teams'])
+INITIAL_BUDGET = LEAGUE_CFG.get('initial_budget', LEAGUE_SETTINGS_DEFAULT['initial_budget'])
 
 
 def compute_values(config):
+    cfg = config or DEFAULT_CONFIG
+    league_cfg = cfg.get('league', LEAGUE_SETTINGS_DEFAULT)
+    num_teams = league_cfg.get('num_teams', LEAGUE_SETTINGS_DEFAULT['num_teams'])
+    initial_budget = league_cfg.get('initial_budget', LEAGUE_SETTINGS_DEFAULT['initial_budget'])
+    total_budget = num_teams * initial_budget
+    min_spend = num_teams * 17
+    auction_budget = total_budget - min_spend
+
     qb = base_data['QB'].copy()
+    qb_cfg = cfg.get('QB', scoring.QB_SCORING_DEFAULT)
     qb['ModelPoints'] = qb.apply(
-        lambda r: scoring.calculate_qb_points(r, config['QB']), axis=1
+        lambda r: scoring.calculate_qb_points(r, qb_cfg), axis=1
     )
     rb = base_data['RB'].copy()
     rb['ModelPoints'] = rb.apply(scoring.calculate_rb_wr_points, axis=1)
     wr = base_data['WR'].copy()
     wr['ModelPoints'] = wr.apply(scoring.calculate_rb_wr_points, axis=1)
     te = base_data['TE'].copy()
+    te_cfg = cfg.get('TE', scoring.TE_SCORING_DEFAULT)
     te['ModelPoints'] = te.apply(
-        lambda r: scoring.calculate_te_points(r, config['TE']), axis=1
+        lambda r: scoring.calculate_te_points(r, te_cfg), axis=1
     )
 
     merge_all = pd.concat([qb, rb, wr, te], ignore_index=True)
@@ -131,7 +142,7 @@ def compute_values(config):
         position_dfs[pos] = df_pos
 
     total_vorp = sum(df['VORP'].clip(lower=0).sum() for df in position_dfs.values())
-    price_per_point = AUCTION_BUDGET / total_vorp if total_vorp else 0
+    price_per_point = auction_budget / total_vorp if total_vorp else 0
 
     for pos in positions:
         position_dfs[pos]['AuctionValue'] = (
@@ -141,13 +152,6 @@ def compute_values(config):
     all_players = pd.concat(position_dfs.values())
     all_players_sorted = all_players.sort_values('AuctionValue', ascending=False)
     return all_players_sorted
-
-
-DEFAULT_CONFIG = {
-    'QB': scoring.QB_SCORING_DEFAULT,
-    'RB_WR': scoring.RB_WR_SCORING_DEFAULT,
-    'TE': scoring.TE_SCORING_DEFAULT,
-}
 
 
 all_players_sorted = compute_values(DEFAULT_CONFIG)

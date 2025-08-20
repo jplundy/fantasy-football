@@ -12,6 +12,11 @@ for df in (qb_adv_stats, rb_adv_stats, wr_adv_stats):
     if 'Player' in df.columns:
         df['Player'] = df['Player'].str.replace(r'[^\w\s]', '', regex=True)
 
+LEAGUE_SETTINGS_DEFAULT = {
+    'num_teams': 12,
+    'initial_budget': 200,
+}
+
 QB_SCORING_DEFAULT = {
     'PassYds': {'points_per': 25, 'bonuses': {250: 3, 350: 3, 450: 3, 550: 3, 650: 3}},
     'PassTD': {'points': 6},
@@ -225,6 +230,7 @@ def calculate_te_points(row, config=TE_SCORING_DEFAULT):
 
 
 SCORING_CONFIG_DEFAULT = {
+    'league': LEAGUE_SETTINGS_DEFAULT,
     'QB': QB_SCORING_DEFAULT,
     'RB': RB_WR_SCORING_DEFAULT,
     'WR': RB_WR_SCORING_DEFAULT,
