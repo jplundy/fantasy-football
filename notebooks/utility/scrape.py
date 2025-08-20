@@ -299,7 +299,7 @@ def scrape(positions=POSITIONS) -> pd.DataFrame:
 
             df_pos = clean_scrape(df_pos)
 
-            out_pos = OUT_DIR / f"{pos_name}_scraped_data.csv"
+            out_pos = OUT_DIR / f"{pos_name}.csv"
             df_pos.to_csv(out_pos, index=False)
             print(f"position {pos_name} pushed to csv -> {out_pos}")
 
