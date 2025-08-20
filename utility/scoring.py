@@ -114,12 +114,21 @@ def rushing_bonus(rush_td, rb_player_stats):
 
     Probabilities of touchdowns of 40+ yards are derived from yards-before
     contact and yards-after contact metrics. Each threshold awards additional
-    bonus points.
+    bonus points. Probabilities are scaled by a player's breakaway rate
+    calculated from ``Att/Br`` when available.
     """
 
-    p40 = rb_player_stats['p() 40yd rus']
-    p60 = rb_player_stats['p() 60yd rus']
-    p80 = rb_player_stats['p() 80yd rus']
+    # Determine how often a player breaks a long run.
+    br_rate = rb_player_stats.get('breakaway_rate')
+    if br_rate is None:
+        att_per_br = rb_player_stats.get('Att/Br')
+        br_rate = 1 / att_per_br if att_per_br and att_per_br > 0 else 0
+
+    # Scale distance-based probabilities by the breakaway rate.
+    adj = 1 + br_rate
+    p40 = rb_player_stats['p() 40yd rus'] * adj
+    p60 = rb_player_stats['p() 60yd rus'] * adj
+    p80 = rb_player_stats['p() 80yd rus'] * adj
 
     bonus_80 = rush_td * p80 * 3
     bonus_60 = rush_td * (p60 - p80) * 2
@@ -132,13 +141,20 @@ def receiving_bonus(rec, rec_td, wr_player_stats):
     """Bonus points for long receptions and receiving touchdowns.
 
     Probabilities for each distance bucket are estimated from average depth of
-    target and yards after the catch.
+    target and yards after the catch. Probabilities are scaled by a player's
+    breakaway rate calculated from ``Rec/Br`` when available.
     """
 
-    p20 = wr_player_stats['p() 20yd rec']
-    p40 = wr_player_stats['p() 40yd rec']
-    p60 = wr_player_stats['p() 60yd rec']
-    p80 = wr_player_stats['p() 80yd rec']
+    br_rate = wr_player_stats.get('breakaway_rate')
+    if br_rate is None:
+        rec_per_br = wr_player_stats.get('Rec/Br')
+        br_rate = 1 / rec_per_br if rec_per_br and rec_per_br > 0 else 0
+
+    adj = 1 + br_rate
+    p20 = wr_player_stats['p() 20yd rec'] * adj
+    p40 = wr_player_stats['p() 40yd rec'] * adj
+    p60 = wr_player_stats['p() 60yd rec'] * adj
+    p80 = wr_player_stats['p() 80yd rec'] * adj
 
     rec_bonus = rec * p20 + rec * p40 * 2
 
@@ -166,6 +182,10 @@ def calculate_rb_wr_points(row):
         rush_td_bonus = 0
     else:
         rb_player_stats = rb_player_stats.iloc[0].copy()
+        att_per_br = rb_player_stats.get('Att/Br')
+        rb_player_stats['breakaway_rate'] = (
+            1 / att_per_br if att_per_br and att_per_br > 0 else 0
+        )
         if 'p() 40yd rus' not in rb_player_stats:
             p20 = (rb_player_stats.get('YBC/Att', 0) + rb_player_stats.get('YAC/Att', 0)) / 20
             rb_player_stats['p() 40yd rus'] = p20 / 2
@@ -178,6 +198,10 @@ def calculate_rb_wr_points(row):
         receiving_td_bonus = 0
     else:
         wr_player_stats = wr_player_stats.iloc[0].copy()
+        rec_per_br = wr_player_stats.get('Rec/Br')
+        wr_player_stats['breakaway_rate'] = (
+            1 / rec_per_br if rec_per_br and rec_per_br > 0 else 0
+        )
         if 'p() 20yd rec' not in wr_player_stats:
             p20 = (wr_player_stats.get('ADOT', 0) + wr_player_stats.get('YAC/R', 0)) / 20
             wr_player_stats['p() 20yd rec'] = p20

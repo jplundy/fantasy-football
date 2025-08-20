@@ -136,3 +136,67 @@ def test_calculate_prop_points_dispatch():
         qb_mock.assert_called_once()
         rb_mock.assert_called()
         te_mock.assert_called_once()
+
+
+def test_rushing_bonus_breakaway_rate_scaling():
+    scoring, _, _ = _load_scoring()
+
+    high = pd.Series(
+        {
+            'p() 40yd rus': 0.05,
+            'p() 60yd rus': 0.03,
+            'p() 80yd rus': 0.01,
+            'Att/Br': 5,
+        }
+    )
+    low = pd.Series(
+        {
+            'p() 40yd rus': 0.05,
+            'p() 60yd rus': 0.03,
+            'p() 80yd rus': 0.01,
+            'Att/Br': 50,
+        }
+    )
+
+    base = high['p() 40yd rus'] + high['p() 60yd rus']
+    assert scoring.rushing_bonus(1, high) == pytest.approx(base * (1 + 1 / 5))
+    assert scoring.rushing_bonus(1, low) == pytest.approx(base * (1 + 1 / 50))
+    assert scoring.rushing_bonus(1, high) > scoring.rushing_bonus(1, low)
+
+
+def test_receiving_bonus_breakaway_rate_scaling():
+    scoring, _, _ = _load_scoring()
+
+    rec = 5
+    rec_td = 1
+    high = pd.Series(
+        {
+            'p() 20yd rec': 0.1,
+            'p() 40yd rec': 0.05,
+            'p() 60yd rec': 0.02,
+            'p() 80yd rec': 0.01,
+            'Rec/Br': 5,
+        }
+    )
+    low = pd.Series(
+        {
+            'p() 20yd rec': 0.1,
+            'p() 40yd rec': 0.05,
+            'p() 60yd rec': 0.02,
+            'p() 80yd rec': 0.01,
+            'Rec/Br': 50,
+        }
+    )
+
+    base = rec * (high['p() 20yd rec'] + 2 * high['p() 40yd rec']) + rec_td * (
+        high['p() 40yd rec'] + high['p() 60yd rec']
+    )
+    assert scoring.receiving_bonus(rec, rec_td, high) == pytest.approx(
+        base * (1 + 1 / 5)
+    )
+    assert scoring.receiving_bonus(rec, rec_td, low) == pytest.approx(
+        base * (1 + 1 / 50)
+    )
+    assert scoring.receiving_bonus(rec, rec_td, high) > scoring.receiving_bonus(
+        rec, rec_td, low
+    )
