@@ -92,13 +92,9 @@ def compute_values(config):
         lambda r: scoring.calculate_qb_points(r, config['QB']), axis=1
     )
     rb = base_data['RB'].copy()
-    rb['ModelPoints'] = rb.apply(
-        lambda r: scoring.calculate_rb_wr_points(r, config['RB_WR']), axis=1
-    )
+    rb['ModelPoints'] = rb.apply(scoring.calculate_rb_wr_points, axis=1)
     wr = base_data['WR'].copy()
-    wr['ModelPoints'] = wr.apply(
-        lambda r: scoring.calculate_rb_wr_points(r, config['RB_WR']), axis=1
-    )
+    wr['ModelPoints'] = wr.apply(scoring.calculate_rb_wr_points, axis=1)
     te = base_data['TE'].copy()
     te['ModelPoints'] = te.apply(
         lambda r: scoring.calculate_te_points(r, config['TE']), axis=1
