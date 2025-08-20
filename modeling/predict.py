@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 import pandas as pd
-from features import build_features, load_prop_history
+from .features import build_features, load_prop_history
 
 
 def load_model(position: str, models_dir: str = "models"):
