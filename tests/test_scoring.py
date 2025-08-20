@@ -84,3 +84,55 @@ def test_calculate_rb_wr_points_zero_line():
     })
 
     assert scoring.calculate_rb_wr_points(row) == 0
+
+
+def test_calculate_prop_points_dispatch():
+    scoring, _, _ = _load_scoring()
+
+    df = pd.DataFrame(
+        [
+            {
+                'Pos': 'QB',
+                'PassYds': 100,
+                'PassTD': 1,
+                'Int': 0,
+                'RushYds': 0,
+                'RushTD': 0,
+                'Fum': 0,
+            },
+            {
+                'Pos': 'RB',
+                'RushYds': 10,
+                'RushTD': 0,
+                'Fum': 0,
+                'RecYds': 10,
+                'RecTD': 0,
+                'Rec': 1,
+            },
+            {
+                'Pos': 'TE',
+                'RecYds': 10,
+                'RecTD': 0,
+                'Rec': 1,
+                'Fum': 0,
+            },
+        ]
+    )
+
+    config = {
+        'QB': scoring.QB_SCORING_DEFAULT,
+        'RB': scoring.RB_WR_SCORING_DEFAULT,
+        'WR': scoring.RB_WR_SCORING_DEFAULT,
+        'TE': scoring.TE_SCORING_DEFAULT,
+    }
+
+    with patch.object(scoring, 'calculate_qb_points', return_value=1) as qb_mock, \
+        patch.object(scoring, 'calculate_rb_wr_points', return_value=2) as rb_mock, \
+        patch.object(scoring, 'calculate_te_points', return_value=3) as te_mock:
+
+        result = scoring.calculate_prop_points(df, config)
+
+        assert list(result['ModelPoints']) == [1, 2, 3]
+        qb_mock.assert_called_once()
+        rb_mock.assert_called()
+        te_mock.assert_called_once()
