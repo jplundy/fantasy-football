@@ -1,10 +1,12 @@
 import dash
 from dash import dcc, html, Output, Input, State
+from pathlib import Path
 from plotly import express as px
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.graph_objs as go
 from utility import scoring
+from utility.scoring import load_config
 from models.auction import (
     all_players_sorted,
     NUM_TEAMS,
@@ -26,6 +28,7 @@ server = app.server
 
 app.layout = dbc.Container(
     [
+        dcc.Store(id="scoring-config", data=load_config(Path("assets/settings.json"))),
         dbc.NavbarSimple(
             children=[
                 dbc.NavItem(dbc.NavLink("Home", href="/")),
@@ -36,6 +39,7 @@ app.layout = dbc.Container(
                 dbc.NavItem(dbc.NavLink("Modeling", href="/modeling")),
                 dbc.NavItem(dbc.NavLink("History", href="/history")),
                 dbc.NavItem(dbc.NavLink("Playground", href="/playground")),
+                dbc.NavItem(dbc.NavLink("League Settings", href="/settings")),
             ],
             brand="sigFantasy",
             brand_href="/",
@@ -49,50 +53,18 @@ app.layout = dbc.Container(
 
 @app.callback(
     Output('player-data', 'data', allow_duplicate=True),
-    [
-        Input('pass-yds-pt', 'value'),
-        Input('pass-td-pts', 'value'),
-        Input('int-pen', 'value'),
-        Input('rush-yds-pt', 'value'),
-        Input('rush-td-pts', 'value'),
-        Input('fum-pen', 'value'),
-        Input('rec-yds-pt', 'value'),
-        Input('rec-per', 'value'),
-        Input('rec-td-pts', 'value'),
-    ],
+    Input('scoring-config', 'data'),
     State('player-data', 'data'),
     prevent_initial_call=True,
 )
-def update_player_data(pass_yds_pt, pass_td_pts, int_pen, rush_yds_pt, rush_td_pts,
-                       fum_pen, rec_yds_pt, rec_per, rec_td_pts, current_data):
-    config = {
-        'QB': {
-            'PassYds': {'points_per': pass_yds_pt, 'bonuses': scoring.QB_SCORING_DEFAULT['PassYds']['bonuses']},
-            'PassTD': {'points': pass_td_pts},
-            'Int': {'points': int_pen},
-            'RushYds': {'points_per': rush_yds_pt, 'bonuses': scoring.QB_SCORING_DEFAULT['RushYds']['bonuses']},
-            'RushTD': {'points': rush_td_pts},
-            'Fum': {'points': fum_pen},
-        },
-        'RB_WR': {
-            'RushYds': {'points_per': rush_yds_pt, 'bonuses': scoring.RB_WR_SCORING_DEFAULT['RushYds']['bonuses']},
-            'RushTD': {'points': rush_td_pts},
-            'Fum': {'points': fum_pen},
-            'RecYds': {'points_per': rec_yds_pt, 'bonuses': scoring.RB_WR_SCORING_DEFAULT['RecYds']['bonuses']},
-            'Rec': {'points_per': rec_per, 'bonuses': scoring.RB_WR_SCORING_DEFAULT['Rec']['bonuses']},
-            'RecTD': {'points': rec_td_pts},
-            'BigRushTD': scoring.RB_WR_SCORING_DEFAULT['BigRushTD'],
-            'BigRec': scoring.RB_WR_SCORING_DEFAULT['BigRec'],
-            'BigRecTD': scoring.RB_WR_SCORING_DEFAULT['BigRecTD'],
-        },
-        'TE': {
-            'RecYds': {'points_per': rec_yds_pt, 'bonuses': scoring.TE_SCORING_DEFAULT['RecYds']['bonuses']},
-            'Rec': {'points_per': rec_per, 'bonuses': scoring.TE_SCORING_DEFAULT['Rec']['bonuses']},
-            'RecTD': {'points': rec_td_pts},
-            'Fum': {'points': fum_pen},
-        },
+def update_player_data(config, current_data):
+    cfg = config or scoring.SCORING_CONFIG_DEFAULT
+    compute_cfg = {
+        'QB': cfg.get('QB', scoring.QB_SCORING_DEFAULT),
+        'RB_WR': cfg.get('RB', scoring.RB_WR_SCORING_DEFAULT),
+        'TE': cfg.get('TE', scoring.TE_SCORING_DEFAULT),
     }
-    new_players = compute_values(config)
+    new_players = compute_values(compute_cfg)
     if current_data:
         drafted_cols = pd.DataFrame(current_data)[['Name', 'Drafted', 'DraftedBy', 'PricePaid']]
         new_players = new_players.merge(drafted_cols, on='Name', how='left')
