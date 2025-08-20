@@ -170,3 +170,55 @@ def calculate_te_points(row, config=TE_SCORING_DEFAULT):
     score += row['RecTD'] * config['RecTD']['points']
     score += row['Fum'] * config['Fum']['points']
     return score
+
+
+SCORING_CONFIG_DEFAULT = {
+    'QB': QB_SCORING_DEFAULT,
+    'RB': RB_WR_SCORING_DEFAULT,
+    'WR': RB_WR_SCORING_DEFAULT,
+    'TE': TE_SCORING_DEFAULT,
+}
+
+
+def calculate_prop_points(df: pd.DataFrame, config: dict | None = None) -> pd.DataFrame:
+    """Calculate fantasy points for each player based on position.
+
+    Parameters
+    ----------
+    df:
+        DataFrame containing at least ``Pos`` and the statistical columns used
+        by the scoring functions.
+    config:
+        Optional mapping of position to scoring configuration.  If omitted,
+        :data:`SCORING_CONFIG_DEFAULT` is used.
+    """
+
+    if df is None or df.empty:
+        return df
+
+    config = config or SCORING_CONFIG_DEFAULT
+    df = df.copy()
+    df['Pos'] = df['Pos'].str.upper()
+
+    qb_mask = df['Pos'] == 'QB'
+    if qb_mask.any():
+        qb_cfg = config.get('QB', QB_SCORING_DEFAULT)
+        df.loc[qb_mask, 'ModelPoints'] = df.loc[qb_mask].apply(
+            lambda row: calculate_qb_points(row, qb_cfg), axis=1
+        )
+
+    rb_wr_mask = df['Pos'].isin(['RB', 'WR'])
+    if rb_wr_mask.any():
+        df.loc[rb_wr_mask, 'ModelPoints'] = df.loc[rb_wr_mask].apply(
+            calculate_rb_wr_points, axis=1
+        )
+
+    te_mask = df['Pos'] == 'TE'
+    if te_mask.any():
+        te_cfg = config.get('TE', TE_SCORING_DEFAULT)
+        df.loc[te_mask, 'ModelPoints'] = df.loc[te_mask].apply(
+            lambda row: calculate_te_points(row, te_cfg), axis=1
+        )
+
+    df['ModelPoints'] = pd.to_numeric(df['ModelPoints'], errors='coerce').fillna(0)
+    return df

@@ -32,6 +32,7 @@ app.layout = dbc.Container(
                 dbc.NavItem(dbc.NavLink("Auction", href="/auction")),
                 dbc.NavItem(dbc.NavLink("Draft Board", href="/draftboard")),
                 dbc.NavItem(dbc.NavLink("Offense Data", href="/offensedata")),
+                dbc.NavItem(dbc.NavLink("Projections", href="/projections")),
                 dbc.NavItem(dbc.NavLink("History", href="/history")),
                 dbc.NavItem(dbc.NavLink("Playground", href="/playground")),
             ],

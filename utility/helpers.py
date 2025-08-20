@@ -41,6 +41,68 @@ def get_schedule():
     return df
 
 
+def get_season_long_projections():
+    """Return season-long projection data.
+
+    The CSV is expected to provide columns such as ``Rank``, ``Name``,
+    ``Pos`` and ``Projections``.  If the file cannot be read an empty
+    :class:`~pandas.DataFrame` is returned so that downstream code can
+    handle the absence gracefully.
+    """
+
+    file_path = (
+        Path(__file__).resolve().parents[1]
+        / 'assets'
+        / 'season_long_proj_table.csv'
+    )
+    try:
+        df = pd.read_csv(file_path)
+    except Exception:
+        df = pd.DataFrame()
+    return df
+
+
+def get_sportsbook_props():
+    """Return sportsbook prop projections with standardized columns.
+
+    The data is sourced from ``assets/season_long_proj_table.csv`` and the
+    columns are renamed to align with the scoring keys used throughout the
+    project.  Any non-numeric values in the statistical columns are coerced to
+    zero so downstream scoring functions can operate without additional type
+    checks.
+    """
+
+    file_path = (
+        Path(__file__).resolve().parents[1]
+        / "assets"
+        / "season_long_proj_table.csv"
+    )
+
+    try:
+        df = pd.read_csv(file_path)
+    except Exception:
+        return pd.DataFrame()
+
+    rename_map = {
+        "Pass Yards": "PassYds",
+        "Pass TDs": "PassTD",
+        "Ints": "Int",
+        "Rush Yards": "RushYds",
+        "Rush TDs": "RushTD",
+        "Rec Yards": "RecYds",
+        "Rec TDs": "RecTD",
+        "Receptions": "Rec",
+        "Fumbles": "Fum",
+    }
+    df.rename(columns=rename_map, inplace=True)
+
+    for col in rename_map.values():
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+
+    return df
+
+
 def get_defense_metrics():
     """Return per-team defensive metrics.
 
