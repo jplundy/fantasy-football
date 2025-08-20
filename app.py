@@ -9,10 +9,13 @@ from utility import scoring
 from utility.scoring import load_config
 from models.auction import (
     all_players_sorted,
-    NUM_TEAMS,
     compute_values,
-    INITIAL_BUDGET,
 )
+
+settings_path = Path("assets/settings.json")
+initial_settings = load_config(settings_path)
+NUM_TEAMS = initial_settings.get('league', {}).get('num_teams', 12)
+INITIAL_BUDGET = initial_settings.get('league', {}).get('initial_budget', 200)
 
 draft_history = []
 
@@ -28,7 +31,7 @@ server = app.server
 
 app.layout = dbc.Container(
     [
-        dcc.Store(id="scoring-config", data=load_config(Path("assets/settings.json"))),
+        dcc.Store(id="scoring-config", data=initial_settings),
         dbc.NavbarSimple(
             children=[
                 dbc.NavItem(dbc.NavLink("Home", href="/")),
@@ -59,12 +62,7 @@ app.layout = dbc.Container(
 )
 def update_player_data(config, current_data):
     cfg = config or scoring.SCORING_CONFIG_DEFAULT
-    compute_cfg = {
-        'QB': cfg.get('QB', scoring.QB_SCORING_DEFAULT),
-        'RB_WR': cfg.get('RB', scoring.RB_WR_SCORING_DEFAULT),
-        'TE': cfg.get('TE', scoring.TE_SCORING_DEFAULT),
-    }
-    new_players = compute_values(compute_cfg)
+    new_players = compute_values(cfg)
     if current_data:
         drafted_cols = pd.DataFrame(current_data)[['Name', 'Drafted', 'DraftedBy', 'PricePaid']]
         new_players = new_players.merge(drafted_cols, on='Name', how='left')
