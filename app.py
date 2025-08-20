@@ -116,46 +116,60 @@ def update_table(data):
 
 
 @app.callback(
-    [Output('value-distribution-graph', 'figure'),
-     Output('top-players-graph', 'figure'),
-     Output('draft-summary', 'children')] +
-    [Output(f'team-{i}-summary', 'children') for i in range(1, NUM_TEAMS + 1)] +
-    [Output(f'team-{i}-remaining-budget', 'children') for i in range(1, NUM_TEAMS + 1)] +
-    [Output(f'team-{i}-composition-chart', 'figure') for i in range(1, NUM_TEAMS + 1)],
-    Input('player-data', 'data'),
+    [
+        Output('value-distribution-graph', 'figure'),
+        Output('top-players-graph', 'figure'),
+        Output('draft-summary', 'children'),
+        Output('team-summary-display', 'children'),
+    ],
+    [Input('player-data', 'data'), Input('team-selector', 'value')],
 )
-def update_summaries(data):
+def update_summaries(data, selected_team):
     df = pd.DataFrame(data or [])
     value_dist = px.box(df, x='Position', y='AuctionValue', title='Auction Value Distribution by Position')
     top_players = px.bar(df.head(20), x='Name', y='AuctionValue', color='Position', title='Top 20 Players by Auction Value')
     top_players.update_layout(xaxis={'categoryorder': 'total descending'})
+
     drafted_players = df[df['Drafted']]
     summary = [
         html.P(f"Total Players Drafted: {len(drafted_players)}"),
         html.P(f"Total Spend: ${drafted_players['PricePaid'].sum():.2f}"),
         html.P("Top Drafted Players:"),
-        html.Ul([html.Li(f"{row['Name']} - {row['DraftedBy']} - ${row['PricePaid']}") for _, row in drafted_players.sort_values('PricePaid', ascending=False).head(5).iterrows()]),
+        html.Ul([
+            html.Li(f"{row['Name']} - {row['DraftedBy']} - ${row['PricePaid']}")
+            for _, row in drafted_players.sort_values('PricePaid', ascending=False).head(5).iterrows()
+        ]),
     ]
-    team_summaries = []
-    team_budgets = []
-    team_charts = []
-    for i, team_name in enumerate(TEAM_NAMES, start=1):
-        team_players = drafted_players[drafted_players['DraftedBy'] == team_name]
-        team_spend = team_players['PricePaid'].sum()
-        remaining_budget = INITIAL_BUDGET - team_spend
-        team_summary = [
-            html.P(f"Players Drafted: {len(team_players)}"),
-            html.P(f"Total Spend: ${team_spend:.2f}"),
-            html.P("Drafted Players:"),
-            html.Ul([html.Li(f"{row['Name']} ({row['Position']}) - ${row['PricePaid']}") for _, row in team_players.iterrows()]),
-        ]
-        team_summaries.append(team_summary)
-        team_budgets.append(f"Remaining Budget: ${remaining_budget:.2f}")
-        position_counts = team_players['Position'].value_counts()
-        team_chart = go.Figure(data=[go.Pie(labels=position_counts.index, values=position_counts.values)])
-        team_chart.update_layout(title=f"{team_name} Composition", height=300)
-        team_charts.append(team_chart)
-    return value_dist, top_players, summary, *team_summaries, *team_budgets, *team_charts
+
+    team_summary_df = (
+        drafted_players.groupby('DraftedBy')
+        .agg(Players=('Name', 'count'), Spend=('PricePaid', 'sum'))
+        .reindex(TEAM_NAMES, fill_value=0)
+    )
+    team_summary_df['Remaining'] = INITIAL_BUDGET - team_summary_df['Spend']
+
+    if selected_team in team_summary_df.index:
+        team_row = team_summary_df.loc[selected_team]
+    else:
+        team_row = pd.Series({'Players': 0, 'Spend': 0.0, 'Remaining': INITIAL_BUDGET})
+
+    position_counts = (
+        drafted_players[drafted_players['DraftedBy'] == selected_team]['Position']
+        .value_counts()
+        .to_dict()
+    )
+
+    table_rows = [
+        html.Tr([html.Th('Players Drafted'), html.Td(int(team_row['Players']))]),
+        html.Tr([html.Th('Total Spend'), html.Td(f"${team_row['Spend']:.2f}")]),
+        html.Tr([html.Th('Remaining Budget'), html.Td(f"${team_row['Remaining']:.2f}")]),
+    ]
+    for pos, count in position_counts.items():
+        table_rows.append(html.Tr([html.Th(pos), html.Td(count)]))
+
+    team_table = dbc.Table([html.Tbody(table_rows)], bordered=True, hover=True, size='sm')
+
+    return value_dist, top_players, summary, team_table
 
 
 @app.callback(Output('player-table', 'dashGridOptions'), Input('search-input', 'value'))
