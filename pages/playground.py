@@ -9,7 +9,26 @@ from utility import helpers
 dash.register_page(__name__, path='/playground')
 
 # Load data used in this playground
-sched_data = helpers.clean_schedule(helpers.get_schedule())
+# Transform the schedule into a grid where each team occupies a row and each
+# week is a column.  Cells show the opponent and are prefixed with '@' when the
+# game is on the road.
+_sched_long = helpers.clean_schedule(helpers.get_schedule())
+_sched_long['Opponent_Display'] = _sched_long.apply(
+    lambda r: (
+        'BYE'
+        if r['Game_Type'] == 'BYE'
+        else ('@' + r['Opponent'] if r['Location'] == 'Away' else r['Opponent'])
+    ),
+    axis=1,
+)
+sched_data = (
+    _sched_long
+    .pivot(index='TEAM', columns='Week', values='Opponent_Display')
+    .reset_index()
+    .rename_axis(None, axis=1)
+)
+sched_data.columns = sched_data.columns.map(str)
+
 qb_data = helpers.clean_offense_data(helpers.get_position_data('QB'), pos='QB')
 
 
