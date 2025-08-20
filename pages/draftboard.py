@@ -3,11 +3,16 @@ from dash import dcc, html, Input, Output, State, callback
 from dash_ag_grid import AgGrid
 import pandas as pd
 from utility import helpers
+from utility.scoring import load_config
+from pathlib import Path
 from datetime import datetime
 import time
 
 
 dash.register_page(__name__, path='/draftboard')
+
+settings = load_config(Path("assets/settings.json"))
+TEAM_NAMES = settings.get('league', {}).get('team_names', [])
 
 board_df = helpers.get_board()
 board_df = helpers.clean_board(board_df)
@@ -51,7 +56,7 @@ def layout():
                     'field': 'Owner',
                     'editable': True,
                     'cellEditor': 'agSelectCellEditor',
-                    'cellEditorParams': {'values': ['Bob', 'Josh', 'Joe']},
+                    'cellEditorParams': {'values': TEAM_NAMES},
                     'filter': True,
                     'sortable': True,
                 },
