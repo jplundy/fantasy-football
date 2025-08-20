@@ -41,6 +41,27 @@ def get_schedule():
     return df
 
 
+def get_season_long_projections():
+    """Return season-long projection data.
+
+    The CSV is expected to provide columns such as ``Rank``, ``Name``,
+    ``Pos`` and ``Projections``.  If the file cannot be read an empty
+    :class:`~pandas.DataFrame` is returned so that downstream code can
+    handle the absence gracefully.
+    """
+
+    file_path = (
+        Path(__file__).resolve().parents[1]
+        / 'assets'
+        / 'season_long_proj_table.csv'
+    )
+    try:
+        df = pd.read_csv(file_path)
+    except Exception:
+        df = pd.DataFrame()
+    return df
+
+
 def get_defense_metrics():
     """Return per-team defensive metrics.
 
