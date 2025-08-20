@@ -1,7 +1,7 @@
 import dash
 from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
-import dash_table
+from dash_ag_grid import AgGrid
 import pandas as pd
 from utility import helpers
 
@@ -52,12 +52,23 @@ def layout():
                 style={'width':'100%', 'height':'100%', 'margin':'0px', 'padding':'0px'}
             ),
             dbc.Row(
-                dash_table.DataTable(
-                    id='offdata-table',
-                    columns=[{'name': col, 'id': col} for col in df.columns],
-                    data=df.to_dict('records'),
-                    sort_action='native',
-                    page_size=20
+                dcc.RadioItems(
+                    id='offdata-view-mode',
+                    options=[
+                        {'label': 'Weekly', 'value': 'weekly'},
+                        {'label': 'Season', 'value': 'season'}
+                    ],
+                    value='weekly',
+                    inline=True
+                ),
+                className='my-2'
+            ),
+            dbc.Row(
+                AgGrid(
+                    id='offdata-grid',
+                    columnDefs=[{"headerName": col, "field": col} for col in df.columns],
+                    rowData=df.to_dict('records'),
+                    dashGridOptions={"defaultColDef": {"sortable": True, "filter": True}}
                 )
             )
         ],
@@ -68,21 +79,29 @@ def layout():
 
 # Callback to update the table based on filters
 @callback(
-    Output('offdata-table', 'data'),
-    [Input('offdata-name-dropdown', 'value'),
-     Input('offdata-pos-dropdown', 'value'),
-     Input('offdata-team-dropdown', 'value')]
+    Output('offdata-grid', 'rowData'),
+    Output('offdata-grid', 'columnDefs'),
+    Input('offdata-name-dropdown', 'value'),
+    Input('offdata-pos-dropdown', 'value'),
+    Input('offdata-team-dropdown', 'value'),
+    Input('offdata-view-mode', 'value'),
 )
-def update_table(selected_names, selected_positions, selected_teams):
+def update_table(selected_names, selected_positions, selected_teams, view_mode):
     filtered_df = df
-    
+
     if selected_names:
         filtered_df = filtered_df[filtered_df['Name'].isin(selected_names)]
 
     if selected_positions:
-        filtered_df = filtered_df[filtered_df['Position'].isin(selected_positions)]    
+        filtered_df = filtered_df[filtered_df['Position'].isin(selected_positions)]
 
     if selected_teams:
         filtered_df = filtered_df[filtered_df['Team'].isin(selected_teams)]
-    
-    return filtered_df.to_dict('records')
+
+    if view_mode == 'season':
+        filtered_df = filtered_df.drop(columns=[c for c in ['Week', 'Opponent'] if c in filtered_df.columns])
+        filtered_df = filtered_df.groupby(['Name', 'Position', 'Team'], as_index=False).sum(numeric_only=True)
+
+    column_defs = [{"headerName": col, "field": col} for col in filtered_df.columns]
+    row_data = filtered_df.to_dict('records')
+    return row_data, column_defs
