@@ -1,6 +1,6 @@
 import dash
-from dash import dcc, html, Input, Output, State, callback, dash_table
-import dash_bootstrap_components as dbc
+from dash import dcc, html, Input, Output, State, callback
+from dash_ag_grid import AgGrid
 import pandas as pd
 from utility import helpers
 from datetime import datetime
@@ -21,52 +21,100 @@ def layout():
         dcc.Store(id='draftboard-saved', data=board_df.to_dict('records')),
         dcc.Store(id='last-save-timestamp', data=0),
 
-        dash_table.DataTable(
-            id='draftboard-table',
-            columns=[
-                {'name': col, 'id': col, 'editable': True, 'presentation': 'dropdown'} if col == 'Owner'
-                else {'name': col, 'id': col, 'editable': True} if col == 'Price'
-                else {'name': col, 'id': col}
-                for col in board_df.columns
-            ],
-            data=board_df.to_dict('records'),
-            style_data_conditional=[
+        dcc.Input(id='draftboard-search', type='text', placeholder='Search...'),
+        dcc.Dropdown(
+            id='draftboard-name-dropdown',
+            options=[{'label': name, 'value': name} for name in board_df['Name'].unique()],
+            multi=True,
+            placeholder="Select Name",
+        ),
+        dcc.Dropdown(
+            id='draftboard-pos-dropdown',
+            options=[{'label': pos, 'value': pos} for pos in board_df['Position'].unique()],
+            multi=True,
+            placeholder="Select Position",
+        ),
+        dcc.Dropdown(
+            id='draftboard-team-dropdown',
+            options=[{'label': team, 'value': team} for team in board_df['Team'].unique()],
+            multi=True,
+            placeholder="Select Team",
+        ),
+
+        AgGrid(
+            id='draftboard-grid',
+            columnDefs=[
+                {'field': 'Name', 'filter': True, 'sortable': True},
+                {'field': 'Position', 'filter': True, 'sortable': True},
+                {'field': 'Team', 'filter': True, 'sortable': True},
                 {
-                    'if': {
-                        'filter_query': '{Owner} != "" && {Owner} != "nan" && {Owner} != "None"',
-                    },
-                    'backgroundColor': 'lightgrey',
-                    'color': 'grey'
-                }
+                    'field': 'Owner',
+                    'editable': True,
+                    'cellEditor': 'agSelectCellEditor',
+                    'cellEditorParams': {'values': ['Bob', 'Josh', 'Joe']},
+                    'filter': True,
+                    'sortable': True,
+                },
+                {
+                    'field': 'Price',
+                    'editable': True,
+                    'filter': True,
+                    'sortable': True,
+                    'valueParser': 'Number(value)',
+                },
             ],
-            editable=True,
-            row_deletable=False,
-            dropdown={
-                'Owner': {
-                    'options': [
-                        {'label': 'Bob', 'value': 'Bob'},
-                        {'label': 'Josh', 'value': 'Josh'},
-                        {'label': 'Joe', 'value': 'Joe'}
-                    ]
-                }
-            }
+            rowData=board_df.to_dict('records'),
+            dashGridOptions={
+                'rowClassRules': {
+                    'drafted': "data.Owner && data.Owner !== '' && data.Owner !== 'nan' && data.Owner !== 'None'",
+                },
+            },
         ),
         html.Button("Save", id='save-draftboard', n_clicks=0, disabled=True),
-        html.Div(id='draftboard-status', style={'margin-top': '20px'})
+        html.Div(id='draftboard-status', style={'margin-top': '20px'}),
     ])
     return component
+
+
+# Update quick filter and column filters
+@callback(
+    Output('draftboard-grid', 'dashGridOptions'),
+    Input('draftboard-search', 'value'),
+    State('draftboard-grid', 'dashGridOptions'),
+    prevent_initial_call=True,
+)
+def update_quick_filter(search_text, grid_options):
+    options = grid_options or {}
+    options['quickFilterText'] = search_text or ''
+    return options
+
+
+@callback(
+    Output('draftboard-grid', 'filterModel'),
+    Input('draftboard-name-dropdown', 'value'),
+    Input('draftboard-pos-dropdown', 'value'),
+    Input('draftboard-team-dropdown', 'value'),
+)
+def update_column_filters(names, positions, teams):
+    model = {}
+    if names:
+        model['Name'] = {'filterType': 'set', 'values': names}
+    if positions:
+        model['Position'] = {'filterType': 'set', 'values': positions}
+    if teams:
+        model['Team'] = {'filterType': 'set', 'values': teams}
+    return model
 
 
 # Enable the save button only when changes are made
 @callback(
     Output('save-draftboard', 'disabled', allow_duplicate=True),
-    Input('draftboard-table', 'data_timestamp'),
-    State('draftboard-table', 'data'),
+    Input('draftboard-grid', 'rowData'),
     State('draftboard-saved', 'data'),
-    prevent_initial_call=True
+    prevent_initial_call=True,
 )
-def toggle_save_button(timestamp, current_rows, saved_rows):
-    if timestamp is None:
+def toggle_save_button(current_rows, saved_rows):
+    if current_rows is None:
         return True
     changed = not pd.DataFrame(current_rows).equals(pd.DataFrame(saved_rows))
     return not changed
@@ -79,10 +127,10 @@ def toggle_save_button(timestamp, current_rows, saved_rows):
     Output('save-draftboard', 'disabled', allow_duplicate=True),
     Output('last-save-timestamp', 'data'),
     Input('save-draftboard', 'n_clicks'),
-    State('draftboard-table', 'data'),
+    State('draftboard-grid', 'rowData'),
     State('draftboard-saved', 'data'),
     State('last-save-timestamp', 'data'),
-    prevent_initial_call=True
+    prevent_initial_call=True,
 )
 def save_draft_board(n_clicks, rows, saved_rows, last_save):
     if n_clicks is None:
