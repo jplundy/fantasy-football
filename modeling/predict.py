@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 import pandas as pd
-from features import build_features
+from features import build_features, load_prop_history
 
 
 def load_model(position: str, models_dir: str = "models"):
@@ -18,6 +18,11 @@ def predict_position(df: pd.DataFrame, position: str, models_dir: str = "models"
     """Generate fantasy point projections for ``df`` using a trained model."""
     model_data = load_model(position, models_dir)
     columns = model_data["columns"]
+
+    props = load_prop_history()
+    if not props.empty:
+        df = df.merge(props.drop(columns=["Pos"]), on="Name", how="left")
+
     feats = build_features(df)
     X = feats.select_dtypes(include=[float, int])
     X = X.reindex(columns=columns, fill_value=0)
