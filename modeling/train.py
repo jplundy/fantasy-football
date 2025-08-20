@@ -4,6 +4,7 @@ from typing import List
 import numpy as np
 import pandas as pd
 from .features import load_player_stats, build_features, load_prop_history
+from utility import scoring
 
 
 def train_position_model(position: str, data_dir: str = "data", models_dir: str = "models") -> str:
@@ -21,6 +22,15 @@ def train_position_model(position: str, data_dir: str = "data", models_dir: str 
     df = load_player_stats(data_dir, position)
     if df.empty:
         raise ValueError(f"No data found for position {position}")
+
+    # Recompute fantasy points using scoring formulas for the given position
+    pos = position.upper()
+    if pos == "QB":
+        df["Points"] = df.apply(scoring.calculate_qb_points, axis=1)
+    elif pos in {"RB", "WR"}:
+        df["Points"] = df.apply(scoring.calculate_rb_wr_points, axis=1)
+    elif pos == "TE":
+        df["Points"] = df.apply(scoring.calculate_te_points, axis=1)
 
     props = load_prop_history()
     if not props.empty:
