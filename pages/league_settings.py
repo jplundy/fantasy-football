@@ -15,7 +15,7 @@ from utility.scoring import (
 
 dash.register_page(__name__, path="/settings")
 
-SETTINGS_PATH = Path("assets/settings.json")
+SETTINGS_PATH = Path("config/settings.json")
 
 
 def layout():

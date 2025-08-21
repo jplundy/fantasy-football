@@ -41,7 +41,7 @@ def _compute_projections(df, config=None):
 
 
 def layout():
-    initial_cfg = load_config(Path("assets/settings.json"))
+    initial_cfg = load_config(Path("config/settings.json"))
     initial_df = _compute_projections(_base_df, config=initial_cfg)
 
     return dbc.Container(

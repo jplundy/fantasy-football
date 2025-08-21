@@ -11,7 +11,7 @@ import time
 
 dash.register_page(__name__, path='/draftboard')
 
-settings = load_config(Path("assets/settings.json"))
+settings = load_config(Path("config/settings.json"))
 TEAM_NAMES = settings.get('league', {}).get('team_names', [])
 
 board_df = helpers.get_board()
