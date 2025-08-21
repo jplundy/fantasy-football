@@ -12,7 +12,7 @@ from models.auction import (
     compute_values,
 )
 
-settings_path = Path("assets/settings.json")
+settings_path = Path("config/settings.json")
 initial_settings = load_config(settings_path)
 TEAM_NAMES = initial_settings.get('league', {}).get(
     'team_names',

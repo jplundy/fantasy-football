@@ -76,7 +76,7 @@ def layout():
                         "valueFormatter": {"function": "Number(params.value).toFixed(2)"},
                     },
                 ],
-                rowData=calculate_prop_points(proj_df, config=load_config(Path("assets/settings.json"))).to_dict("records"),
+                rowData=calculate_prop_points(proj_df, config=load_config(Path("config/settings.json"))).to_dict("records"),
                 defaultColDef={"resizable": True, "filter": True, "sortable": True},
                 dashGridOptions={"pagination": True, "paginationAutoPageSize": True, "rowBuffer": 0},
                 columnSize="autoSize",
