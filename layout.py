@@ -173,7 +173,7 @@ def create_layout(players, team_names, data):
             dbc.Col(create_player_table(), width=12),
         ]),
         dbc.Row([
-            dbc.Col(create_team_summary(team_names), width=12)
+            dbc.Col(create_team_summaries(team_names), width=12)
         ]),
         dbc.Row([
             dbc.Col([create_draft_summary()], width=12)
