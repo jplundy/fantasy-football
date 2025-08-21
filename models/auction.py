@@ -81,7 +81,7 @@ base_data = {
     for pos in positions
 }
 
-DEFAULT_CONFIG = load_config(Path("assets/settings.json"))
+DEFAULT_CONFIG = load_config(Path("config/settings.json"))
 LEAGUE_CFG = DEFAULT_CONFIG.get('league', LEAGUE_SETTINGS_DEFAULT)
 NUM_TEAMS = LEAGUE_CFG.get('num_teams', LEAGUE_SETTINGS_DEFAULT['num_teams'])
 INITIAL_BUDGET = LEAGUE_CFG.get('initial_budget', LEAGUE_SETTINGS_DEFAULT['initial_budget'])

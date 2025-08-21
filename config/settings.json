@@ -1,0 +1,171 @@
+{
+  "league": {
+    "num_teams": 12,
+    "initial_budget": 200,
+    "team_names": [
+      "Team 1",
+      "Team 2",
+      "Team 3",
+      "Team 4",
+      "Team 5",
+      "Team 6",
+      "Team 7",
+      "Team 8",
+      "Team 9",
+      "Team 10",
+      "Team 11",
+      "Team 12"
+    ]
+  },
+  "QB": {
+    "PassYds": {
+      "points_per": 25,
+      "bonuses": {
+        "250": 3,
+        "350": 3,
+        "450": 3,
+        "550": 3,
+        "650": 3
+      }
+    },
+    "PassTD": {
+      "points": 6
+    },
+    "Int": {
+      "points": -3
+    },
+    "RushYds": {
+      "points_per": 10,
+      "bonuses": {
+        "100": 3,
+        "200": 3,
+        "300": 3
+      }
+    },
+    "RushTD": {
+      "points": 6
+    },
+    "Fum": {
+      "points": -3
+    }
+  },
+  "RB": {
+    "RushYds": {
+      "points_per": 10,
+      "bonuses": {
+        "100": 3,
+        "200": 3,
+        "300": 3
+      }
+    },
+    "RushTD": {
+      "points": 6
+    },
+    "Fum": {
+      "points": -3
+    },
+    "RecYds": {
+      "points_per": 10,
+      "bonuses": {
+        "100": 3,
+        "200": 3,
+        "300": 3
+      }
+    },
+    "Rec": {
+      "points_per": 5,
+      "bonuses": {
+        "10": 1,
+        "15": 1
+      }
+    },
+    "RecTD": {
+      "points": 6
+    },
+    "BigRushTD": {
+      "80": 3,
+      "60": 2,
+      "40": 1
+    },
+    "BigRec": {
+      "20": 1,
+      "40": 2
+    },
+    "BigRecTD": {
+      "80": 3,
+      "60": 2,
+      "40": 1
+    }
+  },
+  "WR": {
+    "RushYds": {
+      "points_per": 10,
+      "bonuses": {
+        "100": 3,
+        "200": 3,
+        "300": 3
+      }
+    },
+    "RushTD": {
+      "points": 6
+    },
+    "Fum": {
+      "points": -3
+    },
+    "RecYds": {
+      "points_per": 10,
+      "bonuses": {
+        "100": 3,
+        "200": 3,
+        "300": 3
+      }
+    },
+    "Rec": {
+      "points_per": 5,
+      "bonuses": {
+        "10": 1,
+        "15": 1
+      }
+    },
+    "RecTD": {
+      "points": 6
+    },
+    "BigRushTD": {
+      "80": 3,
+      "60": 2,
+      "40": 1
+    },
+    "BigRec": {
+      "20": 1,
+      "40": 2
+    },
+    "BigRecTD": {
+      "80": 3,
+      "60": 2,
+      "40": 1
+    }
+  },
+  "TE": {
+    "RecYds": {
+      "points_per": 10,
+      "bonuses": {
+        "100": 3,
+        "200": 3,
+        "300": 3
+      }
+    },
+    "Rec": {
+      "points_per": 5,
+      "bonuses": {
+        "10": 1,
+        "15": 1
+      }
+    },
+    "RecTD": {
+      "points": 6
+    },
+    "Fum": {
+      "points": -3
+    }
+  }
+}

@@ -7,7 +7,7 @@ from utility.scoring import load_config
 
 dash.register_page(__name__, path='/auction')
 
-settings = load_config(Path("assets/settings.json"))
+settings = load_config(Path("config/settings.json"))
 team_names = settings.get('league', {}).get(
     'team_names',
     [
