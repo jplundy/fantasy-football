@@ -121,7 +121,7 @@ def save_settings(n_clicks, num_teams, initial_budget, team_names, pass_yds_pt, 
 
 
 @callback(
-    Output("scoring-config", "data"),
+    Output("scoring-config", "data", allow_duplicate=True),
     Input("load-config", "n_clicks"),
     prevent_initial_call=True,
 )
