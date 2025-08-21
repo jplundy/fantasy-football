@@ -32,7 +32,7 @@ def init_db():
     conn.close()
 
 def get_schedule():
-    file_path = Path(__file__).resolve().parents[1] / 'assets' / 'schedule_2025.csv'
+    file_path = Path(__file__).resolve().parents[1] / 'data' / 'schedule_2025.csv'
     try:
         df = pd.read_csv(file_path)
     except Exception:
@@ -52,7 +52,7 @@ def get_season_long_projections():
 
     file_path = (
         Path(__file__).resolve().parents[1]
-        / 'assets'
+        / 'data'
         / 'season_long_proj_table.csv'
     )
     try:
@@ -65,7 +65,7 @@ def get_season_long_projections():
 def get_sportsbook_props():
     """Return sportsbook prop projections with standardized columns.
 
-    The data is sourced from ``assets/season_long_proj_table.csv`` and the
+    The data is sourced from ``data/season_long_proj_table.csv`` and the
     columns are renamed to align with the scoring keys used throughout the
     project.  Any non-numeric values in the statistical columns are coerced to
     zero so downstream scoring functions can operate without additional type
@@ -74,7 +74,7 @@ def get_sportsbook_props():
 
     file_path = (
         Path(__file__).resolve().parents[1]
-        / "assets"
+        / "data"
         / "season_long_proj_table.csv"
     )
 
