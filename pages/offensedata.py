@@ -66,9 +66,21 @@ def layout():
             dbc.Row(
                 AgGrid(
                     id='offdata-grid',
-                    columnDefs=[{"headerName": col, "field": col} for col in df.columns],
+                    columnDefs=[
+                        {
+                            "headerName": col,
+                            "field": col,
+                            **(
+                                {"valueFormatter": {"function": "Number(params.value).toFixed(2)"}}
+                                if pd.api.types.is_numeric_dtype(df[col])
+                                else {}
+                            ),
+                        }
+                        for col in df.columns
+                    ],
                     rowData=df.to_dict('records'),
-                    dashGridOptions={"defaultColDef": {"sortable": True, "filter": True}}
+                    dashGridOptions={"defaultColDef": {"sortable": True, "filter": True}},
+                    columnSize="autoSize",
                 )
             )
         ],
@@ -102,6 +114,17 @@ def update_table(selected_names, selected_positions, selected_teams, view_mode):
         filtered_df = filtered_df.drop(columns=[c for c in ['Week', 'Opponent'] if c in filtered_df.columns])
         filtered_df = filtered_df.groupby(['Name', 'Position', 'Team'], as_index=False).sum(numeric_only=True)
 
-    column_defs = [{"headerName": col, "field": col} for col in filtered_df.columns]
+    column_defs = [
+        {
+            "headerName": col,
+            "field": col,
+            **(
+                {"valueFormatter": {"function": "Number(params.value).toFixed(2)"}}
+                if pd.api.types.is_numeric_dtype(filtered_df[col])
+                else {}
+            ),
+        }
+        for col in filtered_df.columns
+    ]
     row_data = filtered_df.to_dict('records')
     return row_data, column_defs
