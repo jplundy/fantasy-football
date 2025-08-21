@@ -36,7 +36,7 @@ Kaleb JohnsonRB - PITView News,@NYJ,0,0,0,44.55,0.4,1.43,10.6,0.06,0.0,0,0,0.05,
 Rhamondre StevensonRB - NEQ,LV,0,0,0,41.25,0.29,1.69,11.74,0.07,0.0,0,0,0.07,9.01,1,Rhamondre Stevenson,RB,NEQ
 Zach CharbonnetRB - SEA,SF,0,0,0,32.77,0.19,2.44,17.4,0.07,0.0,0,0,0.06,8.9,1,Zach Charbonnet,RB,SEA
 Rachaad WhiteRB - TBQ,@ATL,0,0,0,26.77,0.21,2.4,17.53,0.08,0.0,0,0,0.08,8.41,1,Rachaad White,RB,TBQ
-Najee HarrisRB - LACNFI-A,KC,0,0,0,35.64,0.3,1.38,9.56,0.06,0.0,0,0,0.06,7.94,1,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,KC,0,0,0,35.64,0.3,1.38,9.56,0.06,0.0,0,0,0.06,7.94,1,Najee Harris,RB,LAC
 Austin EkelerRB - WAS,NYG,0,0,0,23.59,0.19,1.95,14.87,0.11,0.07,0,0,0.06,7.9,1,Austin Ekeler,RB,WAS
 Jordan MasonRB - MIN,@CHI,0,0,0,36.43,0.29,1.18,8.55,0.06,0.0,0,0,0.0,7.78,1,Jordan Mason,RB,MIN
 Ray DavisRB - BUF,BAL,0,0,0,35.12,0.29,1.08,9.8,0.06,0.0,0,0,0.07,7.53,1,Ray Davis,RB,BUF
@@ -55,7 +55,7 @@ Rico DowdleRB - CARView News,@JAX,0,0,0,21.18,0.12,1.23,8.71,0.06,0.0,0,0,0.06,5
 Jerome FordRB - CLE,CIN,0,0,0,18.85,0.11,1.28,9.22,0.06,0.0,0,0,0.06,4.99,1,Jerome Ford,RB,CLE
 Jaylen WrightRB - MIAView News,@IND,0,0,0,22.63,0.18,0.72,5.28,0.06,0.0,0,0,0.06,4.83,1,Jaylen Wright,RB,MIA
 Roschon JohnsonRB - CHIQ,MIN,0,0,0,12.93,0.12,1.44,10.08,0.06,0.0,0,0,0.0,4.82,1,Roschon Johnson,RB,CHIQ
-Joe MixonRB - HOUNFI-A,@LAR,0,0,0,20.33,0.17,0.77,5.68,0.03,0.0,0,0,0.03,4.51,1,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@LAR,0,0,0,20.33,0.17,0.77,5.68,0.03,0.0,0,0,0.03,4.51,1,Joe Mixon,RB,HOU
 Dameon PierceRB - HOU,@LAR,0,0,0,20.33,0.2,0.66,4.86,0.02,0.0,0,0,0.19,4.12,1,Dameon Pierce,RB,HOU
 Dylan SampsonRB - CLE,CIN,0,0,0,16.92,0.08,0.91,6.84,0.05,0.0,0,0,0.0,4.07,1,Dylan Sampson,RB,CLE
 Will ShipleyRB - PHI,DAL,0,0,0,16.06,0.13,0.77,5.52,0.06,0.0,0,0,0.0,4.07,1,Will Shipley,RB,PHI
@@ -108,8 +108,8 @@ Kaleb JohnsonRB - PITView News,SEA,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,@CIN,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,2,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,@DAL,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,2,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@GB,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,2,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@LV,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,2,Najee HarrisRB - LACNFI-A,,
-Joe MixonRB - HOUNFI-A,TB,0,0,0,33.11,0.28,1.56,11.56,0.06,0.0,0,0,0.05,7.97,2,Joe MixonRB - HOUNFI-A,,
+Najee HarrisRB - LACNFI-A,@LV,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,2,Najee Harris,RB,LAC
+Joe MixonRB - HOUNFI-A,TB,0,0,0,33.11,0.28,1.56,11.56,0.06,0.0,0,0,0.05,7.97,2,Joe Mixon,RB,HOU
 Jordan MasonRB - MIN,ATL,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,2,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,@MIA,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,2,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,NYG,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,2,Javonte Williams,RB,DAL
@@ -159,7 +159,7 @@ Bucky IrvingRB - TBView News,NYJ,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14
 De'Von AchaneRB - MIAQView News,@BUF,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,3,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@CLE,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,3,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@TEN,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,3,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,@JAX,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,3,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@JAX,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,3,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,DEN,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,3,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@PHI,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,3,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,@MIN,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,3,Chase Brown,RB,CIN
@@ -184,7 +184,7 @@ Kaleb JohnsonRB - PITView News,@NE,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,HOU,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,3,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,KC,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,3,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,LV,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,3,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,DEN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,3,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,DEN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,3,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,CIN,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,3,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,PIT,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,3,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@CHI,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,3,Javonte Williams,RB,DAL
@@ -234,7 +234,7 @@ Bucky IrvingRB - TBView News,PHI,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14
 De'Von AchaneRB - MIAQView News,NYJ,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,4,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@DAL,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,4,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@LAR,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,4,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,TEN,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,4,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,TEN,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,4,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,@NYG,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,4,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,IND,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,4,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,@DEN,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,4,Chase Brown,RB,CIN
@@ -259,7 +259,7 @@ Kaleb JohnsonRB - PITView News,MIN,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,@SF,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,4,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,LAC,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,4,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@ATL,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,4,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@NYG,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,4,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@NYG,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,4,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@PIT,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,4,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,CAR,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,4,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,GB,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,4,Javonte Williams,RB,DAL
@@ -307,7 +307,7 @@ Ashton JeantyRB - LVView News,@IND,0,0,0,71.55,0.53,2.53,19.2,0.1,0.0,0,0,0.12,1
 Bucky IrvingRB - TBView News,@SEA,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14.95,5,Bucky Irving,RB,TB
 De'Von AchaneRB - MIAQView News,@CAR,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,5,De'Von Achane,RB,MIAQ
 Jonathan TaylorRB - INDView News,LV,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,5,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,@BAL,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,5,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@BAL,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,5,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,WAS,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,5,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,SF,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,5,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,DET,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,5,Chase Brown,RB,CIN
@@ -329,7 +329,7 @@ J.K. DobbinsRB - DEN,@PHI,0,0,0,39.9,0.37,2.24,15.83,0.08,0.0,0,0,0.15,10.21,5,J
 Travis EtienneRB - JAXView News,KC,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,5,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,@NO,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,5,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@LAC,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,5,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,WAS,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,5,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,WAS,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,5,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@CLE,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,5,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,@BUF,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,5,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@NYJ,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,5,Javonte Williams,RB,DAL
@@ -407,7 +407,7 @@ Kaleb JohnsonRB - PITView News,CLE,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,SEA,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,6,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,PHI,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,6,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,CHI,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,6,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@MIA,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,6,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@MIA,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,6,Najee Harris,RB,LAC
 Rhamondre StevensonRB - NEQ,@NO,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,6,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@CAR,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,6,Javonte Williams,RB,DAL
 Zach CharbonnetRB - SEA,@JAX,0,0,0,24.83,0.18,2.26,16.32,0.06,0.0,0,0,0.06,7.7,6,Zach Charbonnet,RB,SEA
@@ -458,7 +458,7 @@ Bucky IrvingRB - TBView News,@DET,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,1
 De'Von AchaneRB - MIAQView News,@CLE,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,7,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@ARI,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,7,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@LAC,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,7,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,@SEA,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,7,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@SEA,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,7,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,IND,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,7,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@JAX,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,7,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,PIT,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,7,Chase Brown,RB,CIN
@@ -482,7 +482,7 @@ Kaleb JohnsonRB - PITView News,@CIN,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.0
 Travis EtienneRB - JAXView News,LAR,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,7,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,@DEN,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,7,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@DAL,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,7,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,IND,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,7,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,IND,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,7,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,PHI,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,7,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,@TEN,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,7,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,WAS,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,7,Javonte Williams,RB,DAL
@@ -532,7 +532,7 @@ Bucky IrvingRB - TBView News,@NO,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14
 De'Von AchaneRB - MIAQView News,@ATL,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,8,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@PIT,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,8,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,TEN,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,8,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,SF,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,8,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,SF,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,8,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,MIN,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,8,Omarion Hampton,RB,LAC
 Chase BrownRB - CIN,NYJ,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,8,Chase Brown,RB,CIN
 Alvin KamaraRB - NOView News,TB,0,0,0,47.63,0.29,3.27,23.63,0.12,0.0,0,0,0.12,12.62,8,Alvin Kamara,RB,NO
@@ -552,7 +552,7 @@ Kaleb JohnsonRB - PITView News,GB,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05,
 Kaleb JohnsonRB - PITView News,GB,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05,9.98,8,Kaleb Johnson,RB,PIT
 Tyrone Tracy Jr.RB - NYGView News,@PHI,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,8,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@KC,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,8,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,MIN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,8,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,MIN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,8,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@LAC,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,8,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,CLE,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,8,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@DEN,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,8,Javonte Williams,RB,DAL
@@ -607,7 +607,7 @@ Ashton JeantyRB - LVView News,JAX,0,0,0,71.55,0.53,2.53,19.2,0.1,0.0,0,0,0.12,15
 De'Von AchaneRB - MIAQView News,BAL,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,9,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,CAR,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,9,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@PIT,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,9,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,DEN,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,9,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,DEN,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,9,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,@TEN,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,9,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,NO,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,9,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,CHI,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,9,Chase Brown,RB,CIN
@@ -630,7 +630,7 @@ Kaleb JohnsonRB - PITView News,IND,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,@LV,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,9,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,SF,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,9,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,SEA,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,9,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@TEN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,9,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@TEN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,9,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@DET,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,9,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,ATL,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,9,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,ARI,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,9,Javonte Williams,RB,DAL
@@ -684,7 +684,7 @@ Bucky IrvingRB - TBView News,NE,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14.
 De'Von AchaneRB - MIAQView News,BUF,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,10,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,PHI,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,10,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,ATL,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,10,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,JAX,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,10,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,JAX,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,10,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,PIT,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,10,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@SF,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,10,Kyren Williams,RB,LAR
 Alvin KamaraRB - NOView News,@CAR,0,0,0,47.63,0.29,3.27,23.63,0.12,0.0,0,0,0.12,12.62,10,Alvin Kamara,RB,NO
@@ -706,7 +706,7 @@ Kaleb JohnsonRB - PITView News,@LAC,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.0
 Travis EtienneRB - JAXView News,@HOU,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,10,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,@CHI,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,10,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,DET,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,10,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,PIT,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,10,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,PIT,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,10,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,BAL,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,10,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,@TB,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,10,Rhamondre Stevenson,RB,NEQ
 Zach CharbonnetRB - SEA,ARI,0,0,0,24.83,0.18,2.26,16.32,0.06,0.0,0,0,0.06,7.7,10,Zach Charbonnet,RB,SEA
@@ -758,7 +758,7 @@ Ashton JeantyRB - LVView News,DAL,0,0,0,71.55,0.53,2.53,19.2,0.1,0.0,0,0,0.12,15
 Bucky IrvingRB - TBView News,@BUF,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14.95,11,Bucky Irving,RB,TB
 De'Von AchaneRB - MIAQView News,WAS,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,11,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@NYG,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,11,Josh Jacobs,RB,GB
-Joe MixonRB - HOUNFI-A,@TEN,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,11,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@TEN,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,11,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,@JAX,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,11,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,SEA,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,11,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,@PIT,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,11,Chase Brown,RB,CIN
@@ -782,7 +782,7 @@ Kaleb JohnsonRB - PITView News,CIN,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,LAC,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,11,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,GB,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,11,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@MIA,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,11,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@JAX,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,11,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@JAX,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,11,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,CHI,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,11,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,NYJ,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,11,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@LV,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,11,Javonte Williams,RB,DAL
@@ -833,7 +833,7 @@ Ashton JeantyRB - LVView News,CLE,0,0,0,71.55,0.53,2.53,19.2,0.1,0.0,0,0,0.12,15
 Bucky IrvingRB - TBView News,@LAR,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14.95,12,Bucky Irving,RB,TB
 Josh JacobsRB - GB,MIN,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,12,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@KC,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,12,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,BUF,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,12,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,BUF,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,12,Joe Mixon,RB,HOU
 Kyren WilliamsRB - LAR,TB,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,12,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,NE,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,12,Chase Brown,RB,CIN
 Alvin KamaraRB - NOView News,ATL,0,0,0,47.63,0.29,3.27,23.63,0.12,0.0,0,0,0.12,12.62,12,Alvin Kamara,RB,NO
@@ -909,7 +909,7 @@ Bucky IrvingRB - TBView News,ARI,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14
 De'Von AchaneRB - MIAQView News,NO,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,13,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@DET,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,13,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,HOU,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,13,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,@IND,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,13,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@IND,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,13,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,LV,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,13,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@CAR,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,13,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,@BAL,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,13,Chase Brown,RB,CIN
@@ -934,7 +934,7 @@ Kaleb JohnsonRB - PITView News,BUF,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,@TEN,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,13,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,@NE,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,13,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,DEN,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,13,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,LV,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,13,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,LV,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,13,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@SEA,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,13,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,NYG,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,13,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,KC,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,13,Javonte Williams,RB,DAL
@@ -983,7 +983,7 @@ Bucky IrvingRB - TBView News,NO,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14.
 De'Von AchaneRB - MIAQView News,@NYJ,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,14,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,CHI,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,14,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@JAX,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,14,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,@KC,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,14,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@KC,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,14,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,PHI,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,14,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@ARI,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,14,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,@BUF,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,14,Chase Brown,RB,CIN
@@ -1005,7 +1005,7 @@ J.K. DobbinsRB - DEN,@LV,0,0,0,39.9,0.37,2.24,15.83,0.08,0.0,0,0,0.15,10.21,14,J
 Kaleb JohnsonRB - PITView News,@BAL,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05,9.98,14,Kaleb Johnson,RB,PIT
 Travis EtienneRB - JAXView News,IND,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,14,Travis Etienne,RB,JAX
 Brian RobinsonRB - WAS,@MIN,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,14,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,PHI,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,14,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,PHI,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,14,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,WAS,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,14,Jordan Mason,RB,MIN
 Javonte WilliamsRB - DAL,@DET,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,14,Javonte Williams,RB,DAL
 Zach CharbonnetRB - SEA,@ATL,0,0,0,24.83,0.18,2.26,16.32,0.06,0.0,0,0,0.06,7.7,14,Zach Charbonnet,RB,SEA
@@ -1059,7 +1059,7 @@ Bucky IrvingRB - TBView News,ATL,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14
 De'Von AchaneRB - MIAQView News,@PIT,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,15,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@DEN,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,15,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@SEA,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,15,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,ARI,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,15,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,ARI,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,15,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,@KC,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,15,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,DET,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,15,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,BAL,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,15,Chase Brown,RB,CIN
@@ -1084,7 +1084,7 @@ Kaleb JohnsonRB - PITView News,MIA,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,NYJ,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,15,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,WAS,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,15,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@NYG,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,15,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@KC,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,15,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@KC,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,15,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@DAL,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,15,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,BUF,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,15,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,MIN,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,15,Javonte Williams,RB,DAL
@@ -1134,7 +1134,7 @@ Bucky IrvingRB - TBView News,@CAR,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,1
 De'Von AchaneRB - MIAQView News,CIN,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,16,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@CHI,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,16,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,SF,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,16,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,LV,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,16,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,LV,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,16,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,@DAL,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,16,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@SEA,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,16,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,@MIA,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,16,Chase Brown,RB,CIN
@@ -1159,7 +1159,7 @@ Kaleb JohnsonRB - PITView News,@DET,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.0
 Travis EtienneRB - JAXView News,@DEN,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,16,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,MIN,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,16,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,PHI,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,16,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@DAL,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,16,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@DAL,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,16,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,@NYG,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,16,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,@BAL,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,16,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,LAC,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,16,Javonte Williams,RB,DAL
@@ -1209,7 +1209,7 @@ Bucky IrvingRB - TBView News,@MIA,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,1
 De'Von AchaneRB - MIAQView News,TB,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,17,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,BAL,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,17,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,JAX,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,17,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,@LAC,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,17,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,@LAC,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,17,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,HOU,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,17,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,@ATL,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,17,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,ARI,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,17,Chase Brown,RB,CIN
@@ -1234,7 +1234,7 @@ Kaleb JohnsonRB - PITView News,@CLE,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.0
 Travis EtienneRB - JAXView News,@IND,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,17,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,@LV,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,17,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,DAL,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,17,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,HOU,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,17,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,HOU,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,17,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,DET,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,17,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,@NYJ,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,17,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@WAS,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,17,Javonte Williams,RB,DAL
@@ -1284,7 +1284,7 @@ Bucky IrvingRB - TBView News,CAR,0,0,0,64.72,0.5,2.83,21.03,0.13,0.0,0,0,0.12,14
 De'Von AchaneRB - MIAQView News,@NE,0,0,0,55.03,0.35,3.73,27.53,0.18,0.0,0,0,0.12,14.93,18,De'Von Achane,RB,MIAQ
 Josh JacobsRB - GB,@MIN,0,0,0,66.92,0.53,2.32,17.46,0.13,0.0,0,0,0.12,14.48,18,Josh Jacobs,RB,GB
 Jonathan TaylorRB - INDView News,@HOU,0,0,0,77.06,0.59,1.58,11.84,0.06,0.0,0,0,0.12,14.13,18,Jonathan Taylor,RB,IND
-Joe MixonRB - HOUNFI-A,IND,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,18,Joe MixonRB - HOUNFI-A,,
+Joe MixonRB - HOUNFI-A,IND,0,0,0,59.56,0.55,2.19,16.19,0.08,0.0,0,0,0.08,13.39,18,Joe Mixon,RB,HOU
 Omarion HamptonRB - LACView News,@DEN,0,0,0,60.7,0.53,2.25,17.1,0.06,0.0,0,0,0.12,13.33,18,Omarion Hampton,RB,LAC
 Kyren WilliamsRB - LAR,ARI,0,0,0,65.03,0.59,1.77,12.38,0.06,0.0,0,0,0.12,13.17,18,Kyren Williams,RB,LAR
 Chase BrownRB - CIN,CLE,0,0,0,53.05,0.41,2.68,19.62,0.12,0.0,0,0,0.12,12.89,18,Chase Brown,RB,CIN
@@ -1309,7 +1309,7 @@ Kaleb JohnsonRB - PITView News,BAL,0,0,0,46.17,0.42,1.48,10.98,0.06,0.0,0,0,0.05
 Travis EtienneRB - JAXView News,TEN,0,0,0,37.84,0.23,2.32,17.46,0.12,0.0,0,0,0.06,9.83,18,Travis Etienne,RB,JAX
 Tyrone Tracy Jr.RB - NYGView News,DAL,0,0,0,44.7,0.23,2.11,15.55,0.06,0.0,0,0,0.06,9.76,18,Tyrone Tracy Jr.,RB,NYG
 Brian RobinsonRB - WAS,@PHI,0,0,0,43.11,0.45,1.21,8.83,0.06,0.0,0,0,0.06,9.34,18,Brian Robinson,RB,WAS
-Najee HarrisRB - LACNFI-A,@DEN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,18,Najee HarrisRB - LACNFI-A,,
+Najee HarrisRB - LACNFI-A,@DEN,0,0,0,40.68,0.29,1.51,10.39,0.06,0.0,0,0,0.06,8.6,18,Najee Harris,RB,LAC
 Jordan MasonRB - MIN,GB,0,0,0,37.08,0.29,1.2,8.7,0.06,0.0,0,0,0.0,7.88,18,Jordan Mason,RB,MIN
 Rhamondre StevensonRB - NEQ,MIA,0,0,0,35.55,0.24,1.5,10.54,0.06,0.0,0,0,0.06,7.79,18,Rhamondre Stevenson,RB,NEQ
 Javonte WilliamsRB - DAL,@NYG,0,0,0,30.72,0.23,1.72,11.95,0.06,0.0,0,0,0.0,7.73,18,Javonte Williams,RB,DAL
